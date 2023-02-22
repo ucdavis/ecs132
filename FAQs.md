@@ -125,7 +125,7 @@ you a good idea as to the general nature of what I ask.
 
 **Note that all quizzes are open-book, open notes.**  You take the
 quizzes on your laptops, in class, using my
-[OMSI system](https://github.com/matloff/oms).
+[OMSI system](https://github.com/matloff/omsi).
 
 *How does the interactive homework grading work?*
 
