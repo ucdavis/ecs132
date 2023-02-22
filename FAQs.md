@@ -48,6 +48,9 @@ such as for metaprogramming ("program code writing program code").
   all be used a lot.  We won't do much with vector spaces, bases,
   eigenvalues etc., though BTW they are crucial to more advanced data science.
 
+See further details regarding our usage of math 
+[here](Math.md).
+
 *Is it true that NM lectures right out of the textbook?*
 
 Yes.  The book evolved originally from my course notes, so this is what
