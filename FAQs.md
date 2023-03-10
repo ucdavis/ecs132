@@ -27,7 +27,8 @@ data scientists, FOR data scientists."  You may find my essay,
 
 I have a [quick tutorial](https://github.com/matloff/fasteR) that would
 be good for you to go through before the quarter starts.  It's been used
-successfully by literally hundreds of people, most of them non-CS, so
+successfully by hundreds of people all over the world (700+ GitHub
+stars), most of them non-CS, so
 you as a CS major should be able to breeze through it.
 
 BTW, from a pure CS point of view, R has a lot of interesting features,
