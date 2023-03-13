@@ -46,8 +46,9 @@ such as for metaprogramming ("program code writing program code").
 
 * Linear algebra:  Matrix multiplication, matrix inverse and transpose
   operations, the notion of a linear combination of vectors etc. will
-  all be used a lot.  We won't do much with vector spaces, bases,
-  eigenvalues etc., though BTW they are crucial to more advanced data science.
+  all be used a lot.  We will use eigenvalues somewhat.  We won't do 
+  much with vector spaces, bases, etc., though BTW they are crucial 
+  to more advanced data science.
 
 See further details regarding our usage of math 
 [here](Math.md).
@@ -140,3 +141,10 @@ in this step of your solution?" and "What if the prompt for the problem
 had been different, such-and-such?  How would your solution change?"
 Your grade on the assignment is a combination of the quality of the
 group written submission, and your answers to the individual questions.
+
+*Does this require a lot of reading?*
+
+It's required that you read the textbook in detail, and quiz questions
+will often refer to a specific page in the book.  The book is about 200
+pages long, so you will be reading, say, 4 or 5 pages per day.
+
