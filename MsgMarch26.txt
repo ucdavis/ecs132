@@ -1,0 +1,41 @@
+
+Hi, everyone.
+
+You are receiving this message because you are either enrolled or on the waiting list for ECS 132, Spring 2023.
+
+As noted in the course FAQs, this IS a math course, and the math prereqs are vital.  One of those prereqs is linear algebra, and I have a review for you at
+
+https://github.com/matloff/fastLinearAlgebra
+
+Lessons 1-5 is all you will need for this class.
+
+Note that as mentioned yesterday, one of the goals of Quiz 0, which will essentially be a take-home exam due the second week of class, will be to make sure you're ready to USE linear algebra in probability/statistical contexts.
+
+I'm enclosing yesterday's message below.
+
+Norm
+
+**********************************************************************
+
+1.  If you have not already done so, please make sure to read the FAQs for the course,
+
+https://github.com/ucdavis/ecs132/blob/master/FAQs.md
+
+If you have already read it, please note that I added an item about reading at the end, and that I have clarified the math link a bit.
+
+2.  As explained in the FAQs, we will have weekly quizzes, in-class, using the OMSI tool.  However, THE FIRST QUIZ, Quiz 0, will essentially be take-home.  Note the following:
+
+a.  The purpose of Quiz 0 will be to get you used to OMSI, get up to speed on the R language, and review linear algebra.  See the FAQs for the link to the R tutorial (easy, designed for non-CS people).  I am also preparing a linear algebra tutorial, to be announced soon, but unlike the R case, this is intended as review, not new material.
+
+b.  Quiz 0 will be posted sometime in the next couple of days, to give you a chance to get a head start on the course if you wish.  It will be due sometime in Week 2 of Spring.  We will start running the OMSI server in Week 1.
+
+3.  Our textbook will be a subset of the PDF file at
+
+https://heather.cs.ucdavis.edu/~matloff/132/ProbStatBook.pdf
+
+We will cover about 60-70% of that material.  I will post the exact trimmed version of this file in the next few days.
+
+Looking forward to working with you.
+
+Norm Matloff
+

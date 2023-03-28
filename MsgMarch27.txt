@@ -1,0 +1,25 @@
+
+Hi, everyone.
+
+You are receiving this message because you are either enrolled or on the waiting list for ECS 132, Spring 2023.
+
+You can read previous messages at
+
+   https://github.com/ucdavis/ecs132
+
+Two announcements:
+
+1.  Our textbook is now ready, at
+
+   https://github.com/ucdavis/ecs132/blob/master/ProbStatBook132S23.pdf
+
+Download it to your laptop computer.  You will need it there for all quizzes other than Quiz 0.  
+
+This version is less than half the size of the full book, which is at
+
+   https://github.com/matloff/probstatbook
+
+We will cover the entirety of this reduced version.
+
+2.  After I posted Quiz 0 yesterday, I added a paragraph regarding use of R libraries that are not in base-R.  Make sure to keep this in mind, to avoid situations in which you fail to get credit on a quiz question even though your code correctly uses certain libraries.
+
