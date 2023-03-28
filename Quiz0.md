@@ -55,16 +55,26 @@ linear algebra, using my [linear algebra review](https://github.com/matloff/fast
    - You are not required to include error-checking unless specifically
      asked to do so.
 
-## Regarding RStudio
+## Regarding RStudio and the Tidyverse
 
 Some of you may have been exposed to RStudio, an IDE for R.  It's
 designed for noncoders, and in my opinion, VS Code is probably more
 appropriate for CS people.  Personally, I find that IDEs in general just
 get in my way, and I just use the Vim text editor with my own homegrown
-macros.  It's up to you.
+macros.  It's up to you.  In any event, in terms of OMSI, it doesn't
+matter how you generate your R code; OMSI doesn't know and doesn't care.
 
-In any event, in terms of OMSI, it doesn't matter how you generate your
-R code; OMSI doesn't know and doesn't care.
+A related issue is that some of you may have had some exposure to
+RStudio's Tidyverse, a set of libraries that essentially make radical
+changes to the basic R language ("base-R").  I've been 
+[rather critical of the
+Tidyyverse](https://github.com/matloff/TidyverseSkeptic), and while I
+certainly don't mind your using it, there is a major practical question:
+Will the people grading your quizzes and homework (the TAs and myself)
+even have the Tidyverse on their machines?  If they don't, your code
+won't run when they grade it.  And even if the grader 
+does have the Tidyverse installed, it may not be the latest version,
+again causing issues.
 
 ## The quiz questions
 
