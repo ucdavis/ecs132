@@ -1,7 +1,7 @@
 
 # ECS 132 Blog
 
-Spring 2023
+**Spring 2023**
 
 **April 3, 1405:**
 
