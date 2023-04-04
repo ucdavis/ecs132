@@ -1,7 +1,7 @@
 
 # ECS 132, Spring 2023
 
-[Prof. Norman Matloff, UC Davis](http://heather.cs.ucdavis.edu/itaa.html )
+[Prof. Norman Matloff, UC Davis](http://heather.cs.ucdavis.edu/matloff.html )
 
 ## Hello!
 
