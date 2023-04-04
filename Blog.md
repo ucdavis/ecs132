@@ -3,6 +3,12 @@
 
 **Spring 2023**
 
+**April 3, 2106**
+
+We will soon be forming our Homework Groups. Group size is 3 or 4. If you have 1 to 3 people you would like to be in a Group with, please so inform Lan Jiang (lanjiang@ucdavis.edu) by Friday, April 7, 11:59 pm (even if you are in Dylan's section). Otherwise, Lan will assign you to a group.
+
+Details of how the Groups work are in the [general course info doc](https://github.com/matloff/nmGeneralCourseInfo/blob/master/RulesAndProcedures.md). Note carefully that this document is vital to your success in the course, regarding homework, exams, grading and so on; please read it right away.
+
 **April 3, 2052**
 
 My earlier e-mail messages said our blog was on the machine Heather. Of course, that is incorect. The blog is the GitHub file you are now reading.
