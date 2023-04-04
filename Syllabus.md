@@ -17,7 +17,9 @@ Lan Jiang <lanjiang@ucdavis.edu>
 
 ## Office hours, Locations
 
-TBA 
+NM: M 2-4
+LJ: W 2-4
+DC: TBA
 
 ## Textbook 
 
