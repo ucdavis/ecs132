@@ -3,6 +3,10 @@
 
 **Spring 2023**
 
+**April 3, 2015:**
+
+It may be a couple of days before we have days/times/locations for office hours. For now, if you have questions about Quiz 0, please e-mail NM on quiz content matters, or your assigned TA (see Syllabus, available later this evening) on OMSI issues.
+
 **April 3, 1405:**
 
 
