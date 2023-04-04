@@ -1,7 +1,7 @@
 
 # Frequently Asked Questions, ECS 132
 
-[Prof. Norman Matloff, UC Davis](http://heather.cs.ucdavis.edu/itaa.html )
+[Prof. Norman Matloff, UC Davis](http://heather.cs.ucdavis.edu/matloff.html )
 
 I am deeply committed to teaching, and have even been fortunate to win a
 couple of teaching awards, notably the
