@@ -3,6 +3,10 @@
 
 **Spring 2023**
 
+**April 3, 2052**
+
+My earlier e-mail messages said our blog was on the machine Heather. Of course, that is incorect. The blog is the GitHub file you are now reading.
+
 **April 3, 2048:**
 
 Our [course syllabus](https://github.com/ucdavis/ecs132/blob/master/Syllabus.md) is now ready!
