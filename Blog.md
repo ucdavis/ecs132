@@ -3,6 +3,10 @@
 
 **Spring 2023**
 
+**April 4, 1225**
+
+All my old ECS 132 quizzes are available [here](https://heather.cs.ucdavis.edu/OldECS132Quizzes).
+
 **April 3, 2106**
 
 We will soon be forming our Homework Groups. Group size is 3 or 4. If you have 1 to 3 people you would like to be in a Group with, please so inform Lan Jiang (lanjiang@ucdavis.edu) by Friday, April 7, 11:59 pm (even if you are in Dylan's section). Otherwise, Lan will assign you to a group.
