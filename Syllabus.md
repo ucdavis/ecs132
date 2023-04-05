@@ -19,7 +19,7 @@ Lan Jiang <lanjiang@ucdavis.edu>
 
 NM: M 2-4, 3053 Kemper <br>
 LJ: W 2-4 location TBA <br>
-DC: TBA
+DC: MW 1-2, 47 Kemper <br>
 
 ## Textbook 
 
