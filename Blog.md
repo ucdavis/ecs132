@@ -3,6 +3,14 @@
 
 **Spring 2023**
 
+**April 4, 1830**
+
+Someone brought up the perennial R-vs.-PYthon-for-data-science issue in both of my classes today. In the afternoon class, I made a comment about random forests, which I will elaborate on below, but first I should make one point clear: Our course is not an R-in-probability-and-statistics class; it's a probability-and-statistics class, period. The emphasis is on the concepts and methods, not on the languge. Keep in mind always: this is a MATH class.
+
+At any rate, I mentioned in the afternoon class that IMO there are better libraries for random forests in R than in Python. In case anyone is curious, I would cite e.g. the grf package by the Stanford Econ and Stat people. The linear interpolation capability is especially important.
+
+But again, though the grf package was developed in R (I think there is now a Python version, though not in sklearn), this was not because R is a "better" language but because Stat people tend to use R.
+
 **April 4, 1225**
 
 All my old ECS 132 quizzes are available [here](https://heather.cs.ucdavis.edu/OldECS132Quizzes).
