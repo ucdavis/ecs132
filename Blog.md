@@ -5,7 +5,7 @@
 
 **April 5, 1805:**
 
-Please my [ECS 189G blog post] (https://github.com/ucdavis/FairMLCourse/blob/main/Blog.md) of 17:35, re seeking help, the Unix **script** command, etc.
+Please my [ECS 189G blog post](https://github.com/ucdavis/FairMLCourse/blob/main/Blog.md) of 17:35, re seeking help, the Unix **script** command, etc.
 
 **April 4, 2010:**
 
