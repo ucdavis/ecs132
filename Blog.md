@@ -3,6 +3,10 @@
 
 **Spring 2023**
 
+**April 6, 2020:**
+
+My [op-ed](https://tinyurl.com/yc8cduej) on ChatGPT and statistics is now out. You may find it interesting.
+
 **April 6, 1905:**
 
 Can you answer this question: "How does a computer boot up?" Most CS students can't. And when I mention that to non-CS people, they are shocked that such a basic thing would be foreign to budding computer experts.
