@@ -3,9 +3,15 @@
 
 **Spring 2023**
 
+**April 6, 1905:**
+
+Can you answer this question: "How does a computer boot up?" Most CS students can't. And when I mention that to non-CS people, they are shocked that such a basic thing would be foreign to budding computer experts.
+
+It's not your fault. This topic should, IMO, be taught in ECS 50 and/or 150, and usually is not, I believe. But yes, it is indeed a basic thing, something very important to know, as is "systems" issues in general. In the last day or so, for example, I've encountered several students whose trouble with OMSI seems to be related to lack of knowledge of environment variables such as PATH, knowledge that is taken for granted in real-world software development. It is not enough to just know how to code. Nor is it enough to ace the PATH questions on the ECS 36B final exam but then erase the material from your brain after the exam.
+
 **April 5, 1805:**
 
-Please my [ECS 189G blog post](https://github.com/ucdavis/FairMLCourse/blob/main/Blog.md) of 17:35, re seeking help, the Unix **script** command, etc.
+Please see my [ECS 189G blog post](https://github.com/ucdavis/FairMLCourse/blob/main/Blog.md) of 17:35, re seeking help, the Unix **script** command, etc.
 
 **April 4, 2010:**
 
