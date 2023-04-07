@@ -5,7 +5,7 @@
 
 **April 6, 2150:**
 
-Office hoursL
+Office hours:
 
 NM: M 2-4, 3053 Kemper <br>
 DC: MW 1-2, 47 Kemper <br>
