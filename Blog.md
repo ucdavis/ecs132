@@ -5,8 +5,10 @@
 
 **April 6, 2150:**
 
-NM: M 2-4, 3053 Kemper
-DC: MW 1-2, 47 Kemper
+Office hoursL
+
+NM: M 2-4, 3053 Kemper <br>
+DC: MW 1-2, 47 Kemper <br>
 LJ: W 2-3PM, F 2-4PM, 55 Kemper (starting week 2)
 
 **April 6, 2020:**
