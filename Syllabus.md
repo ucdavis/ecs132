@@ -18,8 +18,9 @@ Lan Jiang <lanjiang@ucdavis.edu>
 ## Office hours, Locations
 
 NM: M 2-4, 3053 Kemper <br>
-LJ: W 2-4 location TBA <br>
 DC: MW 1-2, 47 Kemper <br>
+LJ: W 2-3PM, F 2-4PM, 55 Kemper (starting week 2)
+
 
 ## Textbook 
 
