@@ -3,6 +3,12 @@
 
 **Spring 2023**
 
+**April 6, 2150:**
+
+NM: M 2-4, 3053 Kemper
+DC: MW 1-2, 47 Kemper
+LJ: W 2-3PM, F 2-4PM, 55 Kemper (starting week 2)
+
 **April 6, 2020:**
 
 My [op-ed](https://tinyurl.com/yc8cduej) on ChatGPT and statistics is now out. You may find it interesting.
