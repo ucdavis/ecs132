@@ -3,6 +3,10 @@
 
 **Spring 2023**
 
+**April 7, 0955:**
+
+We will not have a quiz next week.  Instead, Dylan and Lan will give a mini-lecture. Of course any such presentation could be the subject of quiz questions.
+
 **April 7, 0945:**
 
 I've pushed the [full version of our textbook](https://github.com/ucdavis/ecs132/edit/master/FullProbStatBook.pdf) to our class repo here. It is NOT required that you read it, but it is there in case you wish to read more about some topic. Also, our official version contains '?' symbols, which are references to material that is in the full book but not in our version.
