@@ -11,7 +11,7 @@ language) auto-grading script.  Lack of adherence to instructions may
 reduce your grade.
 
 Submit a **.tar** file containing files **Problem1.R**,
-**Problem2.R** and so on, and NO SUBDIRECTORIESz; the grading script
+**Problem2.R** and so on, and NO SUBDIRECTORIES; the grading script
 will run the command **tar xf** on your **.tar** file, and will NOT then
 run **setwd()**; it will expect to see your files in the directory in
 which the **.tar** file resided.
@@ -23,18 +23,20 @@ no freestanding code.
 
 The R distribution includes a famous dataset, **UCBAdmissions**.  As
 with all functions and built-in datasets in R, you can read its "man
-page" (manual) by typing a question mark:
+page" (manual) by typing a question mark,
 
 ``` r
-> ?data(UCBAdmissions)
+> ?UCBAdmissions
 ```
+
+and it is the subject of numerous examples on the Web.
 
 The data involve a lawsuit against UC Berkeley that accused UCB of
 discriminating against female applicants for grad school.  This seemed
 odd, given UCB's reputation as politically liberal, but the
 seeming contradiction was resolved upon closer inspection of the data.
 It turned out that the women were applying to more selective
-departments, hence their lower overal acceptance rate.
+departments, hence their lower overall acceptance rate.
 
 The dataset is  an *array* of dimension 3, a "3-dimensional matrix,"
 consisting of "layers" and rows/columns within layers.  (You may have
@@ -99,7 +101,7 @@ time X<sub>0</sub> = 0.  Subsequent bus departures are at X<sub>1</sub>,
 X<sub>2</sub> and so on.  Let L<sub>d</sub> = X<sub>d</sub> -
 X<sub>d-1</sub>, d = 1,2,...  Assume the L<sub>i</sub> are independent,
 and P(L<sub>d</sub> = r) = p<sub>r</sub> (indexing starts at 1).  Denote
-the buses by B<sub>1</sub>, B<sub>2</sub> etc.
+the buses by B<sub>0, </sub> B<sub>1</sub>, B<sub>2</sub> etc.
 
 A certain passenger comes to a certaion bus stop every day at time m.
 (So, this time is not a random quantity.)  It takes v time for a bus to
@@ -107,7 +109,7 @@ reach this stop from the main station.  We are interested in the time W
 the passenger must wait for a bus (which is 0 if a bus happens to arrive
 at time m), and other related quantities:
 
-* Bus 2 leaves the main station at time r.
+* P(Bus 2 leaves the main station at time r)
 
 * P(W = k)
 
