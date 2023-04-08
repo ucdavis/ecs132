@@ -96,19 +96,30 @@ the issues here.
 
 ## Problem 2
 
-Say there is a bus line, with the first bus leaving the main station at
-time X<sub>0</sub> = 0.  Subsequent bus departures are at X<sub>1</sub>,
-X<sub>2</sub> and so on.  Let L<sub>d</sub> = X<sub>d</sub> -
-X<sub>d-1</sub>, d = 1,2,...  Assume the L<sub>i</sub> are independent,
-and P(L<sub>d</sub> = r) = p<sub>r</sub> (indexing starts at 1).  Denote
-the buses by B<sub>0, </sub> B<sub>1</sub>, B<sub>2</sub> etc.
+Say there is a bus line, and we have a passenger of interest who arrives
+at a certain bus stop every day at time m.  (So, m is not a random
+quantity.)  It takes v time for a bus to reach this stop from the main
+station.  
 
-A certain passenger comes to a certaion bus stop every day at time m.
-(So, this time is not a random quantity.)  It takes v time for a bus to
-reach this stop from the main station.  We are interested in the time W
-the passenger must wait for a bus (which is 0 if a bus happens to arrive
-at time m), and other related quantities (m, k, r et. will be the
-parameters of the quantities):
+The first bus leaves the main station at time X<sub>0</sub> = 0.
+Subsequent bus departures are at X<sub>1</sub>, X<sub>2</sub> and so on.
+Let L<sub>d</sub> = X<sub>d</sub> - X<sub>d-1</sub>, d = 1,2,...  Assume
+the L<sub>i</sub> are independent, and P(L<sub>d</sub> = j) =
+p<sub>j</sub> (indexing starts at 1).  Denote the buses by B<sub>0,
+</sub> B<sub>1</sub>, B<sub>2</sub> etc.  
+
+So, the parameters that control the probabilistic behavior
+of the bus system are:
+
+* p: a vector of probabilities of delay times between successive buses
+
+* v: the length of time it takes for a bus to reach the stop of our
+  passenger of interest from the main station
+
+We are interested in the time W our passenger of interest must wait for a
+bus (which is 0 if a bus happens to arrive at time m), and other related
+quantities (m, k, etc. will be the parameters of the quantities you
+are asked to find):
 
 * P(W = k)
 
@@ -131,9 +142,9 @@ parameters of the quantities):
 
 * E(number of buses leaving the main station by time m | W = k)
 
-Note that each of these quantities are separate questions.  For
-instance, though the first one talks abot W = k, that doesn't mean W = k
-for the rest.
+Note that these quantities are separate from each other.  For instance,
+though the first one talks aboutt W = k, that doesn't mean W = k for all
+the rest.
 
 Write a function **ExactAnalysis()** (no arguments) that returns the
 above quantities as a 10-element vector, for the following setting:
@@ -141,6 +152,8 @@ above quantities as a 10-element vector, for the following setting:
 * m = 5
 
 * p = (0.5,0.5)
+
+* v = 2
 
 * k = 1
 
@@ -162,6 +175,22 @@ to find the above-listed 10 quantities via simulation.
 Here **nDays** is the number of days to simulate, i.e. the number of
 rows in a "notebook" view of the problem.  It will again return a
 10-element vector.
+
+# Example
+
+Here is the solution of one of the questions above:
+
+``` r
+P(B_2 leaves the main station at time 3) =
+P((B_1 leaves at time 1 and B_2 leaves at time 3) or
+  (B_1 leaves at time 2 and B_2 leaves at time 3)) = 
+P((L_1 = 1 and L_2 = 2) or (L_1 = 2 and L_2 = 1)) =
+P(L_1 = 1 and L_2 = 2) + P(L_1 = 2 and L_2 = 1) =
+P(L_1 = 1) P(L_2 = 2) + P(L_1 = 2) P(L_2 = 1) =
+(0.5) (0.5) + (0.5) (0.5) =
+0.5
+
+```
 
 # General Note
 
