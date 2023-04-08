@@ -1,6 +1,8 @@
 
 # ECS 132, Homework 1
 
+Due Monday, April 18, 11:59 pm.
+
 ## Instructions
 
 **Note carefully:**  Your submissiom must follow instructions exactly,
@@ -16,6 +18,79 @@ which the **.tar** file resided.
 
 Each of your **.R** files must contain the specified function(s), with
 no freestanding code.
+
+## Problem 1
+
+The R distribution includes a famous dataset, **UCBAdmissions**.  As
+with all functions and built-in datasets in R, you can read its "man
+page" (manual) by typing a question mark:
+
+``` r
+> ?data(UCBAdmissions)
+```
+
+The data involve a lawsuit against UC Berkeley that accused UCB of
+discriminating against female applicants for grad school.  This seemed
+odd, given UCB's reputation as politically liberal, but the
+seeming contradiction was resolved upon closer inspection of the data.
+It turned out that the women were applying to more selective
+departments, hence their lower overal acceptance rate.
+
+The dataset is  an *array* of dimension 3, a "3-dimensional matrix,"
+consisting of "layers" and rows/columns within layers.  (You may have
+heard the term *tensor*.)
+
+The **str()** ("structure") function is very useful in R:
+
+``` r
+> str(UCBAdmissions)
+ 'table' num [1:2, 1:2, 1:6] 512 313 89 19 353 207 17 8 120 205 ...
+ - attr(*, "dimnames")=List of 3
+  ..$ Admit : chr [1:2] "Admitted" "Rejected"
+  ..$ Gender: chr [1:2] "Male" "Female"
+  ..$ Dept  : chr [1:6] "A" "B" "C" "D" ...
+```
+
+So for instance the number of women who were admitted to Department D
+was 131:
+
+``` r
+> UCBAdmissions[1,2,4]
+[1] 131
+```
+
+Write a function **admissionsProbs()** that computes and returns a
+vector containing the following probabilities:
+
+* P(admit)
+
+* P(admit | female)
+
+* P(admit | female and Dept. B)
+
+* P(admit | female and Dept. C)
+
+* P(Dept. C | female)
+
+* P(admit | female and (Dept. B or Dept. C))
+
+* P(female | admit)
+
+* P(female and admit)
+
+* P(Dept. C or Dept. D)
+
+Each line of the "notebook" represents the case of one applicant.  Of
+course, we have only a finite number of "lines," so all the
+probabilities you compute are estimates of the general situation at UCB
+at the time.  Our data can be viewed as a sample from the conceptual
+population of all potential applicants in that era.
+
+**NOTE CAREFULLY:**  Express the probabilities as common fractions,
+e.g. 5/18.  Of course, these will appear as decimal fractions when
+printed out, but the numerator and denominator are important for
+"showing your work," i.e. to show to the grader that you do understand
+the issues here.
 
 ## Problem 2
 
