@@ -107,20 +107,27 @@ A certain passenger comes to a certaion bus stop every day at time m.
 (So, this time is not a random quantity.)  It takes v time for a bus to
 reach this stop from the main station.  We are interested in the time W
 the passenger must wait for a bus (which is 0 if a bus happens to arrive
-at time m), and other related quantities:
-
-* P(Bus 2 leaves the main station at time r)
+at time m), and other related quantities (m, k, r et. will be the
+parameters of the quantities):
 
 * P(W = k)
+
+* P(Bus 2 leaves the main station at time r)
 
 * P(W = k | L<sub>1</sub> = q)
 
 * P(U = 3), where B<sub>U</sub> is the bus boarded by our passenger of
   interest
 
-* E(number of buses leaving the main station by time k)
+* EW
 
-* Var(number of buses leaving the main station by time k)
+* Var(W)
+
+* E(B<sub>U</sub>)
+
+* E(number of buses leaving the main station by time m)
+
+* Var(number of buses leaving the main station by time m)
 
 * E(number of buses leaving the main station by time m | W = k)
 
@@ -129,13 +136,11 @@ instance, though the first one talks abot W = k, that doesn't mean W = k
 for the rest.
 
 Write a function **ExactAnalysis()** (no arguments) that returns the
-above quantities as a 6-element vector, for the following setting:
+above quantities as a 10-element vector, for the following setting:
 
-* i = 5
+* m = 5
 
 * p = (0.5,0.5)
-
-* v = 3
 
 * k = 1
 
@@ -149,9 +154,21 @@ comments and display of intermediate computations.
 Write a function **busSim()** with the following call form
 
 ``` r
-busSim(i,p,v,k,r,q,nDays
+busSim(m,p,k,r,q,nDays)
 ```
+
+to find the above-listed 10 quantities via simulation.
 
 Here **nDays** is the number of days to simulate, i.e. the number of
 rows in a "notebook" view of the problem.  It will again return a
-6-element vector.
+10-element vector.
+
+# General Note
+
+This is not a programming course.  It's a math course whose concepts are
+illustrated via coding.
+
+As such, please don't obsess over "edge cases" (also known as "corner
+cases," and as "pathological cases" in math).  The test cases that the
+graders use will not (deliberately) be chosen in order to "get you."
+
