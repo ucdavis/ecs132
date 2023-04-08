@@ -3,6 +3,10 @@
 
 **Spring 2023**
 
+**April 8, 1410:**
+
+If you added the course once the quarter started, please note [our class GitHub repo](https://github.com/ucdavis/ecs132). Read the syllabus, and the linked information, especially the class procedures. Also, please note that it is required that you read the class blog every day.
+
 **April 8, 1100:**
 
 I've now added Problem 1 to Hwk 1.  Again, still just a draft.
