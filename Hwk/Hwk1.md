@@ -5,7 +5,7 @@ Due Monday, April 18, 11:59 pm.
 
 ## Instructions
 
-**Note carefully:**  Your submissiom must follow instructions exactly,
+**Note carefully:**  Your submission must follow instructions exactly,
 as your (at least preliminary) grade will be determined by the (R
 language) auto-grading script.  Lack of adherence to instructions may
 reduce your grade.
