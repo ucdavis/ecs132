@@ -3,6 +3,10 @@
 
 **Spring 2023**
 
+**April 8, 1100:**
+
+I've now added Problem 1 to Hwk 1.  Again, still just a draft.
+
 **April 7, 1650:**
 
 I've put a draft of Hwk 1 on our repo here, in the **Hwk** directory. Just a draft, as the TAs and I need to check and refine it, but it will give you an idea of what homework will be like in the course. Approximate due date Apirl 18.
