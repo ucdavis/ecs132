@@ -170,7 +170,9 @@ Write a function **busSim()** with the following call form
 busSim(m,p,v,k,r,q,nDays)
 ```
 
-to find the above-listed 10 quantities via simulation.
+to find the above-listed 10 quantities via simulation.  Of course, the
+arguments m, p and so on here are general, not the specific values used
+in **ExactAnalysis()** above.
 
 Here **nDays** is the number of days to simulate, i.e. the number of
 rows in a "notebook" view of the problem.  It will again return a
