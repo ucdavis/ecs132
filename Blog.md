@@ -3,6 +3,12 @@
 
 **Spring 2023**
 
+**April 8, 2250:**
+
+Just uploaded a (very) partial version of the simulation code you will write in Problem 2.
+
+Hwk 1 is still not official, but I will make it so as soon as I get feedback from the TAs. I don't anticipate any major changes at this point.
+
 **April 8, 2150:**
 
 Concerning Problem 1 of the homework (not official yet, but close), the point of the problem is to give you practice in interpreting P(A), P(A|B) etc. So, you find the probabilities directly. E.g.
