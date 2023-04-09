@@ -167,7 +167,7 @@ comments and display of intermediate computations.
 Write a function **busSim()** with the following call form
 
 ``` r
-busSim(m,p,k,r,q,nDays)
+busSim(m,p,v,k,r,q,nDays)
 ```
 
 to find the above-listed 10 quantities via simulation.
