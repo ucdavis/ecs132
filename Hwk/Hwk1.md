@@ -1,7 +1,7 @@
 
 # ECS 132, Homework 1
 
-Due Monday, April 18, 11:59 pm.
+Due Wednesday, April 19, 11:59 pm.
 
 ## Instructions
 
@@ -189,6 +189,43 @@ P(L_1 = 1 and L_2 = 2) + P(L_1 = 2 and L_2 = 1) =
 P(L_1 = 1) P(L_2 = 2) + P(L_1 = 2) P(L_2 = 1) =
 (0.5) (0.5) + (0.5) (0.5) =
 0.5
+
+```
+
+And here is a (very) partial writeup of **busSim()**, calculating only
+P(W = k):
+
+``` r
+# in our "notebook," 1 line = 1 day
+
+busSim <- function(m,p,v,k,r,q,nDays)
+{
+   wVals <- vector(length=nDays)  # set up space for the Ws
+   for (day in 1:nDays) {
+      wVals[day] <- generateW(v,p,m)
+   }
+   # T and F treated as 1 and 0; mean of 1s and 0s
+   # is proportion of 1s
+   return(mean(wVals == k))  
+}
+
+generateW <- function(v,p,m) 
+{
+   tot <- v
+   while (1) {
+      tot <- tot + generateL(p)
+      if (tot >= m) break
+   }
+   return(tot - m)
+}
+
+generateL <- function(p) 
+{
+
+   # e.g. if p = (0.2,0.2,0.6), choose 1 number at random from the set
+   # 1,2,3, with probabilities 0.2, 0.2 and 0.6, respectively
+   sample(1:length(p),1,prob=p)
+}
 
 ```
 
