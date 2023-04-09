@@ -5,12 +5,14 @@
 
 **April 8, 2150:**
 
-Concerning Problem 1 of the homewro (not official yet, but close), the point of the problem is to give you practice in interpreting P(A), P(A|B) etc. So, you find the probabilities directly. E.g.
+Concerning Problem 1 of the homework (not official yet, but close), the point of the problem is to give you practice in interpreting P(A), P(A|B) etc. So, you find the probabilities directly. E.g.
 
 ``` r
 > sum(ucb[1,2,]) / sum(ucb)  # P(admit and female)
 [1] 0.1230667
 ```
+
+Ask me or the TA if you have any questions on this.
 
 **April 8, 1410:**
 
