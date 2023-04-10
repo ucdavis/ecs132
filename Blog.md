@@ -3,6 +3,10 @@
 
 **Spring 2023**
 
+**April 9, 2305:**
+
+Hwk 1 is now official. Please start early.
+
 **April 8, 2250:**
 
 Just uploaded a (very) partial version of the simulation code you will write in Problem 2.
