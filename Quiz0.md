@@ -13,9 +13,9 @@ lecture on the last day of class).
   submit your quiz.  Make SURE to do a test run first, playing the role
 of both the student and instructor, as explained in the OMSI docs. 
 
-* This will be due 11:59 pm, April 11.  The TAs will start the OMSI
+* This will be due 11:59 pm, April 14.  The TAs will start the OMSI
   server on April 3 (machine and port to be announced).  You may submit
-at any time between April 3 and 11.  Don't leave it for the last minute;
+at any time between April 3 and 14.  Don't leave it for the last minute;
 keep in mind my slogan, "Computers never work." :-)
 
 * You should be able to get an A+ grade on this quiz!  You are welcome
