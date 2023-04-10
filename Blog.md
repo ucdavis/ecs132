@@ -3,6 +3,10 @@
 
 **Spring 2023**
 
+**April 10, 1515:**
+
+Due date for Quiz 0 has been postponed until April 14.
+
 **April 9, 2305:**
 
 Hwk 1 is now official. Please start early.
