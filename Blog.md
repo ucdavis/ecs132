@@ -3,6 +3,12 @@
 
 **Spring 2023**
 
+**April 11, 1530:**
+
+I see that my wording in Problem 4 of Quiz 0 was confusing. The freeway trip itself is 60 miles, and this figure does not include the 1.5 miles on surface streets. 
+
+If you thought the 60 mile figure included the 1.5-mile trip, I am hereby instructing the TA to give you full credit if your solution is correct for this interpretation.
+
 **April 11, 0915:**
 
 It's important to distinguish between definitions and properties that follow from the definitions.
