@@ -16,6 +16,8 @@ will run the command **tar xf** on your **.tar** file, and will NOT then
 run **setwd()**; it will expect to see your files in the directory in
 which the **.tar** file resided.
 
+Use the **handin** app in CSIF to submit your file. Submit to Lan, **jiang012**.
+
 Each of your **.R** files must contain the specified function(s), with
 no freestanding code.
 
