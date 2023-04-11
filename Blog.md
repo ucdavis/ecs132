@@ -3,6 +3,16 @@
 
 **Spring 2023**
 
+**April 11, 0915:**
+
+It's important to distinguish between definitions and properties that follow from the definitions.
+
+For example, the *definition* of P(A|B) is based on the "notebook," the long-run proportion of lines in which A occurs, among the lines in which B occurs. It turns out that that *implies* that P(A|B) = P(A and B) / P(B) (where again, the *definitions* of P(A and B) and P(B) are based on the notebook.
+
+In many cases, you will have P(A|B) simply by intuition. For instance, say an urn contains 10 blue marbles and 4 yellow ones. We choose two marbles at random without replacement. Find (2nd marble is blue | 1st marble is yellow). Well, if the first marble is yellow, then we still have 10 marbles in the urn, but the total number is now 13. Since all marbles are equally likely to be chosen, the probability is 10/13.
+
+Similarly, though the definition of independent events is P(A and B) = P(A) P(B), we often know two events are independent simply from intuition. In the marbles example, if the experiment is to choose two marbles *with* replacement, then the colors of the first and second marbles are independent.
+
 **April 10, 1515:**
 
 Due date for Quiz 0 has been postponed until April 14.
