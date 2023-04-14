@@ -7,6 +7,30 @@
 
 A student contacted me, unsure of Problem 2 in the Homework. I'll share my response with everyone here.
 
+The entity p is a vector of probabilities, describing the behavior of
+the Li's.  E.g. if p = (0.25,0,35,0.40), then for any i,
+
+> P(Li = 1) = 0.25,
+> PwLi = 2) = 0.35
+> P(Li = 3) = 0.40
+
+the quantity v is the travel a bus needs to reach the stop of our
+passenger of interest, starting from the main station.  So, for instance
+if Bus 3 leaves the main station at time 12, it will arrive at our
+special passenger's stop at time 12+v.
+
+> Bus 1 leaves the main station at time L1;
+> Bus 2 leaves the main station at time L1+L2;
+> Bus 3 leaves the main station at time L1+L2+L3;
+> and so on.
+
+W is the wait time for our special passenger.  Varies from day to day.
+
+The number k is a parameter in our analysis of this bus system.  We are
+interested in P(W = k) for various values of k.  You will find P(W = 1)
+"by hand," i.e. mathematically, but will write simulation code that will
+find the value of P(W = k) for any k.
+
 **April 13, 2240:**
 
 Thanks, everyone who replied to my Extra Credit challenge. Several people were correct. I will answer everyone individually tomorrow.
