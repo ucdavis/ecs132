@@ -16,7 +16,13 @@ will run the command **tar xf** on your **.tar** file, and will NOT then
 run **setwd()**; it will expect to see your files in the directory in
 which the **.tar** file resided.
 
-Use the **handin** app in CSIF to submit your file. Submit to Lan, **jiang012**.
+Use the **handin** app in CSIF to submit your file. Submit to Lan, **jiang012**. For instance,
+
+> $ handin jiang012 ecs132bHwk1 your_group_member_email_addrs.tar
+
+says, "Add my file **xxx.tar** to jiang012's **ecs132bHwk1** handin
+directory." (You can check that it got there; see the **handin** man
+page.)
 
 Each of your **.R** files must contain the specified function(s), with
 no freestanding code.
