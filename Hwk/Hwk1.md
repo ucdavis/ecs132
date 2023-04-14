@@ -18,9 +18,9 @@ which the **.tar** file resided.
 
 Use the **handin** app in CSIF to submit your file. Submit to Lan, **jiang012**. For instance,
 
-> $ handin jiang012 ecs132bHwk1 your_group_member_email_addrs.tar
+> $ handin jiang012 ecs132Hwk1 your_group_member_email_addrs.tar
 
-says, "Add my file **xxx.tar** to jiang012's **ecs132bHwk1** handin
+says, "Add my file **xxx.tar** to jiang012's **ecs132Hwk1** handin
 directory." (You can check that it got there; see the **handin** man
 page.)
 
