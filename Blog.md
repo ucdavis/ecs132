@@ -3,6 +3,41 @@
 
 **Spring 2023**
 
+**April 13, 2025:**
+
+I gave this request (Section 2.14.5) to ChatGPT:
+
+> Suppose three fair dice are rolled.  Fnd the approximate
+> probability that the first die shows fewer than 3 dots, given that the
+> total number of dots for the 3 dice is more than 8, using simulation in R.
+
+Here is what it gave me:
+
+``` rc
+n_sims <- 100000  # Number of simulations
+count <- 0  # Counter for events of interest
+
+# Run the simulations
+for (i in 1:n_sims) {
+  # Roll three fair dice
+  dice <- sample(1:6, size = 3, replace = TRUE)
+  
+  # Check if first die shows fewer than 3 dots and total dots > 8
+  if (dice[1] < 3 & sum(dice) > 8) {
+    count <- count + 1
+  }
+}
+
+# Calculate the approximate probability
+prob <- count / n_sims
+prob
+```
+
+This evaluates to about 0.16, rather than the correct 0.23.
+
+**Extra Credit to the first person who can tell me where ChatGPT went wrong.**
+
+
 **April 13, 2010:**
 
 An alert student noticed an "off by 1" error in Problem 2 of the Homework. I've made slight changes to the specifications of the bus system accordingly.
