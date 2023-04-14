@@ -103,7 +103,7 @@ at a certain bus stop every day at time m.  (So, m is not a random
 quantity.)  It takes v time for a bus to reach this stop from the main
 station.  
 
-The start of a day is considered time X<sub>0</sub> = 0. Bus i leaves the main stattion at time 
+The start of a day is considered time X<sub>0</sub> = 0. Bus i leaves the main station at time 
 X<sub>i</sub>, i = 1,2,3,...  Set L<sub>d</sub> = X<sub>d</sub> - X<sub>d-1</sub>, d = 1,2,3,... 
 The L<sub>i</sub> are independent, and P(L<sub>d</sub> = j) =
 p<sub>j</sub> (indexing starts at 1).  Denote the buses by B<sub>1</sub>,
