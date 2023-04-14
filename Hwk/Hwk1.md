@@ -103,12 +103,11 @@ at a certain bus stop every day at time m.  (So, m is not a random
 quantity.)  It takes v time for a bus to reach this stop from the main
 station.  
 
-The first bus leaves the main station at time X<sub>0</sub> = 0.
-Subsequent bus departures are at X<sub>1</sub>, X<sub>2</sub> and so on.
-Let L<sub>d</sub> = X<sub>d</sub> - X<sub>d-1</sub>, d = 1,2,...  Assume
-the L<sub>i</sub> are independent, and P(L<sub>d</sub> = j) =
-p<sub>j</sub> (indexing starts at 1).  Denote the buses by B<sub>0,
-</sub> B<sub>1</sub>, B<sub>2</sub> etc.  
+The start of a day is considered time X<sub>0</sub> = 0. Bus i leaves the main stattion at time 
+X<sub>i</sub>, i = 1,2,3,...  Set L<sub>d</sub> = X<sub>d</sub> - X<sub>d-1</sub>, d = 1,2,3,... 
+The L<sub>i</sub> are independent, and P(L<sub>d</sub> = j) =
+p<sub>j</sub> (indexing starts at 1).  Denote the buses by B<sub>1</sub>,
+B<sub>2</sub>, B<sub>3</sub> etc.  
 
 So, the parameters that control the probabilistic behavior
 of the bus system are:
@@ -116,10 +115,10 @@ of the bus system are:
 * p: a vector of probabilities of delay times between successive buses
 
 * v: the length of time it takes for a bus to reach the stop of our
-  passenger of interest from the main station
+  passenger of interest from the main station (assumed < m)
 
 We are interested in the time W our passenger of interest must wait for a
-bus (which is 0 if a bus happens to arrive at time m), and other related
+bus (that is 0 if a bus happens to arrive at time m), and other related
 quantities (m, k, etc. will be the parameters of the quantities you
 are asked to find):
 
