@@ -3,6 +3,12 @@
 
 **Spring 2023**
 
+**April 13, 2010:**
+
+An alert student noticed an "off by 1" error in Problem 2 of the Homework. I've made slight changes to the specifications of the bus system accordingly.
+
+I've also added more detail on the submission procedure.
+
 **April 11, 1530:**
 
 I see that my wording in Problem 4 of Quiz 0 was confusing. The freeway trip itself is 60 miles, and this figure does not include the 1.5 miles on surface streets. 
