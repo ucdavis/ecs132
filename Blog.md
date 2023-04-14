@@ -3,6 +3,27 @@
 
 **Spring 2023**
 
+**April 14, 1530:**
+
+As you know, you can view the "man page" (onlihe help) of an R function
+by using a question mark, e.g.
+
+``` r
+?ls
+```
+
+to obtain information about the **ls()** function.  But you can also 
+do this via a call to the **help()** function, e.g.
+
+``` r
+help(ls)
+```
+
+This could come in handy in an OMSI session.  Just temporarily put your
+call to **help()** in the Answers box in your OMSI screen, then click
+Submit and Run.
+
+
 **April 14, 1440:**
 
 A student contacted me, unsure of Problem 2 in the Homework. I'll share my response with everyone here.
