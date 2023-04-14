@@ -3,9 +3,13 @@
 
 **Spring 2023**
 
+**April 14, 1440:**
+
+A student contacted me, unsure of Problem 2 in the Homework. I'll share my response with everyone here.
+
 **April 13, 2240:**
 
-Thank, everyone who replied to my Extra Credit challenge. Several people were correct. I will answer everyone individually tomorrow.
+Thanks, everyone who replied to my Extra Credit challenge. Several people were correct. I will answer everyone individually tomorrow.
 
 The basic problem was that ChatGPT computed P(A and B) instead of P(A | B), where A is the first die having < 3 dots and B is the dice total being > 8. This of course is a very common student error, and ChatGPT made the same error.
 
