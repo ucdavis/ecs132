@@ -16,6 +16,10 @@ will run the command **tar xf** on your **.tar** file, and will NOT then
 run **setwd()**; it will expect to see your files in the directory in
 which the **.tar** file resided.
 
+You can create the **.tar** file on, say, CSIF, by running
+
+> $ tar cf your_group_member_email_addrs.tar names_of_your_files
+
 Use the **handin** app in CSIF to submit your file. Submit to Lan, **jiang012**. For instance,
 
 > $ handin jiang012 ecs132Hwk1 your_group_member_email_addrs.tar
