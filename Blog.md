@@ -11,7 +11,7 @@ The entity p is a vector of probabilities, describing the behavior of
 the Li's.  E.g. if p = (0.25,0,35,0.40), then for any i,
 
 P(Li = 1) = 0.25, <br>
-PwLi = 2) = 0.40, <br>
+P(Li = 2) = 0.40, <br>
 P(Li = 3) = 0.35
 
 The quantity v is the travel a bus needs to reach the stop of our
