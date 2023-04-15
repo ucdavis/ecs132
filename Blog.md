@@ -15,6 +15,11 @@ Lynx that the site uses Adobe Cold Fusion, an early Web development tool that ha
     A few years ago, JJ decided that the R language needed an IDE, so he developed RStudio, and founded the firm of that name. He's 
 an amazing guy (and very nice personally). He still loves coding, and spends a lot of his day in that activity, even though he is the CEO.
 
+* I mentioned Bob Metcalfe in class. He invented the Ethernet, which added "Listen before talk" to the ALOHA network, and it became his PhD thesis (with complex probability analysis on every page). He then founded 3-Com, and the Ethernet became the industry standard.
+
+    Well, now he has won this year's (Turing Award)[https://news.mit.edu/2023/bob-metcalfe-wins-acm-turing-award-0322], "the
+    Nobel Prize of Computer Science."
+
 
 **April 14, 1820:**
 
