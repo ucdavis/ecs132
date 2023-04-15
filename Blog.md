@@ -5,7 +5,7 @@
 
 **April 15, 1035:**
 
-In Quiz problems designated as "R code answer," you are NOT required to write code that is short, efficient or elegant. Just make it work. And remember, OMSI allows you to test your code, and vitally important feature.
+In Quiz problems designated as "R code answer," you are NOT required to write code that is short, efficient or elegant. Just make it work. And remember, OMSI allows you to test your code, a vitally important feature.
 
 **April 15, 0955:**
 
