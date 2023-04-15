@@ -3,6 +3,22 @@
 
 **Spring 2023**
 
+**April 15, 1500:**
+
+Remember, on Quizzes your OMSI window (including chat box; see below) must fill your laptop screen at all times. If you
+think you will need a copy of this blog, or your Homework submission etc., you may bring paper hard copies to the Quiz (and for that matter, paper copies of anything else).
+
+Lan has added a new feature to OMSI, in the files chatXXX. You can use this to ask the TA questions during Quizzes. To use it, update your OMSI directory (e.g. 'git pull origin'), and note the chatXXX files. You run the chat client like you do the OMSI client:
+
+```
+python chat_client.py servermachinename serverportnumber youremailaddress
+
+This hopefully will work better than your raising your hand and the TA trying to walk through the seats to interact with you.
+
+Needless to say, there are still questions the TA will not answer, e.g. "What page in this book is this?", "I don't know what this term from the course means," etc.
+
+The PDF viewer and chat are considered part of OMSI, so having them on your screen does not violate the rule. But be sure to start both the main OMSI client and the chat client at the start of the Quiz.
+
 **April 15, 1035:**
 
 In Quiz problems designated as "R code answer," you are NOT required to write code that is short, efficient or elegant. Just make it work. And remember, OMSI allows you to test your code, a vitally important feature.
