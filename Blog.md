@@ -3,6 +3,17 @@
 
 **Spring 2023**
 
+**April 14, 1740:**
+
+Problem 2 uses the concepts of *expected value* and *variance*, which we have not yet covered in our course. Here is what you need:
+
+* The expected value of a random variable X, denoted by E(X) (or EX if we just have a single symbol) is the long-run average value of X in the notebook. 
+* A function of X is a new random variable, and we can define its expected value similarly. 
+    E.g. E(X<sup>0.5</sup>) is the long-run average value of X<sup>0.5</sup>.
+* The variance of X, Var(X), is the long-run average value of this function of X: (X - EX)<sup>2</sup>.
+
+Of course there are issues of interpretation etc., but this is enough for you to do the Homework problem.
+
 **April 14, 1530:**
 
 As you know, you can view the "man page" (online help) of an R function
