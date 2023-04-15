@@ -3,6 +3,10 @@
 
 **Spring 2023**
 
+**April 14, 1820:**
+
+I must again emphasize the **UTMOST** importance of close cooperation with your teammates. If one of your teammates contacts the others, the rest should reply right away, acknowledging receipt of the message. If you 
+
 **April 14, 1740:**
 
 Problem 2 uses the concepts of *expected value* and *variance*, which we have not yet covered in our course. Here is what you need:
