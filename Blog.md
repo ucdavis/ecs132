@@ -5,7 +5,8 @@
 
 **April 14, 1820:**
 
-I must again emphasize the **UTMOST** importance of close cooperation with your teammates. If one of your teammates contacts the others, the rest should reply right away, acknowledging receipt of the message. If you 
+I must again emphasize the **UTMOST** importance of close cooperation with your teammates. If one of your teammates contacts you, you should reply right away, acknowledging receipt of the message. As I said in class, in someone turns out to be 
+unreliable as a teammate, I will have to put that person into a 1-student team, i.e. by him/herself.
 
 **April 14, 1740:**
 
