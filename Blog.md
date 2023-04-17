@@ -3,6 +3,16 @@
 
 **Spring 2023**
 
+**April 17, 1635:**
+
+In my post of April 15, 1500, I introduced the new chat feature that Lan has added to OMSI. It makes asking questions during a Quiz very convenient for both you and the TA. I think you'll really like it.
+
+However, Lan told me just now that you do need to use Python 3 for this app, not the old Python. So if you wish to use this app (it's optional), you'll need to install Python 3 on your machine, and of course make sure it's in your path etc.
+
+Python paths, environments etc. can get pretty complicated. (To me, a drawback of an otherwise wonderful language.) For that reason, I always recommend installing miniconda, which will give you the Python package rather than just Python. Of course, you must still set your system's search path accordingly.
+
+If you install the chat, make sure to test it on your machine, just like you tested OMSI.
+
 **April 17, 1545:**
 
 This is just a brief note to say I will be pushing back the due date for Hwk 1. I also will be posting some hints and so on, arising from questions students asked in my office hours today.
@@ -19,7 +29,7 @@ think you will need a copy of this blog, or your Homework submission etc., you m
 Lan has added a new feature to OMSI, in the files chatXXX. You can use this to ask the TA questions during Quizzes. To use it, update your OMSI directory (e.g. 'git pull origin'), and note the chatXXX files. You run the chat client like you do the OMSI client:
 
 ```
-python chat_client.py servermachinename serverportnumber youremailaddress
+python3 chat_client.py servermachinename serverportnumber youremailaddress
 ```
 
 This hopefully will work better than your raising your hand and the TA trying to walk through the seats to interact with you.
