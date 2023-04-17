@@ -3,6 +3,10 @@
 
 **Spring 2023**
 
+**April 17, 1545:**
+
+This is just a brief note to say I will be pushing back the due date for Hwk 1. I also will be posting some hints and so on, arising from questions students asked in my office hours today.
+
 **April 17, 1345:**
 
 Quiz questions will typically refer to page numbers, equation numbers, section numbers, example names and so on in the book. It is thus imperative that you have a copy of the book, either in printed or PDF form. 
