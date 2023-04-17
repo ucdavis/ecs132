@@ -20,6 +20,7 @@ Lan has added a new feature to OMSI, in the files chatXXX. You can use this to a
 
 ```
 python chat_client.py servermachinename serverportnumber youremailaddress
+```
 
 This hopefully will work better than your raising your hand and the TA trying to walk through the seats to interact with you.
 
