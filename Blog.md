@@ -3,6 +3,8 @@
 
 **Spring 2023**
 
+Quiz questions will typically refer to page numbers, equation numbers, section numbers, example names and so on in the book. It is thus imperative that you have a copy of the book, either in printed or PDF form. 
+
 **April 15, 1500:**
 
 Remember, on Quizzes your OMSI window (including chat box; see below) must fill your laptop screen at all times. If you
