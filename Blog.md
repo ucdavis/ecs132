@@ -3,6 +3,8 @@
 
 **Spring 2023**
 
+**April 17, 1345:**
+
 Quiz questions will typically refer to page numbers, equation numbers, section numbers, example names and so on in the book. It is thus imperative that you have a copy of the book, either in printed or PDF form. 
 
 **April 15, 1500:**
