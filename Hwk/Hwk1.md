@@ -1,7 +1,7 @@
 
 # ECS 132, Homework 1
 
-Due Wednesday, April 19, 11:59 pm.
+Due Friday, April 21, 11:59 pm.
 
 ## Instructions
 
