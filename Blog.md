@@ -3,7 +3,7 @@
 
 **Spring 2023**
 
-![alt text](ohnotes.png]
+![alt text](ohnotes.png)
 
 
 **April 17, 1830:**
