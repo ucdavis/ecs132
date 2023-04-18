@@ -3,7 +3,7 @@
 
 **Spring 2023**
 
-![alt text]("ohnotes.png"]
+![alt text](ohnotes.png]
 
 
 
