@@ -6,7 +6,6 @@
 ![alt text](ohnotes.png]
 
 
-
 **April 17, 1830:**
 
 For any Quiz, the lecture and reading coverage is all material through the most recent lecture, but not the same day's lecture. For our class, the coverage for Tuesday Quizzes is the material through the preceding Thursday's lecture, while for Thursday Quizzes, it is the material through Tuesday of the same week.
