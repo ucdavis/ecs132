@@ -3,6 +3,10 @@
 
 **Spring 2023**
 
+**April 17, 1830:**
+
+For any Quiz, the lecture and reading coverage is all material through the most recent lecture, but not the same day's lecture. For our class, the coverage for Tuesday Quizzes is the material through the preceding Thursday's lecture, while for Thursday Quizzes, it is the material through Tuesday of the same week.
+
 **April 17, 1635:**
 
 In my post of April 15, 1500, I introduced the new chat feature that Lan has added to OMSI. It makes asking questions during a Quiz very convenient for both you and the TA. I think you'll really like it.
