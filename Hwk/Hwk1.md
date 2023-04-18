@@ -157,8 +157,8 @@ Note that these quantities are separate from each other.  For instance,
 though the first one talks aboutt W = k, that doesn't mean W = k for all
 the rest.
 
-Write a function **ExactAnalysis()** (no arguments) that returns the
-above quantities as a 10-element vector, for the following setting:
+Write a function **ExactAnalysis()** (no arguments) that returns the second and third of the
+above 10 quantities as a 2-element vector, for the following setting:
 
 * m = 5
 
