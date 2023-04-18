@@ -42,7 +42,7 @@ you may do so if you wish.
 RATHER THAN MERELY THE "HOW."**  This is vital to your doing well in the
 course.  *If you master this--i.e. get to the point at which you can
 cogently explain it to your classmates-- you will be will on your way to
-getting an excellent grade in the course.
+getting an excellent grade in the course.*
 
 Note:  For the exact analysis in this problem, I had intended that you
 compute only 2 quantities, not 10.  I've changed the problem to have you
