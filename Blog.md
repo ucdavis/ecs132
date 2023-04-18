@@ -3,6 +3,29 @@
 
 **Spring 2023**
 
+**April 17, 2150:**
+
+Picture yourself teaching someone to program.  You tell them about
+arrays, loops and so on.  They then ask you, "When do I use arrays?"
+Of course you know there is no good answer, because *programming is a
+creative process*; there are no rules telling when to use arrays, etc.
+All you could tell this person is 
+
+> Arrays, loops, if-then-else, and so on make up your programming toolkit.
+> You then must think how to creatively combine these tools into code that
+> accomplishes your goal.  And it is indeed creative, as there are many
+> possible code implementations that will accomplish your goal; different
+> peple will come up with different code to achieve the same goal.
+
+And that's true even more so for solving probability problems,
+conducting statistical analyses, and developing machine learning prediction
+models.  It's a creative process.  Your "toolkit" starts with the
+mailing tubes, and then on the distribution models, ML algorithms and so
+on.  There is no "formula" for any of this.  You try something, and if
+you find out it isn't useful, you try something else.
+
+**April 17, 2110:**
+
 Below are notes I made for a student during my office hour today.  
 
 The experiment here is to flip a set of 20 coins, each of which has
