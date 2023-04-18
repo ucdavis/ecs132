@@ -3,6 +3,37 @@
 
 **Spring 2023**
 
+**April 18, 1605:**
+
+Things apparently went smoothly for most but not all students in today's
+Quiz.  Here are some announcements.
+
+* Making Quiz 0 take-home was supposed to prevent OMSI problems in
+  subsequent Quizzes.  Maybe there were VPN issues for some students.
+
+* There was also the issue of using a PDF viewer from within OMSI.  As
+  you know, disallowing the use of any apps besides OMSI is an
+anti-cheating measure in OMSI, e.g. to prevent a student from e-mailing
+someone during a Quiz etc.  But I did not realize that Windows does not
+come with its own PDF viewer, and that Windows refers its users to the
+Web browser, which could be used for cheating.  I actually was rude to
+one student after class in saying that students are not allowed to use a
+browser during a Quiz.  I apologize to him for that, and told Lan that
+for today's Quiz only, students could use a browser.  But everyone who
+is on Windows, please install Acrobat or whatever *before your next  
+Quiz,* whether it be this Thursday or next Tuesday.
+
+* If you are in the Tuesday section and had OMSI problems today, you can
+  take the Thursday Quiz this week if you wish.  Let me know before I
+grade today's Quiz, probably tomorrow evening.
+
+* Make sure to do a full test of OMSI, where you play the roles of both
+  the instructor (you run the server) and the student (you run the
+client). Run the server on CSIF and the client in a campus classroom,
+for the most realistic test.  Be sure to test the PDF viewing aspect as
+well.
+
+
 **April 17, 2150:**
 
 Picture yourself teaching someone to program.  You tell them about
