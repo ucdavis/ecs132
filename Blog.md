@@ -12,11 +12,11 @@ E(H)--by definition--is the long-run average in the H column of the notebook.
 We will later learn how to derive the fact that E(H) = 2 here, but for
 now, just take it as true (and intuitively plausible).
 
-The second column is labeled "squared distance of H to its mean."  It's
+The second column is labeled "squared distance of H to its mean."  Its
 mean is 2, so these entries are (2-2)^2, (11-2)^2 etc.  Var(H)--by
 definition--is the long-run average of these squared distances.
 
-As noted, a simulation merely puts into code we have in the notebook.
+As noted, a simulation merely puts into code what we have in the notebook.
 So for Hwk 1, Problem 2's question about E(W), we have a W column, and
 our code is finding the long-run average of this column.  In code terms,
 we are simulating nDays days of bus operation, corresponding to nDays
@@ -35,13 +35,18 @@ the first column.*
 However, there is a trick, which is a mailing tube that we will cover
 soon:  For any random variable X, Var(X) = E(X^2) - (E(X))^2.  So, in
 our first loop, we can find running totals of both W and W^2, obviating
-the need for a second loop.
+the need for a second loop.  You are not required to use this trick, but
+you may do so if you wish.
 
 **MAKE ABSOLUTELY SURE YOU UNDERSTAND ALL THIS, THE "WHY" OF EVERY STEP
 RATHER THAN MERELY THE "HOW."**  This is vital to your doing well in the
 course.  *If you master this--i.e. get to the point at which you can
 cogently explain it to your classmates-- you will be will on your way to
 getting an excellent grade in the course.
+
+Note:  For the exact analysis in this problem, I had intended that you
+compute only 2 quantities, not 10.  I've changed the problem to have you
+compute only the second and third quantities in the list.
 
 ![alt text](ohnotes.png)
 
