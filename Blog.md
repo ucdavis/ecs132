@@ -3,6 +3,46 @@
 
 **Spring 2023**
 
+Below are notes I made for a student during my office hour today.  
+
+The experiment here is to flip a set of 20 coins, each of which has
+probability 0.1 of heads.  Let H denote the number of heads we get.
+
+E(H)--by definition--is the long-run average in the H column of the notebook.
+We will later learn how to derive the fact that E(H) = 2 here, but for
+now, just take it as true (and intuitively plausible).
+
+The second column is labeled "squared distance of H to its mean."  It's
+mean is 2, so these entries are (2-2)^2, (11-2)^2 etc.  Var(H)--by
+definition--is the long-run average of these squared distances.
+
+As noted, a simulation merely puts into code we have in the notebook.
+So for Hwk 1, Problem 2's question about E(W), we have a W column, and
+our code is finding the long-run average of this column.  In code terms,
+we are simulating nDays days of bus operation, corresponding to nDays
+lines in the notebook.  Our code will have nDays iterations, in each
+which we generate W and add it to our running total.  Our (approximate
+value of E(W) is then that total, divided by nDays.
+
+Now, what about Var(W)?  In the notes in the picture, we would have
+squared distances as (W - E(W))^2, one on each line.  Var(W) is then
+(approximately)  the long-run average of those squared values.  So our
+code would then have a *second* loop to compute this long-run average.
+The reason we would need as a separate loop is that the squares in the
+second column of the notebook *depend on first finding the average of
+the first column.*
+
+However, there is a trick, which is a mailing tube that we will cover
+soon:  For any random variable X, Var(X) = E(X^2) - (E(X))^2.  So, in
+our first loop, we can find running totals of both W and W^2, obviating
+the need for a second loop.
+
+**MAKE ABSOLUTELY SURE YOU UNDERSTAND ALL THIS, THE "WHY" OF EVERY STEP
+RATHER THAN MERELY THE "HOW."**  This is vital to your doing well in the
+course.  *If you master this--i.e. get to the point at which you can
+cogently explain it to your classmates-- you will be will on your way to
+getting an excellent grade in the course.
+
 ![alt text](ohnotes.png)
 
 
