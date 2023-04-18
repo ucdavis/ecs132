@@ -3,8 +3,7 @@
 
 **Spring 2023**
 
-<img src="OHNotes.png" style="image-orientation: 90deg;" />
-
+![alt text]("ohnotes.png"]
 
 
 
