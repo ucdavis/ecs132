@@ -3,6 +3,22 @@
 
 **Spring 2023**
 
+**April 18, 2045:**
+
+As I emphasized in my message of April 14, 1820, Group collaboration is
+essential in this course.  Today I had to contact one student to remind
+him/her of this.
+
+Each member of your Group should make a serious start on a Homework
+assignment 1 week before the due date AT THE LATEST, and should get
+together at that time to plan how to operate in the remaining time.
+
+As I have said, there may be some variability regarding math or coding
+skill among Group members, but everyone must do their best to
+participate.  Remember, even if you think about a problem for a long
+time but don't come up with a solution, you will have greatly deepened
+your insight.
+
 **April 18, 1605:**
 
 Things apparently went smoothly for most but not all students in today's
