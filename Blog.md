@@ -20,7 +20,7 @@ Web browser, which could be used for cheating.  I actually was rude to
 one student after class in saying that students are not allowed to use a
 browser during a Quiz.  I apologize to him for that, and told Lan that
 for today's Quiz only, students could use a browser.  But everyone who
-is on Windows, please install Acrobat or whatever *before your next  
+is on Windows, please install Acrobat or whatever *before your next
 Quiz,* whether it be this Thursday or next Tuesday.
 
 * If you are in the Tuesday section and had OMSI problems today, you can
