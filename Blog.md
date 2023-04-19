@@ -3,6 +3,10 @@
 
 **Spring 2023**
 
+**April 19, 1645:**
+
+As I have said, all the Quizzes are open-book, open notes. You can bring in anything on paper you wish, say your Homework solutions, or incorporate them into the PDF file for your textbook.
+
 **April 19, 1415:**
 
 The other day, I mentioned I would be postponing the Hwk 1 due date, and I did change the actual homework specs file accordingly. But just in case someone didn't check thst file, I'll say it here too: The new date date is Friday, 11:59 pm as usual. 
