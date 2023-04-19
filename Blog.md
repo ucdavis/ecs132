@@ -3,6 +3,39 @@
 
 **Spring 2023**
 
+**April 18, 2250:**
+
+To illustrate Bayes' Rule, look at Eqn. (2.38) and those following it.
+
+Let's first rewrite (2.67) as
+
+P(U | V) = P(U) P(V | U) / [P(U) P(V | U) +  P(not U) P(V | not U)]
+
+so that the B in (2.67) doesn't get confused with the B for bonus roll
+in (2.38).
+
+On the left-hand side of (2.38), we have
+
+P(U | V)
+
+where U is B > 0 and V is R+B = 4.  
+
+Now look at the numerator of (2.40).  It's
+
+P(V and U) 
+
+which by our mailing tube is 
+
+ P(V) P(U | V)
+
+This already is beginning to look like (2.67).  And in fact, the
+denominator of (2.40) is exactly the denominator of (2.67), again after
+applying the same mailing tube.
+
+So, Bayes' Rule is just a formalization of what we did in
+(2.38)-(2.40) and in (2.64)-(2.66).   In other words, it's just a short
+cut designed to save steps.
+
 **April 18, 2045:**
 
 As I emphasized in my message of April 14, 1820, Group collaboration is
