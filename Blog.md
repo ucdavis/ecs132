@@ -3,6 +3,76 @@
 
 **Spring 2023**
 
+**April 18, 2300:**
+
+A note on interpreted language and code speeed:
+
+Consider the code snippet
+
+``` r
+for (i in 1:n) {
+   tot <- tot + x[i]
+}
+```
+
+as compared to 
+
+``` r
+tot <- sum(x)
+```
+
+making use of R's built-in function **sum()**.
+
+In that first snippet, there are function calls galore.  As I mentioned
+in class today, '+' is actually a function!
+
+``` r
+2+3
+```
+
+is actualy 
+
+``` r
+'+'(2,3)
+```
+
+But not only that, but also '[', '<-' and ':' are functions!  R is
+definitely what is called a *functional language*.
+
+Now, as you learned in ECS 50, function calls have substantial
+*overhead*.  The arguments must be placed on the stack, followed by the
+return address.  If the body of the function is short, then the overhead
+becomes a substantial fraction of the run time of the call.
+
+Moreover, depending on implementation, in each iteration of the above
+loop, the R interpreter may be doing a lookup to determine where in
+memory **x** and **tot** are.  That would be really costly.  By
+contrast, if R were a compiled language, that lookup would be done only
+once, at compile time.
+
+Similarly, the **sum()** function is straight C, so we (probably) have
+no further function calls involved.
+
+Remember, when you do something in Python, say
+
+```
+$ python x.py
+```
+
+you are not executing **x.py**; you are running the Python interpreter,
+a C program that happens to be named 'python'.  It does the various
+lookups needed for the lines in **x.py**.  So again, slow, and again, a
+need to vectorize.
+
+Some speed improvement is made by the use of Python *byte code*.  When
+you "run" **x.py** the first time, it may produce a file **x.pyc**,
+containing the byte code.  This is "machine code" for a mythical "Python
+machine." In subsequent runs, the Python interpreter
+will execute on the byte code, at least free of lookups, though still
+slow because it is running the Python machine.  In recent years, the R
+interpreter has been doing something similar.
+
+
 **April 18, 2250:**
 
 To illustrate Bayes' Rule, look at Eqn. (2.38) and those following it.
