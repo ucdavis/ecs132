@@ -3,6 +3,10 @@
 
 **Spring 2023**
 
+**April 19, 1415:**
+
+The other day, I mentioned I would be postponing the Hwk 1 due date, and I did change the actual homework specs file accordingly. But just in case someone didn't check thst file, I'll say it here too: The new date date is Friday, 11:59 pm as usual. 
+
 **April 19, 0845:**
 
 In the Procedural Information document (linked to by the Syllabus in our class repo), it says, "class attendance is vital to doing well in the course." **If you miss many lectures, it is likely that you will get a poor grade in the course.** I do recognize, though, that sometimes it will be necessary for you to miss class. If so, you are welcome to e-mail me to ask what pages of the book I covered in that lecture.
