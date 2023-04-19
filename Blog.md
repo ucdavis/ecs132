@@ -3,9 +3,15 @@
 
 **Spring 2023**
 
+**April 19, 0845:**
+
+In the Procedural Information document (linked to by the Syllabus in our class repo), it says, "class attendance is vital to doing well in the course." **If you miss many lectures, it is likely that you will get a poor grade in the course.** I do recognize, though, that sometimes it will be necessary for you to miss class. If so, you are welcome to e-mail me to ask what pages of the book I covered in that lecture.
+
+One thing I mentioned in class yesterday is that I do not believe human intelligence has a genetic component, and thus everyone can do well in this class. If you do the reading nonpassively, spend thoughtful time on the homework, and yes, go to class, you will get an excellent grade in the course.
+
 **April 18, 2300:**
 
-A note on interpreted language and code speeed:
+A note on interpreted language and code speed:
 
 Consider the code snippet
 
