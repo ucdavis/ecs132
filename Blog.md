@@ -3,6 +3,25 @@
 
 **Spring 2023**
 
+**April 20, 0950:**
+
+I'm grading Quiz 1, Tuesday section, right now, and have a few comments:
+
+* When a Quiz question says, "R code answer," it means it! Your submission will be executed by the grading script, and if your submission is English, the script will choke. If your submission has no output, the script will think your code was wrong. The human grader will take a look, but without output you already have trouble.
+
+* Read the question carefully--extra carefully if you are not a native speaker of English. Words like "the," difference between singular and plural forms, etc. can make a big difference in meaning, and can serve as hints on how to solve the problem.
+
+* Similarly, make sure your answer is addressing the question that was asked. If say you are asked about the square of a matrix, your answer should discuss the square. It may be important to also discuss the role of the original matrix, but only as preparation for discussing the square.
+
+* If you are asked for the probability of something, rather than the approximate value, don't use simulation. The official course rules state,
+
+> Note for ECS 132: In numeric problems, exact answers are required, not simulation, unless the latter is specified.
+
+I'll post some more comments later, after doing more grading. 
+
+BTW, remember that your two lowest Quizzes (in letter grades) are thrown out in computing your final course grade.
+
+
 **April 19, 2255:**
 
 Notes on debugging, both in general and in R:
