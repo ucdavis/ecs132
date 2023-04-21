@@ -11,7 +11,7 @@ In my blog post of April 20, 0950, I reminded everyone that in Quiz questions wi
 
 Unfortunately, Dylan didn't notice that, and told students that they could comment-out the **print()** call. So, several students lost points even though their code was mostly correct.
 
-Even more unfortunately, those students chose to believe Dylan instead of me! :-) Just kidding. 
+Even more unfortunately, those students chose to believe Dylan instead of me! Dylan is a super-nice guy, but I'm offended. :-) Just kidding. 
 
 But there was more. The reason those students asked Dylan in the first place was that actually their **print()** call was wrong. IOW, those students were asking Dylan to debug their code for them--in a Quiz! Please don't do that.
 
