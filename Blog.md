@@ -3,6 +3,17 @@
 
 **Spring 2023**
 
+**April 20, 2015:**
+
+As I've explained in class, all your course records, which are handled
+by scripts, are indexed by your official UCD e-mail address.  If you
+give some other e-mail address for some item (Quiz, Homework, Term
+Project), you risk not getting credit for it.  The human grader MIGHT
+notice a problem, and correct it, but this is not guaranteed.
+
+Please make sure you use the UCD at which you have been receiving mail
+from me.
+
 **April 20, 0950:**
 
 I'm grading Quiz 1, Tuesday section, right now, and have a few comments:
