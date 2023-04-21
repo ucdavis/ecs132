@@ -18,13 +18,15 @@ which the **.tar** file resided.
 
 You can create the **.tar** file on, say, CSIF, by running
 
-> $ tar cf your_group_member_email_addrs.tar names_of_your_files
+> $ tar cf xxxx.tar names_of_your_files
+
+where 'xxxx' consists of group members' official UCD e-mail addresses, without the '@ucdavis.edu', separated by periods. E.g. 'ajones.belee.tar'.
 
 Use the **handin** app in CSIF to submit your file. Submit to Lan, **jiang012**. For instance,
 
-> $ handin jiang012 ecs132Hwk1 your_group_member_email_addrs.tar
+> $ handin jiang012 ecs132Hwk1 ajones.blee.tar
 
-says, "Add my file **xxx.tar** to jiang012's **ecs132Hwk1** handin
+says, "Add my file **ajones.blee.tar** to jiang012's **ecs132Hwk1** handin
 directory." (You can check that it got there; see the **handin** man
 page.)
 
