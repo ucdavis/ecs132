@@ -1,0 +1,16 @@
+
+
+1. (Text answer, 30 points.)  State the number of the mailing tube used
+in going from Eqn. (2.39) to (2.40).
+
+2. (Text answer, 10 points.)  It was mentioned in class that the square
+of the matrix in Eqn. (2.68) has a certain meaning.  What is it?
+
+3. (R code answer, 30 points.)  Just below Eqn. (2.24), it states that
+P(S = 12 | T = 2) = 1/9.  Find P(S = 6 | T = 2).  Show your work, in
+comments.
+
+4. (R code answer, 30 points.)  Consider the bus ridership example, Sec.
+2.11.  Write code that finds and PRINTS P(the bus arrives at the third
+stop with 1 passenger).  Show your work, in comments.
+

@@ -1,0 +1,34 @@
+
+1. (2.4)
+
+2.  This tells us whether there is a 2-hop link from any vertex to any
+other.
+
+3.  If we have 2 even-numbered dice, as given, the only pairs giving a
+total of 6 are 2,4 and 4,2.  The 9 possible pairs for T = 2 (2,2; 2,4;
+2,6; 4,2; etc.) are equally likely, so our answer is 2/9.
+
+4.  Arriving at the third stop with 1 passenger means L2 = 1.  So, we
+want P(L2 = 1).  Again, break things down by B1, as in (2.45)ff.  Here
+are the possibilities (A for alight):
+
+B1 = 0, B2 = 1
+B1 = 1, A2 = 0, B2 = 0
+B1 = 1, A2 = 1, B2 = 1
+B1 = 2, A2 = 1, B2 = 0
+B1 = 2, A2 = 2, B2 = 1
+
+So our answer is
+
+(0.5) (0.4) +
+(0.4) (0.8) (0.5) +
+(0.4) (0.2) (0.4) +
+(0.1) 2(0.2)(0.8) (0.5) +
+(0.1) (0.2)^2 (0.4) 
+
+
+(0.5) * (0.4) +
+(0.4) * (0.8) * (0.5) +
+(0.4) * (0.2) * (0.4) +
+(0.1) * 2* (0.2)* (0.8) * (0.5) +
+(0.1) * (0.2)^2 * (0.4) 
