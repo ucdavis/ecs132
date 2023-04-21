@@ -3,6 +3,20 @@
 
 **Spring 2023**
 
+**April 21, 1545:**
+
+Well, miscommunications can occur... :-)
+
+In my blog post of April 20, 0950, I reminded everyone that in Quiz questions with R code answer, you MUST make sure your code runs and prints. It's no coincidence that in yesterday's quiz, there was an explicit **print()** call in the code.
+
+Unfortunately, Dylan didn't notice that, and told students that they could comment-out the **print()** call. So, several students lost points even though their code was mostly correct.
+
+Even more unfortunately, those students chose to believe Dylan instead of me! :-) Just kidding. 
+
+But there was more. The reason those students asked Dylan in the first place was that actually their **print()** call was wrong. IOW, those students were asking Dylan to debug their code for them--in a Quiz! Please don't do that.
+
+Anyway, if you were one of those students, you are welcome to ask me to take another look at your solution, for possible increase in points.
+
 **April 21, 1500:**
 
 Sorry, I don't think my Homework submissions directions were clear. Put all your files, named **Problem1.R**, **Problem2.R** and so on, into a **.tar** file. Here's the part I didn't make clear, the file name. It consists of your official UCD e-mail addresses, separated by periods. So e.g. if a Group's members have UCD addresses 'ajones@ucdavsi.edu' and 'blee@ucdavis.edu', then your **.tar** name would be 'ajones.blee.tar'.
