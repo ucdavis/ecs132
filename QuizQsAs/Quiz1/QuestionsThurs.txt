@@ -1,0 +1,45 @@
+1. (Text answer, 30 points.) In the ALOHA network example, which of
+these would be 0?
+
+(i) P(X1 = 2)
+
+(ii) P(X2 = 2)
+
+(iii) P(X1 = X2)
+
+(iv) P((X2 = 2 | X1 = 0)
+
+(v) P((X1 = 2 | X2 = 0) 
+
+Just list your (zero or more) choices, no explanation.
+
+2. (R code answer, 35 points.) Consider the board game example, Sec.
+2.10.  Write code that finds and PRINTS P(the player ends up at square 5
+at the end of his first turn).  Recall that his first turn may include a
+bonus roll.  Show your work, in comments.
+
+3. (R code answer, 35 points.) We have tags in a box, labeled 1,2,...,r.
+We keep choosing them at random, WITH replacement, until we get a sum of
+m or more.  Write simulation code to find the probability that it takes
+us s turns to reach this goal.  Fill in the blanks:
+
+chooseTags <- function(r,m,s,nreps) 
+{
+   count <- 0
+   for (i in 1:nreps) {
+      sumTags <- 0
+      nTurns <- 0
+      while(1) {
+
+
+      }
+
+   }
+
+   return(        )
+
+}
+
+print(chooseTags(5,8,3))
+
+

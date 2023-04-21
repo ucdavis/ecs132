@@ -1,0 +1,35 @@
+
+1. (v)
+
+Note: (iv) is NA, not 0.
+
+2.  
+
+P(R + B = 5) = P(R = 3, B = 2 or R = 5)
+             = P(R = 3, B = 2) + P(R = 5)
+             = (1/6) (1/6) + 1/6
+             = 7/36
+
+3.
+
+chooseTags <- function(r,m,s,nreps)
+{  
+   count <- 0
+   for (i in 1:nreps) {
+      sumTags <- 0
+      nTurns <- 0
+      while(1) {
+         nTurns <- nTurns + 1
+         tag <- sample(1:r,1)
+         sumTags <- sumTags + tag
+         if (sumTags >= m) break
+      }
+      if (nTurns == s) count <- count + 1
+   }
+
+   return(count/nreps)
+
+}
+
+print(chooseTags(5,8,3,1000))
+
