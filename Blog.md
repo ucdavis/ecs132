@@ -3,6 +3,12 @@
 
 **Spring 2023**
 
+**April 21, 1615:**
+
+Postscript: a major problem was that that **print()** call was incorrectly specified, missing the **nreps** argument. My bad. Most students just went ahead and added it.
+
+In terms of questions you can ask the TA during a Quiz, it would have been quite reasonable to ask the TA, "Is the **nreps** argument missing here?" By contrast, please don't ask a question like "My code won't run. What's wrong?"
+
 **April 21, 1545:**
 
 Well, miscommunications can occur... :-)
