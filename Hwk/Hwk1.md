@@ -20,7 +20,7 @@ You can create the **.tar** file on, say, CSIF, by running
 
 > $ tar cf xxxx.tar names_of_your_files
 
-where 'xxxx' consists of group members' official UCD e-mail addresses, without the '@ucdavis.edu', separated by periods. E.g. 'ajones.belee.tar'.
+where 'xxxx' consists of group members' official UCD e-mail addresses, without the '@ucdavis.edu', separated by periods. E.g. 'ajones.blee.tar'.
 
 Use the **handin** app in CSIF to submit your file. Submit to Lan, **jiang012**. For instance,
 
