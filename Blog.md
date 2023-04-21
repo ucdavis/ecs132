@@ -3,6 +3,10 @@
 
 **Spring 2023**
 
+**April 21, 1500:**
+
+Sorry, I don't think my Homework submissions directions were clear. Put all your files, named **Problem1.R**, **Problem2.R** and so on, into a **.tar** file. Here's the part I didn't make clear, the file name. It consists of your official UCD e-mail addresses, separated by periods. So e.g. if a Group's members have UCD addresses 'ajones@ucdavsi.edu' and 'blee@ucdavis@edu', then your **.tar** name would be 'ajones.blee.tar'.
+
 **April 21, 1410:**
 
 Quiz solutions are now in our course GitHub repo.
