@@ -3,6 +3,9 @@
 
 **Spring 2023**
 
+**April 21, 1410:**
+
+Quiz solutions are now in our course GitHub repo.
 
 **April 20, 2015:**
 
