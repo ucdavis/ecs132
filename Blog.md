@@ -17,7 +17,7 @@ the expression 'function' is actually a function! I like to say, whimsically,
 
 So here, on the right-hand side of the assignment, we build a function, then assign it to **f**.
 
-And yes, the ',-' and '^' are functions too. E.g.
+And yes, the '<-' and '^' are functions too. E.g.
 
 ```,rc
 
