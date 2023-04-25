@@ -3,6 +3,30 @@
 
 **Spring 2023**
 
+**April 24, 1430:**
+
+Following up on the post of April 18, 2300:  In a line like
+
+```,rc
+f <- function(x) x^2
+```
+
+the expression 'function' is actually a function! I like to say, whimsically,
+
+"The function of the R function named 'function" is to build functions."
+
+So here, on the right-hand side of the assignment, we build a function, then assign it to **f**.
+
+And yes, the ',-' and '^' are functions too. E.g.
+
+```,rc
+
+> 3^2
+[1] 9
+> '^'(3,2)
+[1] 9
+```
+
 **April 21, 1615:**
 
 Postscript: a major problem was that that **print()** call was incorrectly specified, missing the **nreps** argument. My bad. Most students just went ahead and added it.
