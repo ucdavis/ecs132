@@ -54,7 +54,7 @@ her mind.
 So A is randomly chosen (by the host or the producer of the game show)
 among 1, 2 and 3, and H is as in the book.  
 
-Say the car is worth $20,000 and the goats have 0 value.  You will Find
+Say the car is worth $20,000 and the goats have $100 value.  You will Find
 EW, the contestant's expected winnings.  Note:  This is a not a
 *conditional* expected value.  You will write two functions, with call
 forms
