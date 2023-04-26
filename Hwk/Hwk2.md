@@ -22,10 +22,10 @@ components:
 
 - The final adjacency matrix, **adjMat**, of size m X m, where m = nGen + 2.
 
-- A **attachHistory** vector, of length **nGen**.  Component i of that
+- An **attachHistory** vector, of length **nGen**.  Component i of that
   vector will be the index of the existing node that v<sub>i+2</sub>
   attaches to.  E.g. if v<sub>12</sub> attaches to 
-  v<sub>5</sub>, then attachHistory[12] = 5.
+  v<sub>5</sub>, then attachHistory[10] = 5.
 
 <li>  Write a function with call form
 
