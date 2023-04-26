@@ -34,7 +34,7 @@ function (x)  .Primitive("sqrt")
 [1] "numeric"
 ```
 
-The second argument of **replicate()**, **expr**, is an R expression, something to be computed. Well, sqrt(3) can be computed, but sqrt cannot. In other words, Simon Says, "There is a huge difference between a function and a call to that function; different animals.
+The second argument of **replicate()**, **expr**, is an R expression, something to be computed. Well, sqrt(3) can be computed, but sqrt cannot. In other words, Simon Says, "There is a huge difference between a function and a call to that function"; different animals.
 
 **April 24, 1430:**
 
