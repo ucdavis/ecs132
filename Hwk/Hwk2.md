@@ -17,7 +17,7 @@ This problem involves the Preferential Attachment Model (PAM).
 ```
 
 It will simulate PAM, through time **nGen**, i.e. through the attachment
-action of v<sub>nGen</sub>.  It will return an R list, with these
+action of v<sub>nGen+2</sub>.  It will return an R list, with these
 components:
 
 - The final adjacency matrix, **adjMat**, of size m X m, where m = nGen + 2.
