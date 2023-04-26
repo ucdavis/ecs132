@@ -7,7 +7,7 @@
 
 Homework 2 is now ready!
 
-Please heed the blog post of April 18, 2045.
+Please heed the blog post of April 18, 2045, in the statement reading in part "1 week before the due date AT THE LATEST."
 
 **April 26, 0850:**
 
