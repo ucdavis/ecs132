@@ -3,6 +3,39 @@
 
 **Spring 2023**
 
+**April 25, 2045:**
+
+Remember the other day when I mentioned the kids' game, Simon Says, to illustrate the supreme necessity in the CS world for precise thinking? Consider this code snippet:
+
+```,rc
+> args(replicate)
+function (n, expr, simplify = "array") 
+> replicate(5,sqrt)
+[[1]]
+function (x)  .Primitive("sqrt")
+
+[[2]]
+function (x)  .Primitive("sqrt")
+
+[[3]]
+function (x)  .Primitive("sqrt")
+
+[[4]]
+function (x)  .Primitive("sqrt")
+
+[[5]]
+function (x)  .Primitive("sqrt")
+
+> replicate(5,sqrt(3))
+[1] 1.732051 1.732051 1.732051 1.732051 1.732051
+> class(sqrt)
+[1] "function"
+> class(sqrt(3))
+[1] "numeric"
+```
+
+The second argument of **replicate()**, **expr**, is an R expression, something to be computed. Well, sqrt(3) can be computed, but sqrt cannot. In other words, Simon Says, "There is a huge difference between a function and a call to that function; different animals.
+
 **April 24, 1430:**
 
 Following up on the post of April 18, 2300:  In a line like
