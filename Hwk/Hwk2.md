@@ -1,10 +1,8 @@
 
 
-NOT READY YET
-
 # ECS 132, Homework 2
 
-Due 
+Due Friday, May 5, 11:59 pm.
 
 ## Problem 1
 
@@ -40,6 +38,21 @@ CONDITIONAL expected value.
 
 ## Problem 3
 
-Recursion, tags problem.
+We have tags numbered 1,2,...,m.  We keep choosing tags at random, with
+replacement, until we accumulate a sum of at least k.  We wish to find the
+probability that it takes us s tag draws to achieve thi.s
+
+Write a function with call form
+
+``` r
+tags(m,k,s) 
+```
+
+that uses recursive calls to find this probability exactly.  Note that
+your function must be fully general, for any nonnegative integers m, k
+and s.  (The probability will be considered 0 for nonpositive m, k and
+s.)
+
+
 
 
