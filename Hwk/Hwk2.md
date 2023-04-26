@@ -75,7 +75,7 @@ The two will serve as checks on each other.
 
 We have tags numbered 1,2,...,m.  We keep choosing tags at random, with
 replacement, until we accumulate a sum of at least k.  We wish to find the
-probability that it takes us s tag draws to achieve thi.s
+probability that it takes us s tag draws to achieve this.
 
 Write a function with call form
 
