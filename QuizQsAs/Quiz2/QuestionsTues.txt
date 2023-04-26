@@ -1,0 +1,49 @@
+
+1. (R code answer 30 points.) We wish to simulate a flip of a biased
+coin that has probability p of heads.  One way to do that would be
+
+   flip <- function(p) return(runif(1) < p)
+
+Write an alternate version, flipSam(p), that uses sample() instead of
+runif().  Fill in the blanks, including for the test case.  (Fill in the
+test case even if you don't see how to write flipSam().)
+
+flipSam <- function(p) 
+{
+
+}
+
+p <- 0.22
+count <- 0
+for (i in 1:1000) {
+   if (                 ) count <- count + 1
+}
+print(           ) # should be about 0.22
+
+2.  (Text answer, 40 points.) In some cases in the programming world, an
+argument f of a function g might itself be a function.  An example is
+the 'compar' argument of 'qsort' in the C library, which specifies how
+two objects are to be compared.  Name an R function that is like this,
+i.e. has an argument which is actually a function?
+
+3.  (R code answer, 40 points.)  The Broken Rod Example, Sec. 2.14.10,
+makes use of the replicate() function.  Rewrite the code so that it uses
+a loop etc. instead of that function.  Fill in the blanks:
+
+minpiece <- function(k) {
+   breakpts <- sort(runif(k-1))
+   lengths <- diff(c(0,breakpts,1))
+   min(lengths)
+}
+
+bkrod <- function(nreps,k,q) {
+
+
+   
+   mean(minpieces < q)
+}  
+
+bkrod(1000,5,0.02)
+
+
+

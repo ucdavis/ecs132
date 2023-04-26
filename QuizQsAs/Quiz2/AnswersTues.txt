@@ -1,0 +1,31 @@
+
+1.
+
+flipSam <- function(p) sample(0:1,1,prob=c(1-p,p))
+
+p <- 0.22
+count <- 0
+for (i in 1:1000) {
+   if (flipSam(p)) count <- count + 1
+}  
+print(count/1000) # should be about 0.22
+
+2.  combn() (there are many others)
+
+3.
+
+
+minpiece <- function(k) {
+   breakpts <- sort(runif(k-1))
+   lengths <- diff(c(0,breakpts,1))
+   min(lengths)
+}
+
+bkrod <- function(nreps,k,q) {
+   minpieces <- vector(length=nreps)
+   for (i in 1:nreps) minpieces[i] <- minpiece(k)
+   mean(minpieces < q)
+}
+
+bkrod(1000,5,0.02)
+
