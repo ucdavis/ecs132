@@ -30,7 +30,7 @@ components:
 <li>  Write a function with call form
 
 ``` r
-    PAMemaxd(nGen)
+    PAMemaxd(nGen,nReps)
 ```
 
 that uses simulation to find the approximate expected value of the
