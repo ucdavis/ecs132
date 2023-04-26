@@ -3,6 +3,12 @@
 
 **Spring 2023**
 
+**April 26, 1430:**
+
+Homework 2 is now ready!
+
+Please heed the blog post of April 18, 2045.
+
 **April 26, 0850:**
 
 Simon Adds:
