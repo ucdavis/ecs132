@@ -3,6 +3,14 @@
 
 **Spring 2023**
 
+**April 26, 1845:**
+
+I've stressed the importance of submitting work using the correct e-mail address--the one to which I send you the "New blog post" announcements--because all of our course records are indexed by that address.
+
+If you use an erroneous address, it's vital that you let me know.  I will fix it and you will receive full credit.
+
+If on the other hand, I do not know about the error when I make out the course grades, it will be difficult to fix with a grade change later on.  It "probably" will be fixable, but we can't count on what the campus does.
+
 **April 26, 1430:**
 
 Homework 2 is now ready!
