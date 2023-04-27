@@ -3,6 +3,10 @@
 
 **Spring 2023**
 
+**April 27, 1005:**
+
+Please note that when a quiz or homework problem states something like "Use function X, Package Y etc.", then it is a requirement unless it explicitly says it is a suggestion.
+
 **April 26, 1845:**
 
 I've stressed the importance of submitting work using the correct e-mail address--the one to which I send you the "New blog post" announcements--because all of our course records are indexed by that address.
