@@ -2,7 +2,7 @@
 
 # ECS 132, Homework 2
 
-Due Friday, May 5, 11:59 pm.
+Due Wednesday, May 10, 11:59 pm.
 
 ## Problem 1
 
@@ -71,11 +71,12 @@ and
 
 that find the exact value of EW and its approximate, simulated value.
 The two will serve as checks on each other.
+
 ## Problem 3
 
 We have tags numbered 1,2,...,m.  We keep choosing tags at random, with
 replacement, until we accumulate a sum of at least k.  We wish to find the
-probability that it takes us s tag draws to achieve this.
+probability that it takes us s tag draws to achieve this. (As always, unless a problem specifically asks for a simulation, all probabilities, expected values and so on must be derived exactly.)
 
 Write a function with call form
 
