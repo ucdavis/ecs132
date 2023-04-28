@@ -3,6 +3,10 @@
 
 **Spring 2023**
 
+**April 28, 1335:**
+
+Very sorry, but I will have to change the wording of Problem. Please don't work on that one yet.
+
 **April 28, 1020:**
 
 I've pushed back the Hwk 2 due date to May 10.
