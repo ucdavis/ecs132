@@ -3,6 +3,10 @@
 
 **Spring 2023**
 
+**April 28, 1020:**
+
+I've pushed back the Hwk 2 due date to May 10.
+
 **April 27, 1605:**
 
 Some remarks on IDEs:
