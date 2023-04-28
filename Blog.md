@@ -67,7 +67,7 @@ One of the most important cocepts in programming languages is that of a strongly
 Languages such as Python and R are much looser, but even they can require much care on the part of the programmer. E.g.:
 
 ```,rc
- f <- function(a,g) g(a)
+> f <- function(a,g) g(a)
 > f(3,sqrt)
 [1] 1.732051
 > f(3,sqrt(12))
@@ -75,6 +75,8 @@ Error in g(a) : could not find function "g"
 ```
 
 What happened? The second argument **g** of the function **f** was itself a function. In the first example, we used g = sqrt. Since **sqrt** is indeed a function, it worked fine. But in the second example, we used g = 1.732..., which is NOT a function, and things blew up.
+
+So the distinction between a *function* **f** and a *call* to **f** is not a matter of pickiness; it is a *practical* issue, affecting whether code runs properly or produces an error.
 
 Unfortunately, all this is complicated by the general custom in the CS field of using parentheses to signify functions. E.g. if **h** is a function, people often refer to it as 'h()', using the parentheses to tell people that **h** is a function. But as you can see, though one might do this in informal conversation, one must be very careful in actual coding.
 
