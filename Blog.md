@@ -3,6 +3,18 @@
 
 **Spring 2023**
 
+**April 29, 2330:**
+
+The function tag() is a probability:
+
+tags(m,k,s) = P(it takes us s tag draws to accumulate a sum >= k)
+
+Note that this is an unconditional probability, rather than a conditional one, though some conditional probabilities will turn out to play intermediate roles.
+
+As you know, recursion involves finding a relation between a function evaluated at one set of arguments, and the same function evaluated at other arguments. Our general solution pattern of "break big events into small events" will be prominent in the solution.
+
+Recursion coding is often challenging. I strongly recommend that you review how recursive function calls work (e.g. ECS 36C or its community college equivalent, whatever course you took) before starting on the problem.
+
 **April 28, 1335:**
 
 Very sorry, but I will have to change the wording of Problem. Please don't work on that one yet.
