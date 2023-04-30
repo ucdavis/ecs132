@@ -43,16 +43,17 @@ maximum degree in the graph at time **nGen**.  It should call
 
 This problem concerns the Monty Hall example.  
 
-Here we will have d doors and multiple prizes, with different values according to a vector v. The length of v is less than d. Note that d and v are merely parameters of the problem, NOT random variables.
+Here we will have d doors and multiple prizes, with different values according to a vector v. The length of v is less than d-1. Note that d and v are merely parameters of the problem, NOT random variables.
 
 Say that, unknown to the host, the contestant always chooses Door 1 (always, meaning in many plays
-of the game).  Thus C is not a random variable, while A and H still *are*random variables. Note that 
-now A is now a random vector, whose component i is the door behind which the prize of value v[i] waits. There is nothing behind the other doors.
+of the game).  Thus C is not a random variable, while A and H still *are* random variables. Note that 
+now A is now a random vector, whose component i is the door behind which the prize of value v[i] waits. 
+There is nothing behind the other doors. The host chooses a door to open as in our book, i.e. from among the 
+doors with no prizes.
 
 Also, say the contestant's strategy is to either accept the host's invitation to change her mind, with probability p, or stick with Door 1.
 
-So A is randomly chosen (by the host or the producer of the game show)
-among 1, 2 and 3, and H is as in the book.  
+
 
 You will write a function with call form
 
