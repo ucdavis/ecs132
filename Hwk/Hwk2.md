@@ -43,34 +43,24 @@ maximum degree in the graph at time **nGen**.  It should call
 
 This problem concerns the Monty Hall example.  
 
-Say the contestant always chooses Door 1 (always, meaning in many plays
-of the game).  Thus C is not a random variable, while A and H still *are*
-random variables.
+Here we will have d doors and multiple prizes, with different values according to a vector v. The length of v is less than d. Note that d and v are merely parameters of the problem, NOT random variables.
 
-Also, say the contestant's strategy is to never budge; she will always
-stick to her original guess when the host offers her a chance to chage
-her mind.
+Say that, unknown to the host, the contestant always chooses Door 1 (always, meaning in many plays
+of the game).  Thus C is not a random variable, while A and H still *are*random variables. Note that 
+now A is now a random vector, whose component i is the door behind which the prize of value v[i] waits. There is nothing behind the other doors.
+
+Also, say the contestant's strategy is to either accept the host's invitation to change her mind, with probability p, or stick with Door 1.
 
 So A is randomly chosen (by the host or the producer of the game show)
 among 1, 2 and 3, and H is as in the book.  
 
-Say the car is worth $20,000 and the goats have $100 value.  You will Find
-EW, the contestant's expected winnings.  Note:  This is a not a
-*conditional* expected value.  You will write two functions, with call
-forms
+You will write a function with call form
 
 ``` r
-    exactEW()
+    simEVarW(d,v,nreps)
 ```
 
-and
-
-``` r
-    simEW(nreps)
-```
-
-that find the exact value of EW and its approximate, simulated value.
-The two will serve as checks on each other.
+that uses simulation to find EW and Var(W), where W is what the contestant wins (one of the values in v or 0).
 
 ## Problem 3
 
