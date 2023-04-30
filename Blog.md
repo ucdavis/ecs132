@@ -3,6 +3,10 @@
 
 **Spring 2023**
 
+**April 30, 1010:**
+
+In last Thursday's lecture, I mentioned the subject of course grades varying widely from one instructor to another. In that light, note that I gave some numerics regarding my own grading standards, in [our FAQs](https://github.com/ucdavis/ecs132/blob/master/FAQs.md). You may wish to review that statement.
+
 **April 30, 1005:**
 
 R's **repeat** function is very useful for building certain types of vectors, e.g.
