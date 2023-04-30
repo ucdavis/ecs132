@@ -3,6 +3,15 @@
 
 **Spring 2023**
 
+**April 30, 1005:**
+
+R's **repeat** function is very useful for building certain types of vectors, e.g.
+
+```,r
+> rep(8,3)
+[1] 8 8 8
+```
+
 **April 30, 0940:**
 
 In the coming week's Quizzes, make sure to be ready to compute the expected value and variance of quantities in our examples, e.g. E(L1) in the bus model.
