@@ -3,6 +3,10 @@
 
 **Spring 2023**
 
+**April 30, 0940:**
+
+In the coming week's Quizzes, make sure to be ready to compute the expected value and variance of quantities in our examples, e.g. E(L1) in the bus model.
+
 **April 29, 2330:**
 
 The function tag() is a probability:
