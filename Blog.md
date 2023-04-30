@@ -3,6 +3,10 @@
 
 **Spring 2023**
 
+**April 30, 1530:**
+
+Earlier I stated that the statement of Problem 2 in the Homework would be changed. It is now changed, and ready for your work.
+
 **April 30, 1010:**
 
 In last Thursday's lecture, I mentioned the subject of course grades varying widely from one instructor to another. In that light, note that I gave some numerics regarding my own grading standards, in [our FAQs](https://github.com/ucdavis/ecs132/blob/master/FAQs.md). You may wish to review that statement.
