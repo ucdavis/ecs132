@@ -3,6 +3,12 @@
 
 **Spring 2023**
 
+**May 1, 1550:**
+
+I have added clarification to Problem 2.
+
+Also, in Quiz 1, Tuesday section, if you answered (2.2) to Problem 1 but did not get credit, let me know and I'll fix it.
+
 **April 30, 1530:**
 
 Earlier I stated that the statement of Problem 2 in the Homework would be changed. It is now changed, and ready for your work.
