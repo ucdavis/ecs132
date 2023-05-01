@@ -51,14 +51,14 @@ now A is now a random vector, whose component i is the door behind which the pri
 There is nothing behind the other doors. The host chooses a door to open as in our book, i.e. from among the 
 doors with no prizes.
 
-Also, say the contestant's strategy is to either accept the host's invitation to change her mind, with probability p, or stick with Door 1.
-
-
+Also, say the contestant's strategy is to either accept the host's invitation to change her mind, with probability p, 
+or stick with Door 1 with probability 1-p. If she does change her mind, she will choose one of the d-2 remaining doors (i.e.
+not door 1 and not the door opened by the host) with equal probability.
 
 You will write a function with call form
 
 ``` r
-    simEVarW(d,v,nreps)
+    simEVarW(d,v,p,nreps)
 ```
 
 that uses simulation to find EW and Var(W), where W is what the contestant wins (one of the values in v or 0).
