@@ -3,6 +3,18 @@
 
 **Spring 2023**
 
+**May 2, 0955:**
+
+Please read the important message below from Lan right away. Also, NOTE CAREFULLY that
+during interactive grading, you will be asked questions **both about your homework 
+submission and about the course in general.** The latter is just as important as
+the former.
+
+   "Dylan has created a time slot booking page on 
+   [Google Calendar](https://calendar.app.google/6W8788hRz1XBb4LRA)
+   for interactive grading...We plan to have interactive grading happening 
+   at May. 3rd 1-4 pm, May. 5th 10 am - 3 pm, and May. 8th 1-4 pm."
+
 **May 1, 2045:**
 
 In interactive grading, each group will be asked different questions, but
