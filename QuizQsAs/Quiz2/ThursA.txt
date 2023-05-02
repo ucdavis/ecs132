@@ -1,0 +1,35 @@
+
+1.     
+
+'<-'()
+function()
+'['()
+':'()
+'+'()
+'=='()
+
+2.
+
+simTags <- function(m,k,nreps)
+{
+   sumx <- 0
+   for (i in 1:nreps) {
+      tags <- sample(1:m,k,replace=FALSE)
+      sumx <- sumx + max(tags) - min(tags)
+   }
+   sumx / nreps
+}
+
+print(simTags(10,3,1000))  # about 5.5
+
+3.
+
+upsProp <- function(v)
+{
+   dv <- diff(v)
+   transits <- sum(dv == 1)
+   transits / (length(v) - 1)
+}
+
+print(upsProp(c(0,1,1,1,0,0,1,0,0,1)))  # prints 1/3 (3/9)
+

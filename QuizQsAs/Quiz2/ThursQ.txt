@@ -1,0 +1,34 @@
+
+1.  (Text answer, 20 points.)  List all the R functions that are called in
+the line of code
+
+f <- function(x) x[1:3] == x[1] + x[2]
+
+2.  (R code answer, 40 points.)  We have tags numbered 1 through m. We
+choose k of them at random without replacement. Write a function simTags()
+that computes the approximate expected value of the largest minus the
+smallest of the k tags we choose, using simulation.  Fill in the blanks.
+
+simTags <- function(m,k,nreps) 
+{
+
+}
+
+print(simTags(10,3,100))
+
+3.  (R code answer, 40 points.) Write a function with call form
+upsProp(v) that will work as follows.  The vector v consists only of 0s
+and 1s, and we are interested in 0-to-1 transitions.  E.g. in 0111001001
+there are 3 such transitions.  The function will compute the proportion
+of such transitions.  For full credit, do not use any loops.  Fill in
+the blanks:
+
+upsProp <- function(v) 
+{
+
+
+
+}
+
+print(upsProp(c(0,1,1,1,0,0,1,0,0,1))  # prints 1/3 (3/9)
+
