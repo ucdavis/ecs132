@@ -3,6 +3,49 @@
 
 **Spring 2023**
 
+**May 2, 2135:**
+
+The Tuesday Quiz 3 is now graded, and solutions placed as usual in our
+GitHub repo.  Scores ranged from 0 to 90 (there were several at both
+ends of this range).  A few comments:
+
+* Problem 1 relied on just an intuitive understand of independence, and
+  it was placed at the first problem, generally intended as the easiest.
+It was not difficult, but it did have its subtleties.  For example,
+the pair of random variables in choice (a) was NOT independent; the
+attachment action of v3 will affect that of v4, since the probabilities
+faced by v4 will depend on what v3 does.  If you got at least 15 points
+here, consider that a good score.
+
+* Problem 2 was a very straightforward application of our basic E(X)
+  formula.  The vast majority of you got this right.
+
+* Problem 3 was a slight variation of an example in class.  And by the
+  way, that example in class came from a question that a student asked
+in class.
+
+* Problem 4 just used mailing tubes, but required a lot of computation.
+  I think that many students just ran out of time.
+
+I should review how our course grades work:
+
+* The basic formula is
+
+    course grade = 0.60 x Quizzes grade + 0.20 x Homework grade + 0.20 x
+    Term Project grade
+
+* Your 2 lowest quiz grades (letter grades) are thrown out.  In some
+  courses, I actually end up deciding to drop the lowest 3.
+
+* Term projects (done in your Homework Groups) of high quality are
+heavily rewarded, boosting your course grade 2 or even 3 notches
+about what the above formula gives.  (A notch is a + or -, e.g.
+an A is 2 notches above B+.)  Just yesterday I was showing some
+colleagues an example of a student in a previous course that had
+Quiz grades of D, A, C+, C+, A-, C, B- yet actually ended up with an A
+in the course.
+
+
 **May 2, 1800:**
 
 A couple of students asked me whether they could use helper functions in Problem 3.  The answer is yes, providing your solution is recursive.  However, my recommendation is to NOT do so; it isn't necessary, and you probably would just needlessly make things more complex.
