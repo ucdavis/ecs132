@@ -3,6 +3,27 @@
 
 **Spring 2023**
 
+**May 3, 1050:**
+
+I plan that next week's Quizzes, both Tuesday and Thursday, will include
+problems in the setting of the committee example covered in yesterday's
+lecture.  The questions will cover new concepts, e.g. probability mass
+functions, but in the context of that example.
+
+For instance, a question could ask:
+
+> Write a function with call form **pmm(k)** that returns the probability
+> mass function of the random variable **M** in the committee example.
+
+The solution would be
+
+```,r
+pmm <- function(k) 
+   # number of possible committees with k men and 4-k women),
+   # divided by the number of all 4-person committees
+   choose(6,k) * choose(3,4-k) / choose(9,4)
+```
+
 **May 3, 1035:**
 
 There is a wealth of further examples for our course in our old Quizzes,
