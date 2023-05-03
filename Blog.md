@@ -3,6 +3,12 @@
 
 **Spring 2023**
 
+**May 2, 1800:**
+
+A couple of students asked me whether they could use helper functions in Problem 3.  The answer is yes, providing your solution is recursive.  However, my recommendation is to NOT do so; it isn't necessary, and you probably would just needlessly make things more complex.
+
+Note:  Though the function tags() is a probability, it still is a function.  Thus the principle is no different from, say a recursive computation of Fibonacci numbers.  You need to construct an equation (write an equation first, NOT code yet) that expresses tags() evaluated at m, k and s in terms of tags evaluated at one or more other sets of parameters.
+
 **May 2, 0955:**
 
 Please read the important message below from Lan right away. Also, NOTE CAREFULLY that
