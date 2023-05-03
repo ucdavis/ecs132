@@ -1,0 +1,141 @@
+
+1.  We would use the absolute value rather than squaring.
+
+2.  false
+
+3.  (5/9 )^2 * 3.2
+
+4. 
+
+Let S denote the amount of time the patron holds the book, and let I be
+the indicator random variable for returning to a foreign branch.
+Then
+
+B = S + 2I
+
+Var(S) = E(S^2) - (ES)^2
+ES = (0.1) 4 + (0.2) 5 + (0.3) 6 + (0.4) 7
+E(S^2) = (0.1) 4^2 + (0.2) 5^2 + (0.3) 6^2 + (0.4) 7^2
+Var(S) = 1
+
+Var(B) = Var(S) + 4 * Var(I)
+Var(I) =  0.5(1-0.5)
+Var(B) = 1 + 1 = 2
+
+5.  (i), (iv); note: Var(R_k) = (1/n)^2 Var(N_k) = (1/n)^2 np(1-p)
+
+6.  
+
+Var(IX) = E[(IX)^2] - [E(IX)]^2   # mailing tube
+        = E(I^2) E(X^2) - [EI EX]^2  # indep
+        = EI E(X^2) - (EI)^2 (EX)^2  # I^2 = I, algebra
+        = EI [Var(X) + (EX)^2] - (EI)^2 (EX)^2  # mailing tube
+        = p (r+q^2) - p^2 q^2
+
+vary <- function(p,q,r) 
+{
+   p * (r+q^2) - p^2 * q^2
+}
+
+print(vary(0.4,15,6))  # 56.4
+
+
+7.  (i) is true, e.g. X = Y = constant 1
+   (ii) is false; the smallest X-Y could be is -1, and it would have to
+   constantly be -1 to have a long-run average cube of -1; that would
+   mean X = const 0 and Y = const 1; but since we are given that EX > 0,
+   we could not have X = const 0
+
+8.  
+
+   E[(I+J)^3] = E(I^3) + 3 E(I^2 J) + 3 E(I J^2) + E(J^3)
+
+Using the hint, this is
+
+   EI + 3 E(IJ) + 3 E(IJ) + EJ = EI + EJ + 6 E(IJ)
+
+Using the given information, this is
+
+   0.8 + 6 E(IJ)
+ 
+So we just need E(IJ).  The second given quantity is
+
+   0.5 = E[(I-J)^2] 
+       = E(I^2) - 2 E(IJ) + E(J^2)
+       = EI - 2 E(IJ) + EJ
+       = 0.8 - 2 E(IJ)
+
+So, E(IJ) = 0.15, and
+
+E[(I+J)^3] = 0.8 + 6(0.15) = 1.7
+
+9.
+
+varalight <- function(nreps)
+{
+  nstops <- 2
+  alight2 <- vector(length=nreps)
+
+  for (i in 1:nreps) {
+    passengers <- 0
+    for (j in 1:nstops) {
+      alight <- 0
+      if (passengers > 0) {
+        for (k in 1:passengers) {
+          if (runif(1) < 0.2) {
+            alight <- alight + 1
+            passengers <- passengers - 1
+          }
+        }
+      }
+      newpass <- sample(0:2,1,prob=c(0.5,0.4,0.1))
+      passengers <- passengers + newpass
+    }
+    alight2[i] <- alight
+  }
+  mean(alight2^2) - (mean(alight2))^2
+}
+
+set.seed(9999);
+print(varalight(10000))  # 0.1136
+
+check:  Let A = # who alight at stop 2.  Support = {0,1,2}. 
+
+P(A = 0) = 0.5 * 1 + 0.4 * 0.8 + 0.1 * 0.8^2 = 0.884
+P(A = 1) = 0.5 * 0 + 0.4 * 0.2 + 0.1 * 2 * 0.8 * 0.2 = 0.112
+P(A = 2) = 0.5 * 0 + 0.4 * 0 + 0.1 * 0.2^2 = 0.004
+E(A^2) = 1^2 * 0.112 + 2^2 * 0.004 = 0.128
+EA = 1 * 0.112 + 2 * 0.004 = 0.12
+Var(A) = 0.128 - 0.12^2 = 0.1136
+
+10.
+
+et <- function(m,nreps)
+{ 
+   passgo <- 0
+   for (i in 1:nreps) {
+      pos <- 0
+      for (turn in 1:m) {
+         roll <- sample(1:6,1)
+         newpos <- pos + roll 
+         if (newpos > 7) {
+            passgo <- passgo + 1
+            newpos <- newpos %% 8
+         }
+         if (newpos == 3) {
+            bonus <- sample(1:6,1)
+            newpos <- newpos + bonus
+            if (newpos > 7) {
+               passgo <- passgo + 1
+               newpos <- newpos %% 8
+            }
+         }
+         pos <- newpos
+      }
+   }
+   passgo / nreps
+}
+
+set.seed(9999)
+print(et(3,10000))  # 1.0697
+

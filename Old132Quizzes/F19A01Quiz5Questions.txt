@@ -1,0 +1,71 @@
+DESCRIPTION
+
+Students:  Please keep in mind the OMSI rules.  Save your files often,
+make sure OMSI fills your entire screen at all times, etc.  Remember
+that clicking CopyQtoA will copy the entire question box to the answer
+box.
+
+In questions involving code which will PARTIALLY be given to you in the
+question specs, you may need add new lines.  There may not be
+information given as to where the lines should be inserted.
+
+If a question includes test code, make sure to include it in your
+submission.
+
+Do not answer any question with simulation code unless this is specified.
+
+MAKE SURE TO RUN THE CODE IN PROBLEMS INVOLVING CODE!  Hit the OMSI
+Submit and Run button.
+
+QUESTION
+
+(Text answer, 25 pts.)  In the bus problem, p.20, let N denote the
+number of the stop at which we first have 2 passengers board.  What
+parametric distribution family that we've studied includes the
+distribution of N?  If none, answer None.
+
+QUESTION -ext .R -run 'Rscript ./omsi_answer2.R'
+
+(R code answer, 25 pts.)  Consider the library book return example,
+Version II, pp.61-62.  Find F_T(8.2361).
+
+print(         )
+
+QUESTION
+
+(Text answer, 25 pts.)  Which of the follow are true, for the cdf of
+any random variable X?  Answer for instance "(i) and (iii)," or "None."
+
+(i) F_X(t) is a nondecreasing function of t.
+
+(ii) F_X(t) has at most a finite number of breakpoints.
+
+(iii) There must be some value of t such that F_X(t) = 1.0.
+
+(iv) Say the support of X is (c,d), with c, d both finite. Then F_X(t)
+will be 0 for all t > d.
+
+QUESTION -ext .R -run 'Rscript ./omsi_answer4.R'
+
+(R code answer, 25 pts.)  Consider the disk drive example, pp.132-133.
+Treat the requested track number as U(0,1) as in the example.  Denote the
+time needed to go from the innermost track to the outermost one by fullSeek,
+and the time for a full rotational delay by fullRot.  Assume the rotational
+delay has the distribution U(0,fullRot).  Fill in the blanks for the
+long-run average access time (seek + rotational delay; treat the actual
+read/write as negligible).
+
+sim <- function(nReqs,fullSeek,fullRot)  {
+   currentTime <- 0
+   currentTrackPos <- 0.5
+   for (i in 1:nReqs) {
+      newTrackPos <- runif(1)
+      seekTime <-
+      currentTime <- currentTime + seekTime
+      rotDelay <-
+      currentTime <- currentTime + rotDelay
+      currentTrackPos <-
+   }
+   currentTime / nReqs
+}
+                                   

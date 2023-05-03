@@ -1,0 +1,28 @@
+
+1.  wider
+
+2.  predict.qeLin()
+
+3.  
+
+library(regtools)
+mlb <- mlb[,4:5] 
+z <- qePolyLin(mlb,'Weight',holdout=NULL) 
+print(predict(z,77.2))  # 218.2192
+
+4.  
+
+sim <- fction(n,nreps) {
+   tmp <- replicate(nreps,
+      {
+          x <- rexp(n,1/2)
+          s2 <- var(x) * (n-1) / n
+          sqrt(s2)
+      }
+   )
+   mean(tmp)
+}
+
+print(sim(1000,10000))  # 1.99948
+
+

@@ -1,0 +1,32 @@
+
+Q1:
+
+print(matrix(1:9,nrow=3))
+
+Q2:
+
+print(c(3/36,2/36,2/36,2/36))
+
+Q3:
+
+# use (3.36), with g(t) = [(t -mu) / sigma]^3, taking mu and sigma from 
+# (3.78) and (3.79)
+skInd <- function(w)
+{
+   mu <- w
+   sigma <- sqrt(w*(1-w))
+   tmp <- w * ( (1-mu)/sigma )^3
+   tmp + (1-w) * ( (0-mu)/sigma )^3
+}
+
+print(skInd(0.25))  # about 1.15
+
+Q4:
+
+varx <- function(pvec)  # n inferred, no need for a parameter n
+{
+   sum(pvec*(1-pvec))
+}
+
+print(varx(c(0.25,0.45,0.30)))  # about 0.645
+

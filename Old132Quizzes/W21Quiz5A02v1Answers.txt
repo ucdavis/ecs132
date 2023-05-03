@@ -1,0 +1,30 @@
+
+1.  The constant is needed to make the density integrate to 1.
+
+2.  beta
+
+3.  (i)
+
+4.  
+
+betamem <- function(alpha,beta,t, u) { 
+
+    
+    # lhs = P(W > t+u) / P(W > t)
+    lhs <- (1 - pbeta(t+u,alpha,beta)) / (1 - pbeta(t,alpha,beta))
+    rhs <- 1 - pbeta(u,alpha,beta)
+    list(lhs=lhs,rhs=rhs)  # left-hand and right-hand sides
+}
+ 
+print(betamem(1,1.8,0.5,0.2))  # 0.40, 0.67 
+
+5.
+
+dpower <- function(gamma,k)  # k any pos. integer
+{   
+   cc <- gamma - 1  # don't use c, since c() is an R ftn
+   cc * k^(-gamma)
+}
+
+print(dpower(2.0,3))  # 0.11
+

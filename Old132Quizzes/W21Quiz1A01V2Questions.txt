@@ -1,0 +1,66 @@
+
+DESCRIPTION
+
+Please keep in mind the OMSI rules.
+
+Save your files often.
+
+Submit each answer individually and make sure you receive the
+notification of successful submission.
+
+Don't wait till the last moment to submit all answers, as there might be
+network traffic in the last 5 minutes causing unexpected delay and
+failure.  
+
+Remember that clicking CopyQtoA will copy the entire question box to the
+answer box.
+
+In questions involving code which will PARTIALLY be given to you in the
+question specs, you may need to add new lines.  There may not be
+information given as to where the lines should be inserted. 
+
+MAKE SURE TO RUN THE R CODE ANSWER IN PROBLEMS THAT INVOLVE R CODE!
+
+
+QUESTION
+
+(text answer - 20 pts) In our book, instead of set union we say
+_______________________.
+
+
+QUESTION -ext .R -run 'Rscript ./omsi_answer2.R'
+
+(R code answer - 20 pts) We choose two letters from the word READING
+without replacement. What is the probability that we draw an N and then
+a G?
+
+QUESTION
+
+(text answer - 20 pts) Consider the Preferential Attachment Model, Sec.
+2.13.1.  Let D_{i,j} denote the degree of node v_{i} immediately after
+node v_{j} attaches to the network.  Define the events A = {D_{1,3} = 2}
+and B = {N_3 = 2}.  Are A and B disjoint?  Are they independent?  Answer
+D for disjoint only, I for independent only, B for both, and N for
+neither.
+
+
+QUESTION -ext .R -run 'Rscript ./omsi_answer4.R'
+
+(R code answer - 20 pts)  Consider the bus problem, Sec. 2.11 (page 20).  
+Find the probability that in the first 2 stops, a total of exactly 3 passengers board.
+
+
+QUESTION -ext .R -run 'Rscript ./omsi_answer5.R'
+
+(R code answer - 20 pts) In Sec. 2.14.6, we used runif() to simulate one
+toss of a coin.  We could instead use sample() for this, filling in the
+blanks below, in code that finds the approximate value of probability of
+getting 2 heads in 2 tosses:
+
+count <- 0
+for (i in 1:nreps) {
+   toss1 <- sample(          )
+   toss2 <- sample(          )
+   if (   ) count <- count + 1
+}
+print(count/nreps)

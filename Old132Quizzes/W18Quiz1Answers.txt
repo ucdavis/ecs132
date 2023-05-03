@@ -1,0 +1,52 @@
+
+Q1:
+
+interpreter, recycle
+
+Q2:
+
+print( 1/6 + (1/6) * (1/6) )
+#  roll 1 or 3 then 6
+
+Q3:
+
+print( 5/6 + (1/6) * (4/6) )
+# P(B = 0) + P(1 <= B <= 4) = 5/6 + (1/6) * (4/6)
+
+Q4:
+
+minpiece <- function(k) {
+   breakpts <- sort(runif(k-1))
+   lengths <- diff(c(0,breakpts,1))
+   min(lengths)
+}
+
+bkrod <- function(nreps,k,q) {
+   minpieces <- 
+      replicate(nreps,
+         {
+         k <- sample(2:4,prob=c(0.3,0.3,0.4),1)
+         minpiece(k)
+         })
+   mean(minpieces < q)
+}
+
+set.seed(99999)
+print(bkrod(5000,5,0.02))  
+
+Q5:
+
+adjUpdate <- function(oldAdj,attachV)
+{
+   oldSize <- nrow(oldAdj)
+   newSize <- oldSize + 1
+   newAdj <- matrix(rep(0,newSize^2),nrow=newSize,ncol=newSize)
+   newAdj[1:oldSize,1:oldSize] <- oldAdj
+   newAdj[newSize,attachV] <- 1
+   newAdj[attachV,newSize] <- 1
+   return(newAdj)
+}
+
+m <- rbind(c(0,1,1),c(1,0,0),c(1,0,0))
+print(adjUpdate(m,2))
+

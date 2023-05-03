@@ -1,0 +1,72 @@
+DESCRIPTION
+
+Please keep in mind the OMSI rules.
+
+Save your files often.
+
+Submit each answer individually and make sure you receive the notification of successful submission.
+
+Don't wait till the last moment to submit all answers, as there might be network traffic in the last 5 minutes causing unexpected delay and failure.  
+
+Remember that clicking CopyQtoA will copy the entire question box to the answer box.
+
+In questions involving code which will PARTIALLY be given to you in the question specs, you may need to add new lines. 
+There may not be information given as to where the lines should be inserted. 
+
+MAKE SURE TO RUN THE R CODE ANSWER IN PROBLEMS THAT INVOLVE R CODE!
+
+QUESTION
+
+(Text answer - 20 pts)  Consider the river levels example, Sec. 7.23.  The
+text says that EL = 0 is implied by the "above information."  Give an
+exact quote of a word or phrase in that paragraph that implies EL = 0.
+Just give the quote; do NOT elaborate.
+
+
+QUESTION
+
+(Text answer - 20 pts) In addition to plotting the data, another approach to
+assessing the exponential family's suitability in a given
+application was discussed in class.  What was it?
+
+QUESTION
+
+(Text answer - 20 pts)  Consider Figure 7.2, p.139.  In class, we interpreted
+this as an illustration of the Central Limit Theorem, p.159.  Which
+symbol in Eqn. (7.48) does the "n" on p.159 correspond to?
+
+(i) capital gamma
+(ii) r
+(iii) lambda
+(iv) f
+(v) f_W
+(vi) none of the above
+
+
+
+QUESTION -ext .R -run 'Rscript ./omsi_answer4.R'
+
+(R code answer - 20 pts) Evaluate the expression (t-mu)' Sigma^{-1} (t-mu) 
+in Eqn. (7.124).  
+
+quadform <- function(t,mu,Sigma) {
+
+
+
+}
+
+print(quadform(c(5,12,13),c(3,6,9),rbind(c(10,2,2),c(2,10,2),c(2,2,10)))
+
+QUESTION -ext .R -run 'Rscript ./omsi_answer5.R'
+
+(R code answer - 20 pts) Find the cdf of T_r, in Sec. 8.1, using ppois()
+or dpois();  pgamma() or dgamma() CANNOT be used.
+
+# t is the variable in F_{T_r}(t)
+F_Tr <- function(t,r,lambda){
+
+  cdf <-
+}
+
+print(F_Tr(11,4,0.25))
+

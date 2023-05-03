@@ -1,0 +1,25 @@
+
+1.  
+
+sample space
+
+2.
+
+(2.7)
+
+3.
+
+(0.4)(0.2)(0.5) / 0.292
+
+4.
+
+(0.5)(0.6) + (0.3)(0.3) + (0.2)(0.8)
+
+5.
+
+Denominator is as in #4.  Numerators for the three times are (0.5)(0.6),
+(0.3)(0.3) and (0.2)(0.8), of which 9:00 is the largest.  The requested
+probability is then 
+
+(0.5)(0.6) / [(0.5)(0.6) + (0.3)(0.3) + (0.2)(0.8)]
+

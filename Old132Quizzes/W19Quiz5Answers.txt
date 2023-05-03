@@ -1,0 +1,35 @@
+
+1.
+
+0,1,2,...,10
+
+2.
+
+(1 - ppois(10,10.6)) / (1 - dpois(1,10.6))
+$ 
+
+3.
+
+addCI <- function(A,c) 
+{
+   A + c * diag(nrow(A))
+}
+
+4.
+
+evalnext <- function(P,i) 
+{
+   sum(P[i,] * 1:ncol(P))
+   # or better, P[i,] %*% 1:ncop(P)
+}
+
+5.
+
+findpiEig <- function(P) 
+{
+   pt <- t(P)
+   vec1 <- eigen(pt)$vectors[,1]
+   if (any(vec1 < 0)) vec1 <- -vec1
+   vec1 / sum(vec1)
+}
+

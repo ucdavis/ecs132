@@ -1,0 +1,38 @@
+
+1.  histogram
+
+2.  1/sigma^2
+
+3.  (i)
+
+4.  
+
+nt0 <- function(t)  # t can be any pos. number
+{
+   # N(t) = 0 if and only if X_1 > t
+   # P(X_1 > t) = 1-t, either by integrating or just noting
+   #    that P(X in (a,b)) = b-a due to "all points being 
+   #    equally likely"
+   if (t < 1) return(1-t)
+   return(1)
+}
+
+print(nt0(0.6))  # 0.4
+print(nt0(1.6))  # 0
+
+
+5.
+
+haz <- function(t)
+{
+   # F_X(t) = t^2
+   2*t / (1 - t^2)
+}
+
+print(haz(0.5))  # 1.33
+
+
+
+
+
+

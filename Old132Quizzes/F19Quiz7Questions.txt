@@ -1,0 +1,66 @@
+DESCRIPTION
+
+Students:  Please keep in mind the OMSI rules.  Save your files often,
+make sure OMSI fills your entire screen at all times, etc.  Remember
+that clicking CopyQtoA will copy the entire question box to the answer
+box.
+
+In questions involving code which will PARTIALLY be given to you in the
+question specs, you may need add new lines.  There may not be
+information given as to where the lines should be inserted.
+
+If a question includes test code, make sure to include it in your
+submission.
+
+Do not answer any question with simulation code unless this is specified. 
+
+MAKE SURE TO RUN THE CODE IN PROBLEMS INVOLVING CODE!  Hit the OMSI
+Submit and Run button.
+
+QUESTION  -ext .R -run 'Rscript omsi_answer1.R'
+
+(R answer, 20 points.)  Here and in the remaining questions, consider
+the following variant of Hwk III.C.  Buses arrive at random times, with
+interarrival times being i.i.d.  Consider a nonrandom time t, e.g. t =
+5:00 pm, and let W be the amount of time that passes from t until the
+next bus arrives (i.e. the bus arrives at time t+W).
+
+Let X denote an interarrival time.  There is a limit theorem (not the
+CLT) that says that, for large t, EW is approximately E(X^2)/(2EX).
+
+Suppose X has a U(0,1) distribution.  Find the approximate value of EW.
+
+QUESTION -ext .R -run 'Rscript omsi_answer2.R'
+
+(R code answer, 20 points.)  Same as Question 1, but with X having a
+Poisson distribution with lambda = 2.2.   (Hint:  Make use of a mailing
+tube for variance.)
+
+QUESTION -ext .R -run 'Rscript omsi_answer3.R'
+
+(R code answer, 20 points.)  Again in the context of Question 1, let L
+denote the length of time from the last arrival before t and the first
+arrival after t.  It can also be shown that for large t,
+
+f_L(s) approx s f_X(s) / EX
+
+(no 2 this time).  Suppose X has the density in the example in Section
+7.4.  Find the approximate value of P(L > 3.2).
+
+QUESTION -ext .R -run 'Rscript omsi_answer4.R'
+
+(R code answer, 40 points.)  Here you will check the formula
+given in Question 1, via simulation.
+
+sim <- function(t,nreps) 
+{
+
+  sumw <- 0.0
+  for (rep in 1:nreps) {
+  }
+  sumw / nreps
+}
+
+set.seed(9999)
+print(sim(50.0,5000))
+

@@ -1,0 +1,45 @@
+
+Q1:
+
+array indices start at 0 for C, 1 for R; C uses row-major storage, R
+uses column-major
+
+Q2:
+
+# L_1 = B_1, so it has support 0,1,2;
+# from p.64:
+
+el1 <- 0*0.5 + 1*0.4 + 2*0.1
+varl1 <- 0^2 * 0.5 + 1^2 * 0.4 + 2^2 * 0.1 - el1^2
+sdl1 <- sqrt(varl1)
+g <- function(s) ((s - el1) / sdl1)^3
+print(0.5 * g(0) + 0.4 * g(1) + 0.1 * g(2))
+
+Q3:
+
+# have P(N = 12 and (N > 10 and N <= 16)) / P(N > 10 and N <= 16) =
+# P(N = 12) / P(N > 10 and N <= 16) 
+dgeom(11,0.15) / (pgeom(15,0.15) - pgeom(9,0.15))
+
+Q4:
+
+varrxsy <- function(v,w,r,s) 
+{
+   # r^2 Var(x) + s^2 Var(Y) + 2rs Cov(X,Y)
+   # then as in Quiz 3
+   varx <- v * (1-v) 
+   vary <- v * (1-v) 
+   covxy <- w - v^2
+   r^2 * varx + s^2 * vary + 2*r*s * covxy
+}
+
+print(varrxsy(0.4,0.3,2,-1))  # prints about 0.64
+
+Q5:
+
+# use the reasoning of Sec. 6.10
+# d0 = 0.5 * (1 + d1) + 0.5 * (1 + d0)
+# d1 = 0.5 * 1 + 0.5 * (1 + d0)
+# d2 = 1 + d0
+# 1st 2 eqns yield d0 = 3, d1 = 2; 3rd then says d2 <- 4
+print(c(6,4,7))

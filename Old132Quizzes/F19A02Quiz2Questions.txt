@@ -1,0 +1,55 @@
+
+
+
+DESCRIPTION
+
+Students:  Please keep in mind the OMSI rules.  Save your files often,
+make sure OMSI fills your entire screen at all times, etc.  Remember
+that clicking CopyQtoA will copy the entire question box to the answer
+box.
+
+In questions involving code which will PARTIALLY be given to you in the
+question specs, you may need add new lines.  There may not be
+information given as to where the lines should be inserted.
+
+If a question includes test code, make sure to include it in your
+submission.
+
+Do not answer any question with simulation code unless this is specified. 
+
+MAKE SURE TO RUN THE CODE IN PROBLEMS INVOLVING CODE!  Hit the OMSI
+Submit and Run button.
+
+QUESTION 
+
+(Text answer, 25 pts.) Give the equation number of the "mailing tube" invoked in going from (3.59) to (3.60), p.55.
+
+
+QUESTION -ext .R -run 'Rscript omsi_answer2.R'
+
+(R code answer, 25 pts.) Consider the bus ridership example in Sec. 2.11. Find Var(B_5). 
+
+# you can use extra variables
+vr <- 
+print(vr)
+
+
+QUESTION -ext .R -run 'Rscript omsi_answer3.R'
+
+(R code answer, 25 pts.)  Consider the cards model in Sec. 2.15.1. Let N be the number of kings drawn in a 5-card hand. Find Var(N). 
+
+# use extra variables to show your work 
+Var_N <-
+print(Var_N)
+
+
+QUESTION -ext .R -run 'Rscript omsi_answer4.R'
+
+(R code answer, 25 pts.)  I and X are two independent random variables. I is an indicator variable with 'p' probability of being 1. X has expected value 'u' and variance 'v'. 
+Find Var(IX) as a function f(p,u,v).
+
+f <- function(p,u,v){
+	
+}
+print(f(0.4,5,1))
+

@@ -1,0 +1,80 @@
+
+
+DESCRIPTION
+
+***********************************************************************
+
+DON'T FORGET TO SAVE AND SUBMIT YOUR WORK, even work in progress.  The
+network may get busy at the end of the exam period, making it difficult
+to submit then.  The server will shut down at the appointed time, and NO
+further work will be accepted.
+
+**********************************************************************
+
+In questions involving code which will PARTIALLY be given to you in the
+question specs, you need to add new lines.  There may not be information
+given as to where the lines should be inserted.  Do not modify the lines
+already there unless instructed to do so.  If a question includes test
+code, make sure to include it in your submission.
+
+Do not answer a question via simulation code unless this is specified. 
+
+If you finish early, please leave the exam room.  If you stay, close
+your laptop and sit quietly.
+
+**************************************************************************
+
+SHOW YOUR WORK in problems involving numerical answers.  Either do so
+via comment lines or multiline code with variable names, or in a
+detailed numerical expression if it clearly shows your thinking. You
+need not show ALL details, but enough to demonstrate your insight.
+Single-number answers will likely get 0 credit.
+
+**************************************************************************
+
+QUESTION 
+
+In class, we discussed the fact that many R users write C/C++ code for
+the crucial parts of the program for speed, with the other parts in R in
+order to take advantage of R's features.  This means calling C/C++ from
+R.  Which two incompatibilities were cited between R on the one hand and
+C/C++ on the other hand, which must be resolved into to make this scheme
+work?
+
+QUESTION -ext .R -run 'Rscript omsi_answer2.R'
+
+Find the skewness of the random variable L_1 in the bus ridership model,
+Sections 2.12 and 3.12.  You may use values already computed in the
+book.
+
+print(                   )
+
+QUESTION -ext .R -run 'Rscript omsi_answer3.R'
+
+In the parking space example, p.73, it says that P (N = 12 | N > 10 and
+N <= 16) "can be evaluated as above."  Evaluate it.
+
+print(                    )  # about 0.205
+
+QUESTION -ext .R -run 'Rscript omsi_answer4.R'
+
+Suppose X and Y are indicator variables with P(X = 1) = P(Y = 1) = v,
+and such that P(X = Y = 1) = w.  Write an R function to calculate 
+Var(rX + sY) for any constants r and s:
+
+varrxsy <- function(v,w,r,s) 
+{
+
+}
+
+print(varrxsy(0.4,0.3,2,-1))  # about 0.64
+
+QUESTION -ext .R -run 'Rscript omsi_answer5.R'
+
+Consider the 3-heads-in-a-row game, Section 6.4, a Markov chain with
+states 0, 1 and 2.  Let W_i denote the time it takes to next reach state
+2, starting in state i, i = 0,1,2.  (Note the word "next"; W_2 is not
+0.)  Let d_i = EW_i, i = 0,1,2.  Find the vector (d_0, d_1, d_2).
+
+print(                       )
+

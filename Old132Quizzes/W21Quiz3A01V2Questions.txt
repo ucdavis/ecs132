@@ -1,0 +1,114 @@
+
+DESCRIPTION
+
+Please keep in mind the OMSI rules.
+
+Save your files often.
+
+Submit each answer individually and make sure you receive the notification of successful submission.
+
+Don't wait till the last moment to submit all answers, as there might be
+network traffic in the last 5 minutes causing unexpected delay and
+failure.  
+
+Remember that clicking CopyQtoA will copy the entire question box to the
+answer box.
+
+In questions involving code which will PARTIALLY be given to you in the
+question specs, you may need to add new lines.  There may not be
+information given as to where the lines should be inserted. 
+
+MAKE SURE TO RUN THE R CODE ANSWER IN PROBLEMS THAT INVOLVE R CODE!
+
+
+QUESTION 
+
+(text answer - 10 pts) In our discussion of model forming in class in
+connection to the library examples (one simple, one less so), a specific
+application area was mentioned.  What was it?
+
+QUESTION 
+
+(text answer - 10 pts) In each of the applications below, state whether the
+mean or median is a better measure, according to our class discussion:
+
+   i.  Snowfall in Lake Tahoe on all January 1 days (over all years).
+
+   ii.  The number of steps students take in traveling from Kemper Hall
+   to the MU.
+
+   iii.  Weights of a group of people entering an elevator.
+
+Write your answers in sequence separated by comma, 
+e.g. a random answer would look like "mean, median, mean"
+
+
+QUESTION -ext .R -run 'Rscript ./omsi_answer3.R'
+
+(R code answer - 10 pts) If two independent random variables X and Y,
+have expectation p and q respectively and variance r and s respectively.
+Write a function vary(p,q,r,s) to compute Var( X/2 + Y) and print
+vary(1,2,2,4.3)
+
+vary <- function(p,q,r,s){
+  out <-  # fill in the blank
+}
+print(vary(1,2,2,4.3))
+
+QUESTION -ext .R -run 'Rscript ./omsi_answer4.R'
+
+(R code answer - 10 pts) The third moment of a random variable X is defined
+to be E(X^3).  Find the third moment of the number of dots showing in
+the single roll of a die.
+
+
+QUESTION  -ext .R -run 'Rscript ./omsi_answer5.R'
+
+(R code answer - 10 pts) In the second library model, Sec. 3.9.2, find Var(B).
+
+QUESTION 
+
+(text answer - 10 pts) Let X and Y be two indicator random variables.
+Write true or false for each of the statements below:
+
+(i)   if E(XY) = 0 then E(X+Y) is less than or equal to 1
+(ii)  if E(X+Y) is less than or equal to 1 then  E(XY) = 0
+
+
+QUESTION
+
+(text answer - 10 pts) Consider the bus example, Sec 2.11.  Let O_i denote
+the  number getting off bus at stop i, with  O_1 = 0.  Let
+T_k = O_1+...+O_k.  Which one(s) of these are true?
+
+   (i) ET_k = EO_1+...+EO_k
+   (ii) Var(T_k) = Var(O_1)+...+Var(O_k)
+   (iii) EO_i has the same value for all i
+   (iv) EO_i = 0.2 EL_{i-1}
+   (v) none of the above is true
+
+
+QUESTION -ext .R -run 'Rscript ./omsi_answer8.R'
+
+(R code answer - 10 pts) I and J are two indicator random variables.
+If E(I+J) = 1.1 and E((I-J)^2) = 0.7, what is Var(IJ)?
+
+
+QUESTION -ext .R -run 'Rscript ./omsi_answer9.R'
+
+(R code answer - 10 pts) Consider the board game, Sec. 2.10.  Write a
+simulation code to find ET, where T is the number of turns it takes to
+reach or pass 0.
+
+Note: bonus turns (if any) don't count as extra turns
+
+et <- function(nreps) 
+{
+
+}
+
+set.seed(9999);
+print(et(10000))
+
+10.  (canceled)
+

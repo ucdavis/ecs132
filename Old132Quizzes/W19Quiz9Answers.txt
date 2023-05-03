@@ -1,0 +1,24 @@
+
+1.
+
+makeStates <- function(x,nc) cut(x,breaks=nc,labels=FALSE)
+
+findP <- function(x) 
+{
+   k <- max(x)
+   n1 <- length(x) - 1
+   p <- matrix(nrow=k,ncol=k,0)
+   nvec <- rep(0,k)
+   for (m in 1:n1) {
+      i <- x[m]
+      nvec[i] <- nvec[i] + 1
+      j <- x[m+1]   
+      p[i,j] <- p[i,j] + 1
+   }
+   for (i in 1:k) {
+      p[i,] <- p[i,] /nvec[i] 
+   }
+   p
+}
+
+

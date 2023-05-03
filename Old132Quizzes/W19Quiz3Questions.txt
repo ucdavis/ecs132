@@ -1,0 +1,60 @@
+
+
+DESCRIPTION
+
+Students:  Please keep in mind the OMSI rules.  Save your files often,
+make sure OMSI fills your entire screen at all times, etc.  Remember
+that clicking CopyQtoA will copy the entire question box to the answer
+box.
+
+In questions involving code which will PARTIALLY be given to you in the
+question specs, you may need add new lines.  There may not be
+information given as to where the lines should be inserted.
+
+If a question includes test code, make sure to include it in your
+submission
+
+Do not answer any question with simulation code unless this is specified. 
+
+MAKE SURE TO RUN THE CODE IN PROBLEMS INVOLVING CODE!  Hit the OMSI
+Submit and Run button.
+
+QUESTION 
+
+(Text answer.) State the number of the mailing tube used in (3.58).
+
+QUESTION -ext .R -run 'Rscript omsi_answer2.R'
+
+(Code answer.) You roll a blue jjjdie and a yellow die, yielding numbers of
+dots X and Y.  You win $1 for each blue dot and $2 for each yellow dot.
+Let W denote how much you win.  Find P(W = 6).
+
+QUESTION -ext .R -run 'Rscript omsi_answer3.R'
+
+(Code answer.)  In Problem 2, let Z be the indicator variable for the
+event W = 6.  Find Var(Z).
+
+QUESTION -ext .R -run 'Rscript omsi_answer4.R'
+
+(Code answer.) Modify the simulation code in p.62 so that it returns
+(the approximate value of) EB.  The original code is given below.
+
+libsim <- function(nreps) {
+   prt <- sample(c(4,5,6,7),nreps,replace=T,prob=c(0.1,0.2,0.3,0.4))
+   i <- sample(c(0,1),nreps,replace=T)
+   b <- prt + 2*i
+   x <- cbind(prt,i,b)
+   bgt4 <- x[b > 4,]
+   mean(bgt4[,3] == 6)
+}
+
+print(libsim(10000))  # don't forget to print!
+
+QUESTION -ext .R -run 'Rscript omsi_answer6.R'
+
+(Code answer.) Say we toss a coin 12 times, resulting in an H,T pattern,
+e.g. HHTHTHTTHHTH.  Let X denote the number of instances of HTH, e.g.
+three in HHTHTHTT.  Find and print EX For full credit, you must use
+indicator variables.
+
+

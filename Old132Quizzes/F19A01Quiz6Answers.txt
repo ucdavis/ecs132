@@ -1,0 +1,19 @@
+
+1. Histogram.  As explained in class, the key to making this museum
+demostration work is that the number of balls in each bin is basically a
+bin count as in a histogram.
+
+2.  The TA changed the question during the quiz.  It was originally
+asking for P(N >= 30 | N >= 25), but it became P(N >= 30).
+
+The former is 
+
+(1 - ppois(29,28.8))/ (1 - ppois(24,28.8))
+
+while the latter is
+
+1 - ppois(29,28.8)
+
+3.  For G(2/3), find c such that P(Xbar <= c) = 2/3.  By adding the
+probabilities, c = 70.5.
+

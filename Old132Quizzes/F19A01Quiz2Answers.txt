@@ -1,0 +1,36 @@
+1. 
+
+15.6 mi/hr = 15.6 * 5280 ft/hr = 15.6 * 5280 / 3600 ft/s (= 22.88)
+sd^2 = variance 
+22.88^2
+
+2.
+
+Could be 0,1,2
+
+E(B_i1,i2) = 
+2 [q(1) + (1-q)(q)(1-p) + (1-q)^2 (1-p)^2)] + 
+1 [(1-q)(p)(q) + 2(1-q)^2 (1-p)p] + 
+0 (the rest)
+
+3.
+
+Degree of v_1 just after v_3 is added could be 1, 2.
+E(D_3)^2 = [1 (1/2) + 2 (1/2)]^2 = 2.25
+
+E(D_3^2) = 
+
+1^2 (1/2) + 2^2 (1/2) = 2.5
+
+Var(D_3) = 2.5 - 2.25 = 0.25
+
+4.
+
+Let U = sqrt(X).  Var(U) = E(U^2) - (EU)^2
+
+E(U^2) = EX = 3.5
+
+EU is given by (3.37), which is
+
+sum(sqrt(1:6))/6
+

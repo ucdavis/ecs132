@@ -1,0 +1,25 @@
+
+1.  rep(1,n)
+
+2.  1.0, just like p_31 in the 3-H case.   
+
+3.  need P^2
+
+twodays <- function(v,w,r) {
+   tm <- matrix(rep(0,r^2),nrow=r)
+   for (i in 3:r) {
+      tm[i,i-1] <- v
+      tm[i,i-2] <- w
+   }
+   tm[2,1] <- v
+   tm[2,r] <- w
+   tm[1,r] <- 1
+   tm %*% tm
+}
+
+print(twodays(0.6,0.4,5))
+
+4.  Long-run proportion of 1s is pi_1 = 0.2857143 from the book.  Of the
+times we have a 1, a proportion p_1,2 = 0.5 will be followed by a 2.  So
+the long-run proportion of 12s is about 0.1429.
+

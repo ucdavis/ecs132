@@ -1,0 +1,75 @@
+
+1.  disjoint
+
+2.  many possibilities
+
+3.  no
+
+4.  false
+
+5.  dispersion
+
+6.  We see from (2.29)-(2.31) that
+
+P(R = 3, B <= 4) = 4/36 = 1/9
+
+If we falsely assumed independence, we would have
+
+P(R = 3, B <= 4) = P(R = 3) P(B <= 4)
+
+Now 
+
+P(B <= 4) = P(0 <= B <= 4)  # key point!
+          = P(B = 0) + P(B is in {1,2,3,4})
+          = 5/6 + P(R = 3 and B is in {1,2,3,4})
+          = 5/6 + P(R = 3) P(B is in {1,2,3,4} | R = 3)
+          = 5/6 + (1/6) (4/6)
+          = 34/36
+          = 17/18
+
+So, our (wrong) answer would be
+
+(1/6) (17/18) = 17/108, about 0.157
+
+7.  same as 6, not counted
+
+8.  (2/6) 12 + (4/6) 1, about 4.67
+
+9.  Let S denote the square we are on after the first turn.  Its support
+is 0,1,2,4,5,6,7, with associated probabilities
+
+a1 = (1/6) * (1/6)
+a2 = 1/6 + (1/6) * (1/6)
+1/6
+a2 = (1/6) + (1/6) * (1/6)
+a2 = (1/6) + (1/6) * (1/6)
+a2 = (1/6) + (1/6) * (1/6)
+a1 = (1/6) * (1/6)
+
+Var(S) = E(S^2) - (ES)^2
+E(S^2) = 
+a1 * 0^2 +
+a2 * 1^2 +
+(1/6) * 2^2 +
+a2 * 4^2 +
+a2 * 5^2 +
+a2 * 6^2 +
+a1 * 7^2
+
+E(S) = 
+a1 * 0 +
+a2 * 1 +
+(1/6) * 2 +
+a2 * 4 +
+a2 * 5 +
+a2 * 6 +
+a1 * 7
+
+about 3.9
+
+
+10.  
+
+nochange <- function(c,r,k) (r^k)^(c-k)
+nochange(4,0.2,3)  # about 0.008
+

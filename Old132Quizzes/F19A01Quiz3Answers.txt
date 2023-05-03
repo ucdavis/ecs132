@@ -1,0 +1,49 @@
+
+1.
+
+P(B_1 = 1) = 0.4
+
+2. 
+
+L_1 can be 0, 1 or 2; 1 or 2 of those could alight at Stop 2, and 0, 1
+or 2 could board there; so we could have as many as 4 and as few as 0;
+it is easily checked that all numbers in between could occur too
+
+0:4
+
+3.
+
+P(N = 11 | N >= 11 and N <= 20)
+
+dgeom(11-1,0.15) / (pgeom(20-1,0.15) - pgeom(10-1,0.15))
+
+Note the -1s.
+
+4.  
+
+
+nreps <- 10000
+nstops <- 2
+suml1 <- 0
+suml2 <- 0
+suml1l2 <- 0
+for (i in 1:nreps) {
+   passengers <- 0
+   for (j in 1:nstops) {
+      if (passengers > 0)
+         for (k in 1:passengers)
+            if (runif(1) < 0.2)
+               passengers <- passengers - 1
+      newpass <- sample(0:2,1,prob=c(0.5,0.4,0.1))
+      passengers <- passengers + newpass
+      if (j == 1) l1 <- passengers
+      if (j == 2) l2 <- passengers
+   }
+   suml1 <- suml1 + l1
+   suml2 <- suml2 + l2
+   suml1l2 <- suml1l2 + l1 * l2
+}
+print(suml1l2/nreps - (suml1/nreps) * (suml2/nreps))
+
+# about 0.3413
+

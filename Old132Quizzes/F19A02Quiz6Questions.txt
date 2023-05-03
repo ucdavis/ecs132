@@ -1,0 +1,59 @@
+DESCRIPTION
+
+Students:  Please keep in mind the OMSI rules.  Save your files often,
+make sure OMSI fills your entire screen at all times, etc.  Remember
+that clicking CopyQtoA will copy the entire question box to the answer
+box.
+
+In questions involving code which will PARTIALLY be given to you in the
+question specs, you may need add new lines.  There may not be
+information given as to where the lines should be inserted.
+
+If a question includes test code, make sure to include it in your
+submission.
+
+Do not answer any question with simulation code unless this is specified. 
+
+MAKE SURE TO RUN THE CODE IN PROBLEMS INVOLVING CODE!  Hit the OMSI
+Submit and Run button.
+
+QUESTION 
+
+(Text answer, 25 points.)  Suppose a quiz problem involves the
+geometric distribution family.  Say a student uses integrate().  What's
+wrong here?
+
+QUESTION -ext .R -run 'Rscript omsi_answer2.R'
+
+(R code answer, 25 points.)  Say X has a normal distribution with
+mean 10 and variance 4.  I'd like to find the probabilities P(X > b) for
+b = 8.5, 11.1 and 12.6.  Do this with a single function call.
+
+print(  (   ))
+
+QUESTION -ext .R -run 'Rscript omsi_answer3.R'
+
+(R code answer, 50 points.)  Two people each toss a different coin n times, 
+the first one with probability of head 0.3 and the second one with 0.6, 
+resulting in U and V heads, respectively.  Let W = U+V.  The distribution of W
+depends on n, so this defines a 1-parameter family of distributions, for
+which one could write d/p/q/r functions.  Here you will write d and r.
+
+dw <- function(x,n)  # write this for scalar x only, not vector
+{  tot <- 0
+   for (i in 0:x) {
+      tot <- tot + 
+   }
+
+}
+
+rw <- function(nw,n) 
+{  u <-
+   v <-
+
+}
+
+print(dw(8,5))
+print(mean(rw(10000,5)^2))
+
+

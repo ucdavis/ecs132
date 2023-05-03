@@ -1,0 +1,70 @@
+
+
+DESCRIPTION
+
+Students:  Please keep in mind the OMSI rules.  Save your files often,
+make sure OMSI fills your entire screen at all times, etc.  Remember
+that clicking CopyQtoA will copy the entire question box to the answer
+box.
+
+In questions involving code which will PARTIALLY be given to you in the
+question specs, you may need add new lines.  There may not be
+information given as to where the lines should be inserted.
+
+If a question includes test code, make sure to include it in your
+submission
+
+Do not answer any question with simulation code unless this is specified. 
+
+MAKE SURE TO RUN THE CODE IN PROBLEMS INVOLVING CODE!  Hit the OMSI
+Submit and Run button.
+
+QUESTION -ext .R -run 'Rscript omsi_answer1.R'
+
+(Code answer.) What is the mean age in the 'pe' dataset?
+
+load('SuppFile')
+print(                     )
+
+QUESTION -ext .R -run 'Rscript omsi_answer2.R'
+
+(Code answer.) Consider a random variable having a beta distribution
+with both parameters being 0.2.  Find the value of the hazard function
+at 0.75.
+
+print(                      )
+
+QUESTION -ext .R -run 'Rscript omsi_answer3.R'
+
+(Code answer.) Suppose in (12.4) we use 1.80 instead of 1.96, in both
+instances.  What will be the new approximate confidence level, instead
+of 0.95?
+
+QUESTION -ext .R -run 'Rscript omsi_answer4.R'
+
+(Code answer.) In the example in Sec. 11.2.1, suppose we take a simple
+random sample of size 2; note that this is WITHOUT replacement.  Find
+Cov(X1,X2).  Note:  Your printed expression must show your work; do NOT
+simplify.
+
+print(               )
+
+QUESTION -ext .R -run 'Rscript omsi_answer5.R'
+
+(Code answer.)  Suppose we take a random sample of size 10 from a
+population in which the distribution is exponential with lambda = 1.
+We use (12.4) to form a confidence interval, with approximate confidence
+level 0.95. For small samples, the true level may be different.  Use
+simulation to find the true level here.
+
+Note: You probably will want to use R's mean() function, as well 
+as sd() or var()). Please note that sd() and var() "divide by n-1,"
+requiring an adjustment on your part.
+
+simCI <- function(nreps) 
+{
+
+   return(trueConfLevel)
+}
+
+print(simCI(10000))

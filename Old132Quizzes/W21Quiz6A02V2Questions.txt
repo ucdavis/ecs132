@@ -1,0 +1,55 @@
+DESCRIPTION
+
+Please keep in mind the OMSI rules.
+
+Save your files often.
+
+Submit each answer individually and make sure you receive the notification of successful submission.
+
+Don't wait till the last moment to submit all answers, as there might be network traffic in the last 5 minutes causing unexpected delay and failure.  
+
+Remember that clicking CopyQtoA will copy the entire question box to the answer box.
+
+In questions involving code which will PARTIALLY be given to you in the question specs, you may need to add new lines. 
+There may not be information given as to where the lines should be inserted. 
+
+MAKE SURE TO RUN THE R CODE ANSWER IN PROBLEMS THAT INVOLVE R CODE!
+
+QUESTION
+
+(Text answer - 25 pts) Let X be a random variable that denotes the 
+values taken by a fair dice. We can say that the set {1, 2, 3, 4, 5, 6}
+is ______________ of X.
+
+QUESTION
+
+(Text answer - 25 pts)  Say we have a random sample X_i, i = 1,2,...,n, with
+population cdf F_X(t).  X is a continuous random variable.  Let G denote
+the empirical cdf.  Which is/are true?
+
+(i) G(t) is a nondecreasing function.
+(ii) G(t) is a nonincreasing function.
+(iii) G(t) has n points of discontinuity.
+(iv) G(t) is continuous.
+(v) The number of points of discontinuity of G could be nonzero but a
+number other than n.
+(vi) G(t) is a random variable.
+(vii) None of the above is true.
+
+QUESTION
+
+(Text answer - 25 pts)  The reason that the early pioneers of statistics
+defined sample variance in the "divide by n-1" way was that dividing by
+n yields a ______________ estimator of the population variance.  
+
+(Fill in the blank with an official term from our course.)
+
+
+QUESTION -ext .R -run 'Rscript ./omsi_answer4.R'
+
+(R Code answer - 25 pts) Say we have a random sample X_i, i = 1,2,...,n,
+with population cdf F_X(t).  Let G denote the empirical cdf.  Suppose
+(unknown to the one analyzing the data), X has a uniform distribution on
+[40,60].  Find Var[G(48.8)].
+
+print()

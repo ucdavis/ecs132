@@ -1,0 +1,63 @@
+
+1.  By the mailing tube, Var(I) = p(1-p), where p = P(I = 1).  But p is
+the probability of at least one open space, which is 1 minus the
+probability of no open spaces, 0.85^10.
+
+2.  not graded
+
+3.  
+
+# remember, rgeom is "1 too small
+# generate 1 random neg bin
+rb <- function(r,p) sum(rgeom(r,p)) + r
+
+ed <- function(k,b,p,nreps)
+{
+   sumd <- 0
+   for (i in 1:nreps) {
+      firstSpace <- rb(k,p)
+      if (firstSpace <= b) {
+         d <- b+1 - firstSpace
+      } else {
+         d <- firstSpace - (b+1)
+      }
+      sumd <- sumd + d
+   }
+   sumd / nreps
+}
+
+set.seed(9999);
+print(ed(6,10,0.2,10000))
+
+4.
+
+cfd <- function(lambda) 1/sqrt(lambda)
+
+print(cfd(3.2))
+
+
+et <- function(s,nreps)
+{
+   sumTilFull <- 0
+   for (i in 1:nreps) {
+      stopNum <- 0
+      numPass <- 0
+      while (1) {
+         stopNum <- stopNum + 1
+         numAlight <- rbinom(1,numPass,0.2)
+         numPass <- numPass - numAlight
+         newPass <- sample(0:2,1,prob=c(0.5,0.4,0.1))
+         if (numPass + newPass > s) break
+         numPass <- numPass + newPass
+      }
+      sumTilFull <- sumTilFull + stopNum
+   }
+   sumTilFull / nreps
+
+}
+
+set.seed(9999);
+print(et(5,10000))
+
+5.  
+

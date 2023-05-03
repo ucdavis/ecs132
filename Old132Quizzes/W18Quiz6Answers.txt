@@ -1,0 +1,22 @@
+
+Q1:
+
+print(integrate(function(t) 1.5 * t^0.5,0,0.5)$value)
+
+Q2:
+
+# W = 2.5 iff T = 2.0
+print(pexp(2.0,1/1.5))
+
+Q3:
+
+mu <- 2.8
+sig <- sqrt(0.66)
+f <- function(t) (2*t/15) * ((t-mu)/sig)^3
+print(integrate(f,1,4)$value)
+
+Q4:
+
+repout <- replicate(10000,sum(runif(5,60,140)) > 552)
+print(mean(repout))
+

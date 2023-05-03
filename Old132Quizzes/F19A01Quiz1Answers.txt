@@ -1,0 +1,31 @@
+
+1.  (2.6)
+
+2.  Break down according to what happens at the first stop.  Let D_i
+denote the number who depart the bus at stop i. 
+
+P(R_2) = P(B_1 = 0, D_2 = 0 or
+           B_1 = 1, D_2 = 0 or
+           B_1 = 2, D_2 = 0) 
+       = (0.5)(1) + (0.4)(0.8) + (0.1)(0.8)^2
+
+3.
+
+simLott <- function(nreps) 
+{
+   countTwoEven <- 0
+   for (i in 1:nreps) {
+      winners <- sample(1:20,5,replace=FALSE)
+      evenOdd <- winners %% 2
+      twoEven <- sum(evenOdd) == 3
+      countTwoEven <- countTwoEven + twoEven
+   }
+   print(countTwoEven / nreps)
+
+4. This means v_3 and v_4 do not attach to v_1.  Let D_ij denote the
+degree of node i at time j, the time when v_j attaches.
+
+P(D_14 = 1) = P(N_3 = 2 and (N_4 = 2 or N_4 = 3))
+            = (1/2) (2/4 + 1/4)
+
+

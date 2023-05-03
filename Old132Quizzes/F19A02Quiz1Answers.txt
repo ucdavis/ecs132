@@ -1,0 +1,51 @@
+
+1.  apply()
+
+2.  Let R be the initial roll, and B_1 and B_2 be bonus rolls, if any,
+from squares 1 and 2 respectively.
+
+P(not yet complete circuit) 
+   = 1 - P(complete circuit)
+   = 1 - P(R = 1 and B_1 = 1 and B_2 = 6 or
+           R = 2 and B_2 = 6)
+   = 1 - (1/6) (1/6) (1/6) - (1/6) (1/6)
+
+3.
+
+nreps <- 10000
+nstops <- 2  # note 2, not 10
+countCondition <- 0
+countOnly1 <- 0
+for (i in 1:nreps) {
+   passengers <- 0
+   for (j in 1:nstops) {
+      oldpass <- passengers  # number arrived at this stop
+      if (passengers > 0) 
+         for (k in 1:passengers) 
+            if (runif(1) < 0.2) 
+               passengers <- passengers - 1
+      newpass <- sample(0:2,1,prob=c(0.5,0.4,0.1))
+      passengers <- passengers + newpass  # number leave this stop
+   }       
+   if (passengers == 0 && oldpass > 0) {
+      countCondition <- countCondition + 1
+      if (oldpass == 1) countOnly1 <- countOnly1 + 1
+   }                                 
+}                                    
+print(countOnly1/countCondition)
+
+4.
+
+simAttach <- function(adjMat)    
+{                      
+   k <- nrow(adjMat) + 1
+   degrees <- apply(adjMat,1,sum)
+   prbs <- degrees / sum(degrees)
+   return(sample(1:(k-1),1,prob=prbs))
+}
+                         
+# test it                
+testAM <- rbind(c(0,1,0,0),c(1,0,1,0),c(0,1,0,1),c(0,0,1,0))
+reps <- replicate(10000,simAttach(testAM))
+table(reps) / 10000
+

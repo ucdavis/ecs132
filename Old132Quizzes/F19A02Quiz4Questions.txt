@@ -1,0 +1,61 @@
+DESCRIPTION
+
+Students:  Please keep in mind the OMSI rules.  Save your files often,
+make sure OMSI fills your entire screen at all times, etc.  Remember
+that clicking CopyQtoA will copy the entire question box to the answer
+box.
+
+In questions involving code which will PARTIALLY be given to you in the
+question specs, you may need add new lines.  There may not be
+information given as to where the lines should be inserted.
+
+If a question includes test code, make sure to include it in your
+submission.
+
+Do not answer any question with simulation code unless this is specified. 
+
+MAKE SURE TO RUN THE CODE IN PROBLEMS INVOLVING CODE!  Hit the OMSI
+Submit and Run button.
+
+QUESTION 
+
+(Text answer, 25 pts.)  In the code on p.108, state the portion of
+code that produces the O vector in (6.16).
+
+
+QUESTION -ext .R -run 'Rscript omsi_answer2.R'
+
+(R code answer, 25 pts.)  Instead of the 3-Heads-in-a-Row game, say the
+rule is that we must have 4 consecutive heads to win.  Then under
+the approach in Sec. 6.4, the states will be 0,1,2,3.  Find p_30 (i.e.
+p[4,1] in R subscript), the probability of going from state 3 to state
+0.
+
+print(              )
+
+QUESTION -ext .R -run 'Rscript omsi_answer3.R'
+
+(R code answer, 25 pts.)  The code in lines 2-9, p.117, finds the
+probabilities of going from state i to state j in one day.  Write code
+to find the matrix for transitions occurring in two days' time.  Place
+your code in a function twodays(), which returns the matrix in question.
+
+twodays <- function(v,w,r) {
+
+
+
+}
+
+print(twodays(0.6,0.4,5))
+
+QUESTION -ext .R -run 'Rscript omsi_answer4.R'
+
+(R code answer, 25 pts.)  Consider the 3-Heads-in-a-Row game, Sec.
+6.4.  Say we record the states as the player continues playing for a
+very long time.  For instance, if the player gets H,T,H,H,T,T,H,... the
+record of states would be 01012001...  Find the long-run proportion of
+the time the pair 12 appears, meaning we are in state 1, then
+immediately afterward are in state 2.
+
+print(              )
+

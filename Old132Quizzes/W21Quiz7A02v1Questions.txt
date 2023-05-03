@@ -1,0 +1,52 @@
+DESCRIPTION
+
+Please keep in mind the OMSI rules.
+
+Save your files often.
+
+Submit each answer individually and make sure you receive the notification of successful submission.
+
+Don't wait till the last moment to submit all answers, as there might be network traffic in the last 5 minutes causing unexpected delay and failure.  
+
+Remember that clicking CopyQtoA will copy the entire question box to the answer box.
+
+In questions involving code which will PARTIALLY be given to you in the question specs, you may need to add new lines. 
+There may not be information given as to where the lines should be inserted. 
+
+MAKE SURE TO RUN THE R CODE ANSWER IN PROBLEMS THAT INVOLVE R CODE!
+
+QUESTION
+
+(Text answer 25 Points) For fixed data and H_0, the more stringent the
+test, the __________________ the associated confidence interval.
+
+QUESTION
+
+(Text answer 25 Points) Say we do predict(qeLin(mlb,'Weight')).  Name the
+function called by predict(). 
+
+QUESTION -ext .R -run 'Rscript ./omsi_answer3.R'
+
+(R code answer 25 Points) In the mlb data, predict weight from height (no other
+predictors), fitting a quadratic model with no holdout set.  Find the
+predicted weight of a player of height 77.2.  Show your full code.
+
+library(regtools)
+
+
+print(  )
+
+QUESTION -ext .R -run 'Rscript ./omsi_answer4.R'
+
+(R code answer 25 Points) Say we have a random sample, X_i,
+i = 1,2,...,n from some population in which X has unknown density f_X.
+We compute the sample variance s^2 (using the 1/n definition, not
+1/(n-1).) We are interested in Es.  Use simulation to evaluate that in
+the case of f_X being an exponential distribution with mean 2.0.
+
+sim <- function(n,nreps) {
+
+
+}
+
+print(sim(1000,10000))

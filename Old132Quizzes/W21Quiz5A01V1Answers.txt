@@ -1,0 +1,27 @@
+
+1.  "relative to its average"
+
+2.  checking whether the (sample) mean and standard deviation are nearly
+equal
+
+3.  r
+
+4.  
+
+quadform <- function(t,mu,Sigma) {
+   (t-mu) %*% solve(Sigma) %*% (t-mu)
+}
+
+print(quadform(c(5,12,13),c(3,6,9),rbind(c(10,2,2),c(2,10,2),c(2,2,10))))
+# 4.43
+
+5.  T_r <= t if and only if N(t) >= r, so
+
+F_{T_r}(t) = P[N(t) >= r] = 1 - P[N(t) < r] = 1 - F_N(t)(r-1)
+
+F_Tr <- function(t,r,lambda){
+   1 - ppois(r-1,lambda*t)
+}
+
+print(F_Tr(11,4,0.25))  # 0.29696
+

@@ -1,0 +1,71 @@
+DESCRIPTION
+
+Please keep in mind the OMSI rules.
+
+Save your files often.
+
+Submit each answer individually and make sure you receive the notification of successful submission.
+
+Don't wait till the last moment to submit all answers, as there might be network traffic in the last 5 minutes causing unexpected delay and failure.  
+
+Remember that clicking CopyQtoA will copy the entire question box to the answer box.
+
+In questions involving code which will PARTIALLY be given to you in the question specs, you may need to add new lines. 
+There may not be information given as to where the lines should be inserted. 
+
+MAKE SURE TO RUN THE R CODE ANSWER IN PROBLEMS THAT INVOLVE R CODE!
+
+
+QUESTION
+
+(text answer - 25 pts) A courtroom phrase that we discussed as relevent to
+hypothesis testing is ____________________.
+
+
+QUESTION
+
+(text answer - 25 pts) Say we have a random sample, X_1, X_2, ... ,
+X_n from some population in which X has unknown density f_X.  We will
+form a histogram, but with freq = TRUE so we get actual bin counts.  Say
+our bins are (i-1,i] for i = 1,2,...,25, with an extra bin
+(25,infinity).  Suppose, unknown to us, f_X is exponential with mean
+2.0.  Let N_i be the count for bin i, i = 1,2,...,25.  Which one(s) of
+the following is/are true?
+
+(i) N_i is not a random variable
+(ii) N_i has a binomial distribution
+(iii) N_i has a negative binomial distribution
+(iv) N_i has a geometric distribution
+(v) N_i has an exponential distribution
+(vi) N_i has an approximate normal distribution
+(vii) EN_i = i
+(viii) EN_i = 0
+(ix) EN_i = sigma/sqrt(n)
+
+QUESTION -ext .R -run 'Rscript ./omsi_answer3.R'
+
+(R code answer - 25 pts) A random variable X has density 
+f_X(t) = c t^2 and support [2,6], where c is the normalizing constant.  
+Write a function to compute the cdf F_X(t).
+
+cdf <- function(t) 
+{
+
+
+}
+
+print(cdf(3.5))
+
+QUESTION -ext .R -run 'Rscript ./omsi_answer4.R'
+
+(R code answer - 25 pts)  Using the dataset PimaIndiansDiabetes2 in the mlbench
+package, find an approximate 99% confidence interval for the mean age in
+the sampled population.
+
+library(mlbench)
+
+
+print(c(  ,  ))
+
+
+ 

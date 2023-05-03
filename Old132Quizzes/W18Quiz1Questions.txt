@@ -1,0 +1,94 @@
+
+
+DESCRIPTION
+
+Students:  Please keep in mind the OMSI rules.  Save your files often,
+make sure OMSI fills your entire screen at all times, etc.  Remember
+that clicking CopyQtoA will copy the entire question box to the answer
+box.
+
+In questions involving code which will PARTIALLY be given to you in the
+question specs, you may need add new lines.  There may not be
+information given as to where the lines should be inserted.
+
+If a question includes test code, make sure to include it in your
+submission.
+
+Do not answer question via simulation code unless this is specified. 
+
+MAKE SURE TO RUN THE CODE IN PROBLEMS THAT INVOLVING CODE!  Hit the OMSI
+Run button.
+
+QUESTION 
+
+Consider the line with the call to mean() on p.31.  Fill in the blanks:
+The R ____________________ will first ______________ the quantity q.
+
+QUESTION -ext .R -run 'Rscript omsi_answer2.R'
+
+Consider the board game example, Section 2.11 of our book. Find the
+probability that after one turn (including bonus, if any), the player is
+at square 1.  Your answer must be R code.  Fill in the blank.
+
+print(              )
+
+QUESTION -ext .R -run 'Rscript omsi_answer3.R'
+
+Again consider the board game example. Find the probability that B is
+less than or equal to 4. (Be careful; B = 0 does count as B <= 4.)  Fill
+in the blank.
+
+print(                   )
+
+QUESTION -ext .R -run 'Rscript omsi_answer4.R'
+
+Here you will modify the Broken Rod example, Sec. 2.14.9.  Now the
+number of pieces will be random, taking on the values 2, 3 and 4 with
+probabilities 0.3, 0.3 and 0.4.  Add code appropriately to the
+following:
+
+minpiece <- function(k) {
+   breakpts <- sort(runif(k-1))
+   lengths <- diff(c(0,breakpts,1))
+   min(lengths)
+}
+
+bkrod <- function(nreps,k,q) {
+   minpieces <- 
+      replicate(nreps,
+         {
+         minpiece(k)
+         })
+   mean(minpieces < q)
+}
+
+set.seed(99999)
+print(bkrod(5000,5,0.02))  # may take a few seconds
+# output about 0.135
+
+QUESTION -ext .R -run 'Rscript omsi_answer5.R'
+
+Consider the Preferential Attachment Model, Sec. 2.13. Each time a new
+vertex is added, the numbers of rows and columns in the adjacency matrix
+increases by 1.  Here you will write a function to update the matrix,
+based on the old one, 'oldAdj'.  The old vertex to which the new vertex
+attaches is specified in the argument 'attachV'.  The return value of the
+function is the new matrix.  Complete the code:
+
+adjUpdate <- function(oldAdj,attachV)
+{
+   oldSize <- nrow(oldAdj)
+   newSize <- oldSize + 1
+   newAdj <- matrix(rep(0,newSize^2),nrow=newSize)
+}
+
+m <- rbind(c(0,1,1),c(1,0,0),c(1,0,0))
+print(adjUpdate(m,2))
+# output should be
+# 0 1 1 0
+# 1 0 0 1
+# 1 0 0 0
+# 0 1 0 0
+
+
+

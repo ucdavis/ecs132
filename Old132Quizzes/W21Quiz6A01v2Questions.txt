@@ -1,0 +1,66 @@
+DESCRIPTION
+
+Please keep in mind the OMSI rules.
+
+Save your files often.
+
+Submit each answer individually and make sure you receive the notification of successful submission.
+
+Don't wait till the last moment to submit all answers, as there might be network traffic in the last 5 minutes causing unexpected delay and failure.  
+
+Remember that clicking CopyQtoA will copy the entire question box to the answer box.
+
+In questions involving code which will PARTIALLY be given to you in the question specs, you may need to add new lines. 
+There may not be information given as to where the lines should be inserted. 
+
+MAKE SURE TO RUN THE R CODE ANSWER IN PROBLEMS THAT INVOLVE R CODE!
+
+QUESTION
+
+(Text answer - 25 pts)  The R functions plot(), print() and summary() are
+examples of _________________ functions.
+
+
+QUESTION -ext .R -run 'Rscript ./omsi_answer2.R'
+
+(R code answer - 25 pts)  Consider the toy example, p.209.  Let T = X_1 X_2.
+Find ET.  (Note:  There is a short cut.)
+
+
+
+QUESTION -ext .R -run 'Rscript ./omsi_answer3.R'
+
+(R code answer - 25 pts)  Say we have a random sample, X_i, i = 1,2,...,n
+from some population in which X has unknown density f_X.  We are
+interested in the population mean mu, and will use W = the sample mean
+("X-bar") as our estimator.  Then |W - mu| is our estimation error, and
+we may be interested in E(|W - mu|).  Use simulation to evaluate that in
+the case of f_X being an exponential distribution with mean 2.0.
+
+sim <- function(n,nreps) {
+ 
+
+}
+
+print(sim(1000,10000))
+
+
+QUESTION  -ext .R -run 'Rscript ./omsi_answer4.R'
+
+(R code answer - 25 pts)  Write a function that does k-Nearest Neighbor
+prediction for a single predictor.
+
+[KNN functions from stat/ML libraries are NOT allowed. You MAY use sort() or order() if you wish]
+
+kNear <- function(x,y,k,newx)  # x,y are vector, newx a "scalar"
+{ 
+
+
+   predValue <- 
+   return(predValue)
+}
+
+x <- c(5,12,13,8.88)
+y <- c(22,11,5.5,12.12)
+newx <- 13.2)
+print(kNear(x,y,3,newx)

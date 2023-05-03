@@ -1,0 +1,62 @@
+DESCRIPTION
+
+Students:  Please keep in mind the OMSI rules.  Save your files often,
+make sure OMSI fills your entire screen at all times, etc.  Remember
+that clicking CopyQtoA will copy the entire question box to the answer
+box.
+
+In questions involving code which will PARTIALLY be given to you in the
+question specs, you may need add new lines.  There may not be
+information given as to where the lines should be inserted.
+
+If a question includes test code, make sure to include it in your
+submission.
+
+Do not answer any question with simulation code unless this is specified. 
+
+MAKE SURE TO RUN THE CODE IN PROBLEMS INVOLVING CODE!  Hit the OMSI
+Submit and Run button.
+
+QUESTION -ext .R -run 'Rscript ./omsi_answer1.R'
+
+(R code answer, 25 pts.) If the standard deviation of car speeds on a highway 
+is 15.6 mph, find the variance in ft/s. (Note:  there are 5280 ft/mi.)
+
+# you may use extra variables to show your work 
+vr <-
+print(vr)
+
+QUESTION -ext .R -run 'Rscript ./omsi_answer2.R'
+
+From Homework 1: Consider a communications line in which the true bits
+are 1 or 0, independently with probability of a 1 being p each. At any
+given bit, the line will fail, independently with probability q. Once
+the line has failed, it stays failed until it is repaired, reporting
+each bit as 0 regardless of the bit's true value. 
+
+(R code answer, 25 pts.) Find expected value of the number of bits reported 
+as 0s, among the first 2 bits, with p = 0.4 and q = 0.8.
+
+# you may use extra variables to show your work 
+E_B_i12 <-
+print(E_B_i12)
+
+QUESTION -ext .R -run 'Rscript ./omsi_answer3.R'
+
+(R code answer, 25 pts.) Consider the Preferential Attachment Model in 2.13.1; 
+Let D_j be the degree of v_1 just after v_j is added; find Var(D_3). 
+
+# you may use extra variables to show your work 
+Var_D3 <-
+print(Var_D3)
+
+
+QUESTION -ext .R -run 'Rscript ./omsi_answer4.R'
+
+(R code answer, 25 pts.) Say you roll 1 die, and let X be the number 
+of dots shown; find Var(sqrt(X)). (Note: a number on p.49 will be useful.)
+
+# use extra variables to show your work 
+Var_sqrtX <- 
+print(Var_sqrtX)
+

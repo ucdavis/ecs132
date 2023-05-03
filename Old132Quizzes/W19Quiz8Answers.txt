@@ -1,0 +1,46 @@
+
+1.
+
+mean(pe$age)
+
+2.
+
+dbeta(0.75,0.2,0.2) / (1 - pbeta(0.75,0.2,0.2))  # 0.970
+
+3.
+
+1 - 2 * pnorm(-1.80,0,1)  # 0.928
+
+4.
+
+Cov(X1,X2) = E(X1 X2) - EX1 EX2
+
+EX1 = EX2 = (69+72+70) / 3 = 70.333
+
+E(X1 X2) = (69*72 + 69*70 + 72*70) / 3 = 4946
+
+4946 - 70.333^2
+
+-0.778
+
+5. 
+
+simCI <- function(nreps) 
+{
+   tmp <- replicate(nreps,findCI())
+   trueConfLevel <- mean(tmp)
+   return(trueConfLevel)
+}
+
+# form CI and see if it contains 1.0, the pop. mean
+findCI <- function() 
+{
+   x <- rexp(10,rate=1.0)  # our sample
+   center <- mean(x)  # X-bar
+   s <- sd(x) * sqrt(9/10)
+   radius <- 1.96 * s / sqrt(10)
+   abs(center - 1.0) < radius
+}
+
+# 0.854
+

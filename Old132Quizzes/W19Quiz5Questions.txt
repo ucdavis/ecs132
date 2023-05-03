@@ -1,0 +1,79 @@
+
+
+DESCRIPTION
+
+Students:  Please keep in mind the OMSI rules.  Save your files often,
+make sure OMSI fills your entire screen at all times, etc.  Remember
+that clicking CopyQtoA will copy the entire question box to the answer
+box.
+
+In questions involving code which will PARTIALLY be given to you in the
+question specs, you may need add new lines.  There may not be
+information given as to where the lines should be inserted.
+
+If a question includes test code, make sure to include it in your
+submission
+
+Do not answer any question with simulation code unless this is specified. 
+
+MAKE SURE TO RUN THE CODE IN PROBLEMS INVOLVING CODE!  Hit the OMSI
+Submit and Run button.
+
+QUESTION 
+
+(Text answer.)  State the support of M in Sec. 4.3.2.
+
+QUESTION -ext .R -run 'Rscript omsi_answer2.R'
+
+(Code answer.)  Suppose X has a Poisson distribution with lambda = 10.6.
+Find P(X >= 11 | X >= 2).  Use built-in R functions.
+
+print(         )
+
+QUESTION -ext .R -run 'Rscript omsi_answer3.R'
+
+(Code answer.)  In certain statistical methodologies, one computes
+A + cI, where A is a square matrix and c is a scalar.  Write a loop-free
+function to do this computation.  
+
+addCI <- function(A,c) 
+{
+
+}
+
+m <- rbind(1:3,7:9,c(1,0,2))
+print(addCI(m,3))
+
+QUESTION -ext .R -run 'Rscript omsi_answer4.R'
+
+(Code answer.)  Say we have a Markov chain in which the states are also
+numbers, not just labels.  (Most of our examples are like this.) Write a
+function that finds E(X_{n+1} | X_n = i) for a transition matrix P.
+
+evalnext <- function(P,i) 
+{
+
+}
+
+m <- rbind(c(0.2,0.2,0.6),c(0,0,1),c(0.5,0.5,0))
+print(evalnext(m,3))  # 1.5
+
+QUESTION -ext .R -run 'Rscript omsi_answer5.R'
+
+(Code answer.) The pi vector for a Markov chain is an eigenvector of P',
+with eigenvalue 1, where P is the transition matrix. In fact, theory
+shows that the other eigenvalues are less than 1.  This suggests yet
+another way to compute the pi vector. You will implement that here.  Use
+the R function eigen().  You can check the online help, but the key is
+that the eigenvectors are contained in the 'vectors' component of the
+output, one per column, in order of decreasing eigenvalues.  Note: If x
+is an eigenvector of A, then so is -8.88x.
+
+findpiEig <- function(P) 
+{
+   
+}
+
+p <- rbind(c(0.5,0.5,0),c(1/3,1/3,1/3),c(0,0.5,0.5)) 
+print(findpiEig(p))
+

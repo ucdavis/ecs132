@@ -1,0 +1,64 @@
+
+
+DESCRIPTION
+
+Students:  Please keep in mind the OMSI rules.  Save your files often,
+make sure OMSI fills your entire screen at all times, etc.  Remember
+that clicking CopyQtoA will copy the entire question box to the answer
+box.
+
+In questions involving code which will PARTIALLY be given to you in the
+question specs, you may need add new lines.  There may not be
+information given as to where the lines should be inserted.
+
+If a question includes test code, make sure to include it in your
+submission
+
+Do not answer any question with simulation code unless this is specified. 
+
+MAKE SURE TO RUN THE CODE IN PROBLEMS INVOLVING CODE!  Hit the OMSI
+Submit and Run button.
+
+QUESTION 
+
+(Text answer.) State the number of the mailing tube used in (4.8).
+
+QUESTION
+
+(Text answer.) Consider the simulation in Sec. 4.2.2.  Suppose we only
+wish to compute Var(N).  Then actually we need not add 1 in line 3.
+State the number of the mailing tube that justifies this.
+
+QUESTION -ext .R -run 'Rscript omsi_answer3.R'
+
+(Code answer.) In the parking space example, say you win $1 if D = 1, 0
+otherwise.  Let W denote your prize.  Find Var(W).  You may make use of
+numbers in the book.
+
+QUESTION -ext .R -run 'Rscript omsi_answer4.R'
+
+(Code answer.)  Consider the parking space example.  Use simulation to
+find P(park in first block | D = 3).
+
+sim3 <- function(nreps) 
+{
+
+}
+
+print(sim3(10000))
+
+QUESTION -ext .R -run 'Rscript omsi_answer5.R'
+
+(Code answer.)  Suppose M has a geometric distribution with success
+probability p.  Write a function that returns P( M <= k | M <= r) where k
+and r are positive integers with k <= r.  For full credit, your code
+must use only elementary R arithmetic operations, i.e. not use the
+*geom() functions, and must be loop-free.
+
+probkr <- function(p,k,r) 
+{
+
+}
+
+print(probkr(0.6,5,8))
+

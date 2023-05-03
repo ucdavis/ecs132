@@ -1,0 +1,26 @@
+
+1.  (ii), (iv), (v), (viii)
+
+2.  
+
+library(mlbench)
+library(regtools)
+data(PimaIndiansDiabetes2) 
+pima <- PimaIndiansDiabetes2 
+pima <- pima[,c(1,8)] 
+z <- qeLin(pima,'pregnant',holdout=NULL) 
+print(predict(z,data.frame(age=32.6)))  # 3.75
+
+3. 
+
+haz <- function(t,r,lambda)
+{
+   dgamma(t,r,lambda) / (1 - pgamma(t,r,lambda))
+   }
+
+
+print(haz(0.5,2,3.0))  # 1.8
+
+4.  Not graded, as the problem with incomplete.  We need a probability
+setting.
+

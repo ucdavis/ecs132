@@ -1,0 +1,48 @@
+
+Q1:
+
+Expected value.
+
+Q2:
+
+print(3 + 2^2 * 4)
+
+Q3:
+
+2 * 0.4^2 + 2 * 0.4 * (1-0.4) + 0 * (1-0.4)^2
+
+Q4:
+
+boardsim <- function(nreps) {
+   prbsq7 <- 0
+   eb <- 0
+   for (i in 1:nreps) {
+      start <- sample(0:7,1)
+      position <- (start + sample(1:6,1)) %% 8
+      bonus <- 0
+      if (position == 3) {
+         bonus <- sample(1:6,1)
+         position <- (position + bonus) %% 8
+      }
+      if (position == 7) prbsq7 <- prbsq7 + 1
+      eb <- eb + bonus
+   }
+   c(prbsq7,eb) / nreps
+}
+
+set.seed(99999)
+print(boardsim(1000))
+
+Q5:
+
+egx <- function(xInfo,g) 
+{
+   tot <- 0
+   for (i in 1:ncol(xInfo)) {
+      tot <- tot + g(xInfo[1,i]) * xInfo[2,i]
+   }
+   tot
+}
+
+print(egx(rbind(1:6,rep(1/6,6)),function(x) x^2))
+
