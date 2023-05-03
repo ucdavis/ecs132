@@ -9,7 +9,7 @@ The Tuesday Quiz 3 is now graded, and solutions placed as usual in our
 GitHub repo.  Scores ranged from 0 to 90 (there were several at both
 ends of this range).  A few comments:
 
-* Problem 1 relied on just an intuitive understand of independence, and
+* Problem 1 relied on just an intuitive understanding of independence, and
   it was placed at the first problem, generally intended as the easiest.
 It was not difficult, but it did have its subtleties.  For example,
 the pair of random variables in choice (a) was NOT independent; the
