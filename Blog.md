@@ -3,6 +3,25 @@
 
 **Spring 2023**
 
+**May 3, 1035:**
+
+There is a wealth of further examples for our course in our old Quizzes,
+including solutions.  Though I previously gave you a link to all the
+files, I have now uploaded them to our [GitHub
+repo](https://github.com/ucdavis/ecs132/tree/master/Old132Quizzes) for
+your convenience.  
+
+You can clone the repo on your local machine, and among other things
+do **grep** searches.  For instance, yesterday we covered the concept of
+**probability mass function** in lecture, and you may wish to see how
+that notion might turn up as a Quiz question.  So you could run
+
+```
+grep 'probability mass function' *Questions.txt
+```
+
+and then look at the questions that **grep** finds, if any.
+
 **May 3, 0815:**
 
 If you had an answer of 0.25 for Problem 4 on yesterday's Quiz, you will
