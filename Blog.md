@@ -3,6 +3,11 @@
 
 **Spring 2023**
 
+**May 3, 0815:**
+
+If you had an answer of 0.25 for Problem 4 on yesterday's Quiz, you will
+get full credit.  Please e-mail me.
+
 **May 2, 2135:**
 
 The Tuesday Quiz 3 is now graded, and solutions placed as usual in our
