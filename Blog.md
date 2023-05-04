@@ -3,6 +3,32 @@
 
 **Spring 2023**
 
+**May 3, 1955:**
+
+The following may help you visualize Problem 2 in our Homework.
+
+Say you're the host.  Prior to the time of the game, you've got to
+decide:
+
+* (a) how many prizes to have (there was just one in the original
+example) 
+
+* (b) what value prizes do you want to have
+
+* (c) which doors you want to place the prizes behind
+
+Your decisions regarding (a) and (b) are then the vector **v**.
+
+You will randomly choose doors for (c), and these door numbers are then
+the vector **A**.  (Remember, in the original problem, **A** was just a
+scalar, but now it is a vector, of the same length as **v**.)
+
+As host, you'll need to have at least two doors with no prize behind
+them.  This is necessary, because in tempting the contestant to change
+her mind, you'll open a door other than the one she guessed but also
+other than the ones that do have prizes.  This forces the length of
+**v** to be less than or equal to **d-2**.
+
 **May 3, 1050:**
 
 I plan that next week's Quizzes, both Tuesday and Thursday, will include
