@@ -3,6 +3,19 @@
 
 **Spring 2023**
 
+**May 5, 0925:**
+
+Important news regarding Quizzes:
+
+* I mentioned that sometimes in a course, I drop the lowest 3 Quizzes,
+  rather than 2.  I've decided to do so for our course.
+
+* In Quiz 4, at least one question will be a variant of one in Quizzes 3
+  (could be either Tuesday or Thursday). 
+
+* In Quiz 4, at least one question will involve the parking space
+  example.
+
 **May 3, 1955:**
 
 The following may help you visualize Problem 2 in our Homework.
