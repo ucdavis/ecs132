@@ -3,6 +3,12 @@
 
 **Spring 2023**
 
+**May 6, 0810:**
+
+In Question 2 of the Thursday Quiz, the 4 parts were not graded separately, but rather in terms of the overall view of how a student's answers reflect general understanding of the course concepts. If you had 3 of 4 parts correct, you should have gotten 10 or 15 points; if you got only 5, please let me know, and I'll correct the score, and also correct the letter grade if it changes under the new score.
+
+BTW, note that in computing course grades, your letter grade is all that counts; your actual numerical score does not enter into the computation. Again, see the course [Procedural Information site](https://github.com/matloff/nmGeneralCourseInfo/blob/master/RulesAndProcedures.md) for this and other important information.
+
 **May 5, 2320:**
 
 The grades for the Thursday Quiz 3 have been mailed out, and the solutions posted on our repo.
