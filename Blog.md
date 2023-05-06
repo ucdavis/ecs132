@@ -3,6 +3,14 @@
 
 **Spring 2023**
 
+**May 5, 2320:**
+
+The grades for the Thursday Quiz 3 have been mailed out, and the solutions posted on our repo.
+
+Scores ranged from 5 (1 student) to 100 (4 students).
+
+Again, make sure you read the blog posts of May 5, 0925; May 4, 1050; and
+
 **May 5, 0925:**
 
 Important news regarding Quizzes:
