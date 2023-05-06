@@ -9,6 +9,9 @@ The grades for the Thursday Quiz 3 have been mailed out, and the solutions poste
 
 Scores ranged from 5 (1 student) to 100 (4 students), out of 50 who took the Quiz.
 
+If you feel you were undergraded on some problem, please feel free to contact me, and 
+I will take another look.
+
 Again, make sure you read the blog posts of May 5 0925 May 4 1050; and May 2 2135, with 
 important information about Quizzes and course grade policies.
 
