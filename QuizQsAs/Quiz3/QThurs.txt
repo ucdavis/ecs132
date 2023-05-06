@@ -1,0 +1,26 @@
+
+1.  (Text answer, 25 points)  Fill in the blank:  In the case U = V,
+Cov(U,V) reduces to __________________.
+
+2.  (Text answer, 25 points))  Write True or False in each case below.  (^
+means exponentiation, e.g. 2^3 = 8)
+
+a.  If U is always >= V (i.e. P(U >= V) = 1), then E(U - V) >= 0.
+
+b.  If Cov(X,Y) = 0 then X and Y must be independent.
+
+c.  E(U^2) >= (EU)^2
+
+d.  Var(Fahrenheit temp) = (1.8^2) Var(Celsius temp)
+
+3.  (R code answer, 25 points)  In the example in Section 3.6.2, find E(X
+Y^2)  (^ means exponentiation, e.g. 2^3 = 8.)  
+
+# remember to show your work
+print(             )
+
+4.  (R code answer, 25 points.)  Find E(R+B) in the board game.  
+
+# remember to show your work
+print(             )
+
