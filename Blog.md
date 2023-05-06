@@ -7,9 +7,10 @@
 
 The grades for the Thursday Quiz 3 have been mailed out, and the solutions posted on our repo.
 
-Scores ranged from 5 (1 student) to 100 (4 students).
+Scores ranged from 5 (1 student) to 100 (4 students), out of 50 who took the Quiz.
 
-Again, make sure you read the blog posts of May 5, 0925; May 4, 1050; and
+Again, make sure you read the blog posts of May 5 0925 May 4 1050; and May 2 2135, with 
+important information about Quizzes and course grade policies.
 
 **May 5, 0925:**
 
