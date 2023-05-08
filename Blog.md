@@ -3,6 +3,16 @@
 
 **Spring 2023**
 
+**May 8, 0920:**
+
+As npted in class, you should devise little experiments to check your understanding of various functions and concepts.
+
+For instance, suppose you are not sure what the p** functions do, e.g. **pbinom**. Try a little call on the R command line, say:
+
+```,rc
+> pbinom(1,2,0.5)  # does this really give the probability of at most 1 head out of 2 tosses of a coin?
+[1] 0.75  # yes
+```
 **May 6, 0810:**
 
 In Question 2 of the Thursday Quiz, the 4 parts were not graded separately, but rather in terms of the overall view of how a student's answers reflect general understanding of the course concepts. If you had 3 of 4 parts correct, you should have gotten 10 or 15 points; if you got only 5, please let me know, and I'll correct the score, and also correct the letter grade if it changes under the new score.
