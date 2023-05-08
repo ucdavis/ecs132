@@ -5,7 +5,7 @@
 
 **May 8, 0920:**
 
-As npted in class, you should devise little experiments to check your understanding of various functions and concepts.
+As noted in class, you should devise little experiments to check your understanding of various functions and concepts.
 
 For instance, suppose you are not sure what the p** functions do, e.g. **pbinom**. Try a little call on the R command line, say:
 
