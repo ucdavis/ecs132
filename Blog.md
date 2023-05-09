@@ -7,7 +7,7 @@
 
 Some tips regarding Problem 3.
 * A recursive algorithm exploints a *mathematical* relation.  Your first
-job must be to develop that relations. **DON'T WRITE ANY CODE YET!**
+job must be to develop that relation. **DON'T WRITE ANY CODE YET!**
 
 * So, you must develop a *mathematical* equation first.  Keep your
 laptop closed!  Stick to pencil and paper.
@@ -15,7 +15,7 @@ laptop closed!  Stick to pencil and paper.
 * The equation will be something lib f(n) = f(n-1) + f(n-2) for
 Fibonacci numbers.  Note the form!  The function is being evaluated on
 both sides of the equation, but with different arguments.  Your job is
-to find such a relation for **tabs()**.
+to find such a relation for **tags()**.
 
 * To guide your intution, work out a small case by hand, again using
 pencil and paper.  Ask our famous question, "How can it happen?" and
