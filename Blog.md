@@ -3,6 +3,43 @@
 
 **Spring 2023**
 
+**May 8, 2010:**
+
+Some tips regarding Problem 3.
+* A recursive algorithm exploints a *mathematical* relation.  Your first
+job must be to develop that relations. **DON'T WRITE ANY CODE YET!**
+
+* So, you must develop a *mathematical* equation first.  Keep your
+laptop closed!  Stick to pencil and paper.
+
+* The equation will be something lib f(n) = f(n-1) + f(n-2) for
+Fibonacci numbers.  Note the form!  The function is being evaluated on
+both sides of the equation, but with different arguments.  Your job is
+to find such a relation for **tabs()**.
+
+* To guide your intution, work out a small case by hand, again using
+pencil and paper.  Ask our famous question, "How can it happen?" and
+then follow our famous path, "Break big events down into small events."
+
+* You'll have *and*s and *or*s.  The latter will bring you sums, and the
+former will then be converted with the mailing tube P(A and B) =
+P(A) P(B | A).
+
+* The key will be to recognize that P(B | A) here will actually be
+**tags()**, evaluated at new arguments!  That's how you'll get a
+Fibonacci-like relation.
+ The coding will then be easy, though the base case might be a little
+delicate.  Just implement your equation, just like the Fibonacci number
+case.  Do NOT think of the tree of calls that occur; the language, in
+this case R, handles that for you, behind the scenes.
+
+* Your first try will likely be incorrect, resulting in either wrong
+answers or a never-ending call chain.  In debugging, start with a small
+case, and **WALK THROUGH YOUR CODE USING A DEBUGGING TOOL!!!!**
+
+
+
+
 **May 8, 0920:**
 
 As noted in class, you should devise little experiments to check your understanding of various functions and concepts.
