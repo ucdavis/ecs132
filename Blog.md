@@ -3,6 +3,12 @@
 
 **Spring 2023**
 
+**May 10, 1640:**
+
+Pro tip:  In a Quiz, if you get a number larger than 1 for a probability, something is wrong. :-)
+
+And that's one of the advantages of using OMSI. You can run your code, and SEE there is a problem in such a situation.
+
 **May 8, 2010:**
 
 Some tips regarding Problem 3.
