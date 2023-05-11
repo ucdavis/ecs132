@@ -1,0 +1,27 @@
+
+1.  independent for (c), not independent for the rest
+
+2.  The possible values of G1 G2 are 0 and 1, so
+
+E(G1 G2) = 0 P(G1 G2 = 0) + 1 P(G1 G2 = 1)
+
+P(G1 G2 = 1) P(G1 = 1 and G2 = 1) = (6/9) (5/8)
+
+3.  print(dbinom(3,10,0.15))
+
+4. Let S1 and S2 denote the locations of the first empty space.  The
+probability of interest is P(S1 = 6 | S2 = 13).  
+
+S2 has a negative binomial distribution with r = 2 and p = 0.15, so
+
+P(S2 = 13) = C(12,1) 0.85^11 0.15^2
+
+Using the notation in Eqn. (4.37), 
+
+P(S1 = 6 and S2 = 13) = P(G1 = 6 and G2 = 7) = 0.85^5 0.15 0.85^6 0.15 
+
+So we have
+
+print( 0.85^5 * 0.15 * 0.85^6 * 0.15 / (12 * 0.85^11 *0.15^2) )
+
+

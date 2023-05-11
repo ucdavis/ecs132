@@ -1,0 +1,26 @@
+
+1. (Text answer, 25 points.) For each pair of random variables below,
+write "independent" or "not independent."
+
+a. M and G1 in the committee example, Sec. 3.9.3
+
+b. W and G1 in the committee example
+
+c. B1 and B2, p.78
+
+d. D and N in the parking space example, Sec. 4.2.2
+
+2. (R code answer, 25 points.) In the committee example, find E(G1 G2).
+
+print(                   )
+
+3. (R code answer, 25 points.)  Use the function dbinom() to evaluate 
+Equation (4.32).
+
+print(dbinom(                     ))
+
+4. (R code answer, 25 points.) In the parking space example, suppose we
+are told by someone watching the neighborhood that the second open space
+is in 13th space, i.e. space 3 of the second block.  Find the probability
+that that first open space is space 6 in the first block.
+
