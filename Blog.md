@@ -3,6 +3,26 @@
 
 **Spring 2023**
 
+**May 10, 1705:**
+
+You will recall that I said that one or more problems from last week's
+Quizzes would show up (slightly modified) in this week's Quizzes.  
+
+I've mentioned that the concept of independence is one of the really
+core concepts in probability, so it's not surprising that yesterday's
+Quiz included a question of the same form as Question 1 on last
+Tuesday's Quiz; it gave four pairs of random variables, and asked which
+are independent.
+
+I was very pleased to see that most students yesterday did indeed get
+this one correct.  But I was baffled to see that most of those who got
+it right incorrectly assumed independence in another question--one that
+involved random variables that the textbook even stated were not
+independent.
+
+Please give this some thought, especially in terms of how you might
+avoid such a scenario in future Quizzes.
+
 **May 10, 1640:**
 
 Pro tip:  In a Quiz, if you get a number larger than 1 for a probability, something is wrong. :-)
