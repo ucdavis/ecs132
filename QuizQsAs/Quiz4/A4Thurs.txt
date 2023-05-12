@@ -1,0 +1,28 @@
+1.
+
+a. not independent
+
+b. not independent
+
+c. independent
+
+d. independent
+
+2. the geometric family
+
+3. independence of the Bi
+
+4.  
+
+parksim <- function (nreps) {
+   nvals <- rgeom(nreps ,0.15) + 1
+   d11vals <- ifelse (nvals <= 10,11 - nvals, nvals-11)
+   d19vals <- ifelse (nvals <= 20,20 - nvals, nvals-20)
+   mean(d11vals < d19vals)
+   # simpler, but less generalizable: mean(nvals <= 15)
+}
+
+print(parksim(1000))
+
+
+
