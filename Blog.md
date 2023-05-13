@@ -3,6 +3,10 @@
 
 **Spring 2023**
 
+**May 12, 1645:**
+
+Problems 1 and 2 of Hwk 3 are now on our repo.  There will be at least one more.  Tentative due date May 19.
+
 **May 10, 1705:**
 
 You will recall that I said that one or more problems from last week's
