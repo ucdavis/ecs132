@@ -3,6 +3,36 @@
 
 **Spring 2023**
 
+**May 12, 2120:**
+
+The specs for Hwk 3 are now complete.
+
+Problem 1 is fairly easy, in the sense that you are
+well familiar with the context, the parking space
+example. It does involve infinite series, though,
+so it will take careful concentration.
+
+Problems 2 and 3 involve Markov chains.  Though we will
+continue our coverage of Markov chains next week, you
+already have all the background you need for these 
+problems.
+
+I've said that the topic of Markov chains is probably the 
+most difficult we've covered so far.  Accordingly, you may 
+at first find this assignment to be somewhat more challenging 
+than the others, but as long as you start early you should be 
+able to work the problems correctly.
+
+Please heed the exhortation of April 18, 2045:
+
+> Each member of your Group should make a serious start on a
+> Homework assignment 1 week before the due date AT THE LATEST,
+> and should get together at that time to plan how to operate
+> in the remaining time.
+
+*If you wait too long to begin, you likely will not finish.*
+
+
 **May 12, 1645:**
 
 Problems 1 and 2 of Hwk 3 are now on our repo.  There will be at least one more.  Tentative due date May 19.
