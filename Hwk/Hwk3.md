@@ -25,6 +25,8 @@ tricky.  Note the following:
 ```,r
 > dbinom(1,2,0.5)
 [1] 0.5
+> pbinom(1,2,0.5)
+[1] 0.75
 > pbinom(1.1,2,0.5)
 [1] 0.75
 > qbinom(0.75,2,0.5)
@@ -38,7 +40,43 @@ tricky.  Note the following:
 Consider the board game example, Sec. 2.10.  Suppose we win $1 every
 time we pass square 8.  Write a function with call form boardGame() that
 uses Markov analysis to find the long-run proportion of time we are on
-squares 1,2,...,8 (it will be 0 for square 3) and the long-run mean and
+squares 1,2,...,8 (it will be 0 for square 3), and the long-run mean and
 variance of our winnings per die roll.  The output will be a vector 
 of length 10.
 
+# Problem 3
+
+Here you will develop a Markov model of a call center.
+
+* Calls arrive, last for a random amount of time, and exit.
+
+* Time is discrete, similar to the epochs in the ALOHA model.
+
+* At the beginning of an epoch, each existing call either terminates
+  with probability p, or continues with probability 1-p.  The calls act
+independently of each other, and through time.  Concerning the latter,
+for instance, the probability of a specific call continuing through its
+first epoch but ending in the second is (1-p)p.
+
+* Near the end of an epoch, a new calls arrives, with probability q, or
+  does not, with probability 1-q.  Again, this is independent across
+time, and independent of what happens to existing calls.
+
+* There are r operators, and a waiting area for w calls on hold.  When a
+  call ends, the operator will start one of the calls that had been on
+hold.  A call that arrives to a full system is declined.
+
+* The state space, {0,1,2,...,r+w}, represents the number of calls in the
+  system.
+
+* X<sub>n</sub> is the number of calls in the center at the end of epoch
+  n.
+
+Write a function with call form callCtr(p,q,r,w) that returns a vector
+consisting of:
+
+* The long-run proportion of declined calls.
+
+* The long-run average number of calls on hold.
+
+* The long-run average number of busy operators.
