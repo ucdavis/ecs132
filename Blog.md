@@ -3,6 +3,18 @@
 
 **Spring 2023**
 
+**May 13, 2050:**
+
+Message from Dylan:
+
+   This homework, we've added more time slots, making it so that there are       
+   more remaining slots after every team has chosen a time, removing the         
+   likelihood of any makeup interactive grading. Use the two links to            
+   access the time slots (they all take place on Wed May 17 and Fri May          
+   19):                                                                          
+   [1]https://calendar.app.google/Wn3ois9ChPa4Pcxg6                              
+   [2]https://calendar.app.google/1Uqn8ZDmMAveSJuK6               
+
 **May 12, 2120:**
 
 The specs for Hwk 3 are now complete.
