@@ -3,6 +3,16 @@
 
 **Spring 2023**
 
+**May 14, 1315:**
+
+Tips for this coming week's Quizzes:
+
+* The earlier you get a good start on Hwk 3, the better you will do on your Quiz.
+* Almost all questions will involve Markov chains.
+* There will be at least one question involving the 3-Heads-in-a-Row game. Try to 
+    think of questions for it! Just thinking of questions will help you solidify
+    your understanding of the material.
+
 **May 13, 2050:**
 
 Message from Dylan:
