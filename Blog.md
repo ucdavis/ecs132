@@ -33,11 +33,7 @@ P(F = i) here is 1/m (but this is generalizable).  What about P(T = s |F = i)?
 
 P(T = s | F = i) for our original value of m is the same as  P(T = s-1) with m replaced by m-i. In other words,
 
-tags(m,k,s)
-= &Sigma;<sub>i</sub> (1/m) tags(m-i,k,s-1)
-P(T = s | F = i)
-
-
+tags(m,k,s) = &Sigma;<sub>i</sub> (1/m) tags(m-i,k,s-1)
 
 **May 15, 0935:**
 
