@@ -3,6 +3,30 @@
 
 **Spring 2023**
 
+**May 15, 1535:**
+
+I've mentioned a few times--a couple of times in class and in the course
+Procedural Instructions document--that
+
+* we will have a (required) Quiz in lecture, on the last day of lecture, June 8, and
+* that Quiz may take the form of a Group Quiz.
+
+I've decided to make it a Group Quiz rather than individual.  In other
+words, during 10:30-11:50 a.m., June 8:
+
+* You will sit together with your Group teammates.
+* You will use OMSI as usual.
+* You will collaborate on the Quiz with your teammates, and only submit  
+    one set of Quiz solutions.
+* In collaborating with your teammates, you are allowed to talk (it may
+    get noisy in the room).
+* Same conditions as usual:  Open book, open notes, no consulting anyone
+    outside your group, no Web use.
+* Topical coverage as usual: Focus is on the recent course material, but
+    is cumulative in the sense that later parts of the course make use  
+earlier parts.
+
+
 **May 15, 1335:**
 
 Here is some important information regarding the recursion problem in
