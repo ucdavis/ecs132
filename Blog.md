@@ -3,6 +3,14 @@
 
 **Spring 2023**
 
+**May 14, 2035:**
+
+Further tips:
+
+* Make sure you are ready to use the R linear algebra functions.
+* We will likely have at least one problem similar to one of last
+    week's problems.
+
 **May 14, 1315:**
 
 Tips for this coming week's Quizzes:
