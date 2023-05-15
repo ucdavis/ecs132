@@ -3,6 +3,40 @@
 
 **Spring 2023**
 
+**May 15, 1335:**
+
+Here is some important information regarding the recursion problem in
+Hwk 2.
+
+Focus here on the principles, not the coding.  In particular,
+take note of the "probability-ish" solution, as opposed to the "CS-ish"
+one.
+
+The latter involves counting possible paths in a tree, leading to a
+combinatorial analysis.  Good, but it is not generalizable.  What if,
+say, some tags are more likely to be chosen, say because they are bigger
+in size?  And equally important, the combinatorial approach does not
+relate much to probability.  (Cf the hints given in the blog.)
+
+Let T denote the number of tag draws needed.  We are asked to
+find P(T = s).
+
+The hint said to, as usual, "Break big events down into small events,"
+asking "How can it happen?"  Well, break things down according to F,
+the number on the first tag that we draw.
+
+P(T = s) = &Sigma;<sub>i</sub> P(F = i, T = s)
+= &Sigma;<sub>i</sub> P(F = i) P(T = s | F = i)
+
+P(F = i) here is 1/m (but this is generalizable).  What about P(T = s |
+F = i)?
+
+**AND THAT IS THE KEY TO THE RECURSION!**  The reason is that
+
+P(T = s | F = i) for our original value of m
+is the same as  P(T = s-1) with m replaced by m-i.
+
+
 **May 15, 0935:**
 
 Make sure you are ready to use the R function **integral** on Quizzes. Example:
