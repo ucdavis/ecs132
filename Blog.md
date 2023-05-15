@@ -3,6 +3,29 @@
 
 **Spring 2023**
 
+**May 15, 0935:**
+
+Make sure you are ready to use the R function **integral** on Quizzes. Example:
+
+```,r
+> z <- integrate(function(x) x^2,1,4)
+> str(z)
+List of 5
+ $ value       : num 21
+ $ abs.error   : num 2.33e-13
+ $ subdivisions: int 1
+ $ message     : chr "OK"
+ $ call        : language integrate(f = function(x) x^2, lower = 1, upper = 4)
+ - attr(*, "class")= chr "integrate"
+> z$value
+[1] 21
+> integrate(function(x) 1/(x^2),1,Inf)$value
+[1] 1
+```
+
+Note carefully that **integrate()** does NOT directly return the value of the integral. An R list is returned,
+with the value as one of the components.
+
 **May 14, 2035:**
 
 Further tips:
