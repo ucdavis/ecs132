@@ -3,6 +3,12 @@
 
 **Spring 2023**
 
+**May 15, 1635:**
+
+For some reason, lately I've gotten a number of requests from students who wish to take a Quiz in the section in which they are not enrolled. E.g. students in Lan's section want to take the Quiz in Dylan's section.
+
+I've been saying yes, but sorry, I will have to stop doing so. We don't want to risk exceeding room capacity, and we don't want to burden one TA more than the other in terms of proctoring etc.
+
 **May 15, 1535:**
 
 I've mentioned a few times--a couple of times in class and in the course
