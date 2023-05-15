@@ -35,6 +35,26 @@ P(T = s | F = i) for our original value of m is the same as  P(T = s-1) with m r
 
 tags(m,k,s) = &Sigma;<sub>i</sub> (1/m) tags(m-i,k,s-1)
 
+**This is exactly what we want with recursion of some function f**--an equation in which on the left side we have the value of f with some arguments, and on the right side we have one or more instances of the alue of the function with some other arguments. That gives us our code:
+
+```,r
+tags <- function(m,k,s) 
+{
+   if (k <= 0) return(0)
+   if (s == 1) {
+      if (k > m) return(0)
+      return((m-k+1)/m)
+   }
+
+   tmp <- 0
+   for (i in 1:m) {
+      tmp <- tmp + (1/m) * tags(m,k-i,s-1)
+   }
+   tmp
+}
+```
+
+
 **May 15, 0935:**
 
 Make sure you are ready to use the R function **integral** on Quizzes. Example:
@@ -55,8 +75,7 @@ List of 5
 [1] 1
 ```
 
-Note carefully that **integrate()** does NOT directly return the value of the integral. An R list is returned,
-with the value as one of the components.
+Note carefully that **integrate()** does NOT directly return the value of the integral. An R list is returned, with the value as one of the components.
 
 **May 14, 2035:**
 
