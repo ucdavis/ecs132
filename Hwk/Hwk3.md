@@ -37,10 +37,11 @@ tricky.  Note the following:
 
 # Problem 2
 
-Consider the board game example, Sec. 2.10.  Suppose we win $1 every
-time we pass square 8.  Write a function with call form boardGame() that
-uses Markov analysis to find the long-run proportion of time we are on
-squares 1,2,...,8 (it will be 0 for square 3), and the long-run mean and
+Consider the board game example, Sec. 2.10. To make things easier for Markov analysis, relabel the squares from 1 to 8 instead of 0 to 7. We now get the bonus by landing on square 4, not 3.
+
+Suppose we win $1 every time we pass square 7.  Write a function with call form boardGame() that
+uses Markov analysis to find the long-run proportions of time we are on
+squares 1,2,...,8 (it will be 0 for square 4), and the long-run mean and
 variance of our winnings per die roll.  The output will be a vector 
 of length 10.
 
