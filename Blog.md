@@ -18,8 +18,7 @@ say, some tags are more likely to be chosen, say because they are bigger
 in size?  And equally important, the combinatorial approach does not
 relate much to probability.  (Cf the hints given in the blog.)
 
-Let T denote the number of tag draws needed.  We are asked to
-find P(T = s).
+Let T denote the number of tag draws needed.  We are asked to find P(T = s).
 
 The hint said to, as usual, "Break big events down into small events,"
 asking "How can it happen?"  Well, break things down according to F,
@@ -28,13 +27,18 @@ the number on the first tag that we draw.
 P(T = s) = &Sigma;<sub>i</sub> P(F = i, T = s)
 = &Sigma;<sub>i</sub> P(F = i) P(T = s | F = i)
 
-P(F = i) here is 1/m (but this is generalizable).  What about P(T = s |
-F = i)?
+P(F = i) here is 1/m (but this is generalizable).  What about P(T = s |F = i)?
 
-**AND THAT IS THE KEY TO THE RECURSION!**  The reason is that
+**WELL, THAT IS THE KEY TO THE RECURSION!**  The reason is that
 
-P(T = s | F = i) for our original value of m
-is the same as  P(T = s-1) with m replaced by m-i.
+P(T = s | F = i) for our original value of m is the same as  P(T = s-1) with m replaced by m-i. In other words,
+
+```,r
+tags(m,k,s)
+= &Sigma;<sub>i</sub> (1/m) tags(m-i,k,s-1)
+P(T = s | F = i)
+```
+
 
 
 **May 15, 0935:**
