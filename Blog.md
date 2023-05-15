@@ -18,14 +18,11 @@ words, during 10:30-11:50 a.m., June 8:
 * You will use OMSI as usual.
 * You will collaborate on the Quiz with your teammates, and only submit  
     one set of Quiz solutions.
-* In collaborating with your teammates, you are allowed to talk (it may
-    get noisy in the room).
+* In collaborating with your teammates, you are allowed to talk.
 * Same conditions as usual:  Open book, open notes, no consulting anyone
     outside your group, no Web use.
 * Topical coverage as usual: Focus is on the recent course material, but
-    is cumulative in the sense that later parts of the course make use  
-earlier parts.
-
+    is cumulative in the sense that later parts of the course make use of earlier parts.
 
 **May 15, 1335:**
 
