@@ -3,6 +3,15 @@
 
 **Spring 2023**
 
+**May 16, 1635:**
+
+Either today or tomorrow, I will be posting the specs for your Term Project. Note the following:
+
+* Due June 11. (Think of it as "Problem 4" of Hwk 3.)
+* A professional-quality written report, prepared in ![LaTeX](https://heather.cs.ucdavis.edu/~matloff/latex.html),
+    will be required.
+* Though you'll write some supporting code, this is not a coding project. It is analysis, with an emphasis on interpretation.
+
 **May 15, 1635:**
 
 For some reason, lately I've gotten a number of requests from students who wish to take a Quiz in the section in which they are not enrolled. E.g. students in Lan's section want to take the Quiz in Dylan's section.
