@@ -8,8 +8,7 @@
 Either today or tomorrow, I will be posting the specs for your Term Project. Note the following:
 
 * Due June 11. (Think of it as "Problem 4" of Hwk 3.)
-* A professional-quality written report, prepared in ![LaTeX](https://heather.cs.ucdavis.edu/~matloff/latex.html),
-    will be required.
+* A professional-quality written report, prepared in [LaTeX](https://heather.cs.ucdavis.edu/~matloff/latex.html), will be required.
 * Though you'll write some supporting code, this is not a coding project. It is analysis, with an emphasis on interpretation.
 
 **May 15, 1635:**
