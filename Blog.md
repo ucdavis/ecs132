@@ -3,6 +3,10 @@
 
 **Spring 2023**
 
+**May 17, 2110:**
+
+If your answer to Question 3 in today's Quiz was 2, you likely should get full credit. Please contact me.
+
 **May 16, 1635:**
 
 Either today or tomorrow, I will be posting the specs for your Term Project. Note the following:
