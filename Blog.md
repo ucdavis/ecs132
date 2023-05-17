@@ -3,7 +3,15 @@
 
 **Spring 2023**
 
-**May 17, 2110:**
+**May 17, 1525:**
+
+I've gotten several requests for makeup sessions for missed interactive grading sessions.  I've approved them so far, but will stop doing so, except for seriously extenuating circumstances.
+
+The TAs are very busy with the work they already have, and of course they have their own coursework to deal with.  It is inconsiderate of students to ask them to hold extra sessions.
+
+Missing an IG session is just as serious as missing a quiz.
+
+**May 16, 2110:**
 
 If your answer to Question 3 in today's Quiz was 2, you likely should get full credit. Please contact me.
 
