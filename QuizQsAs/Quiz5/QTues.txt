@@ -1,0 +1,48 @@
+
+1. (R code answer, 25 points.)  Consider the Markov chain whose transition
+matrix is Eqn. (5.2).  Evaluate the expression I-P'.  Fill in the
+blanks.
+
+   P <- rbind(c(0.5,0,0.5),c(0.25,0.5,0.25),c(1,0,0))
+
+
+   print(iMinusPprime)
+
+2. (R code answer, 25 points.)  Consider the Markov chain whose transition
+matrix is Eqn. (5.2).  Say we definitely start at state 3, i.e. X_0 = 3
+w.p. 1.  Find and PRINT the value of E(X_1 X_2).
+
+
+print(                           )
+
+3.  (R code answer, 25 points.)  We say that the "holding time" at any
+state i in a Markov chain is the number of time periods until we leave i.
+For instance say we are at state 8 and then go to 8 again, then 8 again,
+then to 2.  Then T_8 = 3.  Note that any T_i will have a geometric
+distribution.  Consider the Markov chain whose transition matrix is Eqn.
+(5.2).  Find Var(T_2).
+
+
+   print(            )
+
+4.  (R code answer, 25 points.)  Say I currently have 2 consecutive heads
+in the 3-Heads game.  Find the probability that I'll also have 2
+consecutive heads after 5 more flips of the coin.  Fill in the blanks
+below.  (Remember, 2 straight heads is state 3, not 2.)
+
+   p <- matrix(rep(0,9),nrow=3)
+   p[1,1] <- 0.5
+   p[1,2] <- 0.5
+   p[2,3] <- 0.5
+   p[2,1] <- 0.5
+   p[3,1] <- 1
+
+   I <-             # 3x3 identity matrix
+   tmp <- I
+   for (i in 1:5) {
+   }
+
+   probAt2Again <- 
+   print(probAt2Again)
+
+
