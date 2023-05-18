@@ -3,13 +3,24 @@
 
 **Spring 2023**
 
+**May 17, 1525:**
+
+I've gotten several requests for makeup sessions for missed interactive grading sessions.  I've approved them so far, but will stop doing so, except for seriously extenuating circumstances.
+
+The TAs are very busy with the work they already have, and of course they have their own coursework to deal with.  It is inconsiderate of students to ask them to hold extra sessions.
+
+Missing an IG session is just as serious as missing a quiz.
+
+**May 16, 2110:**
+
+If your answer to Question 3 in today's Quiz was 2, you likely should get full credit. Please contact me.
+
 **May 16, 1635:**
 
 Either today or tomorrow, I will be posting the specs for your Term Project. Note the following:
 
 * Due June 11. (Think of it as "Problem 4" of Hwk 3.)
-* A professional-quality written report, prepared in ![LaTeX](https://heather.cs.ucdavis.edu/~matloff/latex.html),
-    will be required.
+* A professional-quality written report, prepared in [LaTeX](https://heather.cs.ucdavis.edu/~matloff/latex.html), will be required.
 * Though you'll write some supporting code, this is not a coding project. It is analysis, with an emphasis on interpretation.
 
 **May 15, 1635:**

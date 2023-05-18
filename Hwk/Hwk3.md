@@ -11,13 +11,13 @@ now d.  (We no longer will think in terms of blocks.  The spaces are
 numbered 1, 2, 3, ..., and we start at location 0.)  Write the "d,p,q,r"
 functions, with call forms
 
-* dpark(p,d,i)  probability of parking i distance from destination
+* dpark(p,d,i):  probability of parking i distance from destination
 
-* ppark(p,d,i)  probability of parking at most i distance from destination
+* ppark(p,d,i):  probability of parking at most i distance from destination
 
-* qpark(p,d,q)  inverse of ppark (but see below)
+* qpark(p,d,q):  inverse of ppark (but see below)
 
-* rpark(n,p,d)  simulate n parkings, generating n distances
+* rpark(n,p,d):  simulate n parkings, generating n distances
 
 As always with discrete random variables, the 'q' function is a little
 tricky.  Note the following:
