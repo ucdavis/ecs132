@@ -1,0 +1,41 @@
+DESCRIPTION
+  
+Students:  Please keep in mind the OMSI rules.  Save your files often,
+make sure OMSI fills your entire screen at all times, etc.  Remember
+that clicking CopyQtoA will copy the entire question box to the answer
+box.
+
+In questions involving code which will PARTIALLY be given to you in the
+question specs, you may need add new lines.  There may not be
+information given as to where the lines should be inserted.
+
+If a question includes test code, make sure to include it in your
+submission.
+
+Do not answer any question with simulation code unless this is specified.
+
+MAKE SURE TO RUN THE CODE IN PROBLEMS INVOLVING CODE!  Hit the OMSI
+Submit and Run button.
+
+QUESTION
+
+
+(Text answer, 30 points.)  Consider the museum demonstration of the
+Central Limit Theorem (Sec 7.31, p.162.) The balls in the bins are drawing a(n)
+______________________ of the values of X.
+
+
+QUESTION -ext .R -run 'Rscript ./omsi_answer2.R'
+
+(R code answer, 30 points.)  Consider the class enrollment example (Sec. 7.21, p.156.) Suppose the demand has a Poisson distribution with lambda =
+28.8.  What would be the probability that the demand is at least 30?
+
+print(              )
+
+QUESTION -ext .R -run 'Rscript ./omsi_answer3.R'
+
+(R code answer, 40 points.)  Consider the example at the bottom of
+(Sec. 11.2.1., p.209)  Let G denote the inverse of the cdf of Xbar.  Find G(2/3).
+
+G <-
+print(G)

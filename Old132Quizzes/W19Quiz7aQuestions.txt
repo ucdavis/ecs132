@@ -1,0 +1,50 @@
+
+
+DESCRIPTION
+
+Students:  Please keep in mind the OMSI rules.  Save your files often,
+make sure OMSI fills your entire screen at all times, etc.  Remember
+that clicking CopyQtoA will copy the entire question box to the answer
+box.
+
+In questions involving code which will PARTIALLY be given to you in the
+question specs, you may need add new lines.  There may not be
+information given as to where the lines should be inserted.
+
+If a question includes test code, make sure to include it in your
+submission
+
+Do not answer any question with simulation code unless this is specified. 
+
+MAKE SURE TO RUN THE CODE IN PROBLEMS INVOLVING CODE!  Hit the OMSI
+Submit and Run button.
+
+QUESTION -ext .R -run 'Rscript omsi_answer1.R'
+
+(Code answer.)  Give R code that computes (7.102) or (7.104).
+
+print(                     )
+
+QUESTION -ext .R -run 'Rscript omsi_answer2.R'
+
+(Code answer.) What is the mean age in the 'pe' dataset?
+
+load('SuppFile')
+print(                     )
+
+QUESTION 
+
+(Text answer.)  The first argument of N() in (7.96), i.e. the sum of a_i mu_i, 
+is still valid even if the X_i and Y are not normally distributed.  Give the 
+number of the mailing tube that shows this.  
+
+QUESTION -ext .R -run 'Rscript omsi_answer4.R'
+
+Consider the network buffer example, Sec. 7.6.4.2.  Find a number u such that 
+there is a 90% chance that the transmission is made before u milliseconds.
+
+QUESTION -ext .R -run 'Rscript omsi_answer5.R'
+
+In Sec. 7.26, write simulation code, instead of the CLT, to find the
+probability that the sum will be more than 2.0 higher than it should be.
+

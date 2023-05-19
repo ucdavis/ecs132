@@ -3,6 +3,531 @@
 
 **Spring 2023**
 
+**May 17, 1525:**
+
+I've gotten several requests for makeup sessions for missed interactive grading sessions.  I've approved them so far, but will stop doing so, except for seriously extenuating circumstances.
+
+The TAs are very busy with the work they already have, and of course they have their own coursework to deal with.  It is inconsiderate of students to ask them to hold extra sessions.
+
+Missing an IG session is just as serious as missing a quiz.
+
+**May 16, 2110:**
+
+If your answer to Question 3 in today's Quiz was 2, you likely should get full credit. Please contact me.
+
+**May 16, 1635:**
+
+Either today or tomorrow, I will be posting the specs for your Term Project. Note the following:
+
+* Due June 11. (Think of it as "Problem 4" of Hwk 3.)
+* A professional-quality written report, prepared in [LaTeX](https://heather.cs.ucdavis.edu/~matloff/latex.html), will be required.
+* Though you'll write some supporting code, this is not a coding project. It is analysis, with an emphasis on interpretation.
+
+**May 15, 1635:**
+
+For some reason, lately I've gotten a number of requests from students who wish to take a Quiz in the section in which they are not enrolled. E.g. students in Lan's section want to take the Quiz in Dylan's section.
+
+I've been saying yes, but sorry, I will have to stop doing so. We don't want to risk exceeding room capacity, and we don't want to burden one TA more than the other in terms of proctoring etc.
+
+**May 15, 1535:**
+
+I've mentioned a few times--a couple of times in class and in the course
+Procedural Instructions document--that
+
+* we will have a (required) Quiz in lecture, on the last day of lecture, June 8, and
+* that Quiz may take the form of a Group Quiz.
+
+I've decided to make it a Group Quiz rather than individual.  In other
+words, during 10:30-11:50 a.m., June 8:
+
+* You will sit together with your Group teammates.
+* You will use OMSI as usual.
+* You will collaborate on the Quiz with your teammates, and only submit  
+    one set of Quiz solutions.
+* In collaborating with your teammates, you are allowed to talk.
+* Same conditions as usual:  Open book, open notes, no consulting anyone
+    outside your group, no Web use.
+* Topical coverage as usual: Focus is on the recent course material, but
+    is cumulative in the sense that later parts of the course make use of earlier parts.
+
+**May 15, 1335:**
+
+Here is some important information regarding the recursion problem in
+Hwk 2.
+
+Focus here on the principles, not the coding.  In particular,
+take note of the "probability-ish" solution, as opposed to the "CS-ish"
+one.
+
+The latter involves counting possible paths in a tree, leading to a
+combinatorial analysis.  Good, but it is not generalizable.  What if,
+say, some tags are more likely to be chosen, say because they are bigger
+in size?  And equally important, the combinatorial approach does not
+relate much to probability.  (Cf the hints given in the blog.)
+
+Let T denote the number of tag draws needed.  We are asked to find P(T = s).
+
+The hint said to, as usual, "Break big events down into small events,"
+asking "How can it happen?"  Well, break things down according to F,
+the number on the first tag that we draw.
+
+P(T = s) = &Sigma;<sub>i</sub> P(F = i, T = s)
+= &Sigma;<sub>i</sub> P(F = i) P(T = s | F = i)
+
+P(F = i) here is 1/m (but this is generalizable).  What about P(T = s |F = i)?
+
+**WELL, THAT IS THE KEY TO THE RECURSION!**  The reason is that
+
+P(T = s | F = i) for our original value of m is the same as  P(T = s-1) with m replaced by m-i. In other words,
+
+tags(m,k,s) = &Sigma;<sub>i</sub> (1/m) tags(m-i,k,s-1)
+
+**This is exactly what we want with recursion of some function f**--an equation in which on the left side we have the value of f with some arguments, and on the right side we have one or more instances of the alue of the function with some other arguments. That gives us our code:
+
+```,r
+tags <- function(m,k,s) 
+{
+   if (k <= 0) return(0)
+   if (s == 1) {
+      if (k > m) return(0)
+      return((m-k+1)/m)
+   }
+
+   tmp <- 0
+   for (i in 1:m) {
+      tmp <- tmp + (1/m) * tags(m,k-i,s-1)
+   }
+   tmp
+}
+```
+
+
+**May 15, 0935:**
+
+Make sure you are ready to use the R function **integral** on Quizzes. Example:
+
+```,r
+> z <- integrate(function(x) x^2,1,4)
+> str(z)
+List of 5
+ $ value       : num 21
+ $ abs.error   : num 2.33e-13
+ $ subdivisions: int 1
+ $ message     : chr "OK"
+ $ call        : language integrate(f = function(x) x^2, lower = 1, upper = 4)
+ - attr(*, "class")= chr "integrate"
+> z$value
+[1] 21
+> integrate(function(x) 1/(x^2),1,Inf)$value
+[1] 1
+```
+
+Note carefully that **integrate()** does NOT directly return the value of the integral. An R list is returned, with the value as one of the components.
+
+**May 14, 2035:**
+
+Further tips:
+
+* Make sure you are ready to use the R linear algebra functions.
+* We will likely have at least one problem similar to one of last
+    week's problems.
+
+**May 14, 1315:**
+
+Tips for this coming week's Quizzes:
+
+* The earlier you get a good start on Hwk 3, the better you will do on your Quiz.
+* Almost all questions will involve Markov chains.
+* There will be at least one question involving the 3-Heads-in-a-Row game. Try to 
+    think of questions for it! Just thinking of questions will help you solidify
+    your understanding of the material.
+
+**May 13, 2050:**
+
+Message from Dylan:
+
+   This homework, we've added more time slots, making it so that there are       
+   more remaining slots after every team has chosen a time, removing the         
+   likelihood of any makeup interactive grading. Use the two links to            
+   access the time slots (they all take place on Wed May 17 and Fri May          
+   19):                                                                          
+   [1]https://calendar.app.google/Wn3ois9ChPa4Pcxg6                              
+   [2]https://calendar.app.google/1Uqn8ZDmMAveSJuK6               
+
+**May 12, 2120:**
+
+The specs for Hwk 3 are now complete.
+
+Problem 1 is fairly easy, in the sense that you are
+well familiar with the context, the parking space
+example. It does involve infinite series, though,
+so it will take careful concentration.
+
+Problems 2 and 3 involve Markov chains.  Though we will
+continue our coverage of Markov chains next week, you
+already have all the background you need for these 
+problems.
+
+I've said that the topic of Markov chains is probably the 
+most difficult we've covered so far.  Accordingly, you may 
+at first find this assignment to be somewhat more challenging 
+than the others, but as long as you start early you should be 
+able to work the problems correctly.
+
+Please heed the exhortation of April 18, 2045:
+
+> Each member of your Group should make a serious start on a
+> Homework assignment 1 week before the due date AT THE LATEST,
+> and should get together at that time to plan how to operate
+> in the remaining time.
+
+*If you wait too long to begin, you likely will not finish.*
+
+
+**May 12, 1645:**
+
+Problems 1 and 2 of Hwk 3 are now on our repo.  There will be at least one more.  Tentative due date May 19.
+
+**May 10, 1705:**
+
+You will recall that I said that one or more problems from last week's
+Quizzes would show up (slightly modified) in this week's Quizzes.  
+
+I've mentioned that the concept of independence is one of the really
+core concepts in probability, so it's not surprising that yesterday's
+Quiz included a question of the same form as Question 1 on last
+Tuesday's Quiz; it gave four pairs of random variables, and asked which
+are independent.
+
+I was very pleased to see that most students yesterday did indeed get
+this one correct.  But I was baffled to see that most of those who got
+it right incorrectly assumed independence in another question--one that
+involved random variables that the textbook even stated were not
+independent.
+
+Please give this some thought, especially in terms of how you might
+avoid such a scenario in future Quizzes.
+
+**May 10, 1640:**
+
+Pro tip:  In a Quiz, if you get a number larger than 1 for a probability, something is wrong. :-)
+
+And that's one of the advantages of using OMSI. You can run your code, and SEE there is a problem in such a situation.
+
+**May 8, 2010:**
+
+Some tips regarding Problem 3.
+* A recursive algorithm exploints a *mathematical* relation.  Your first
+job must be to develop that relation. **DON'T WRITE ANY CODE YET!**
+
+* So, you must develop a *mathematical* equation first.  Keep your
+laptop closed!  Stick to pencil and paper.
+
+* The equation will be something lib f(n) = f(n-1) + f(n-2) for
+Fibonacci numbers.  Note the form!  The function is being evaluated on
+both sides of the equation, but with different arguments.  Your job is
+to find such a relation for **tags()**.
+
+* To guide your intution, work out a small case by hand, again using
+pencil and paper.  Ask our famous question, "How can it happen?" and
+then follow our famous path, "Break big events down into small events."
+
+* You'll have *and*s and *or*s.  The latter will bring you sums, and the
+former will then be converted with the mailing tube P(A and B) =
+P(A) P(B | A).
+
+* The key will be to recognize that P(B | A) here will actually be
+**tags()**, evaluated at new arguments!  That's how you'll get a
+Fibonacci-like relation.
+ The coding will then be easy, though the base case might be a little
+delicate.  Just implement your equation, just like the Fibonacci number
+case.  Do NOT think of the tree of calls that occur; the language, in
+this case R, handles that for you, behind the scenes.
+
+* Your first try will likely be incorrect, resulting in either wrong
+answers or a never-ending call chain.  In debugging, start with a small
+case, and **WALK THROUGH YOUR CODE USING A DEBUGGING TOOL!!!!**
+
+
+
+
+**May 8, 0920:**
+
+As noted in class, you should devise little experiments to check your understanding of various functions and concepts.
+
+For instance, suppose you are not sure what the p** functions do, e.g. **pbinom**. Try a little call on the R command line, say:
+
+```,rc
+> pbinom(1,2,0.5)  # does this really give the probability of at most 1 head out of 2 tosses of a coin?
+[1] 0.75  # yes
+```
+**May 6, 0810:**
+
+In Question 2 of the Thursday Quiz, the 4 parts were not graded separately, but rather in terms of the overall view of how a student's answers reflect general understanding of the course concepts. If you had 3 of 4 parts correct, you should have gotten 10 or 15 points; if you got only 5, please let me know, and I'll correct the score, and also correct the letter grade if it changes under the new score.
+
+BTW, note that in computing course grades, your letter grade is all that counts; your actual numerical score does not enter into the computation. Again, see the course [Procedural Information site](https://github.com/matloff/nmGeneralCourseInfo/blob/master/RulesAndProcedures.md) for this and other important information.
+
+**May 5, 2320:**
+
+The grades for the Thursday Quiz 3 have been mailed out, and the solutions posted on our repo.
+
+Scores ranged from 5 (1 student) to 100 (4 students), out of 50 who took the Quiz.
+
+If you feel you were undergraded on some problem, please feel free to contact me, and 
+I will take another look.
+
+Again, make sure you read the blog posts of May 5 0925 May 4 1050; and May 2 2135, with 
+important information about Quizzes and course grade policies.
+
+**May 5, 0925:**
+
+Important news regarding Quizzes:
+
+* I mentioned that sometimes in a course, I drop the lowest 3 Quizzes,
+  rather than 2.  I've decided to do so for our course.
+
+* In Quiz 4, at least one question will be a variant of one in Quizzes 3
+  (could be either Tuesday or Thursday). 
+
+* In Quiz 4, at least one question will involve the parking space
+  example.
+
+**May 3, 1955:**
+
+The following may help you visualize Problem 2 in our Homework.
+
+Say you're the host.  Prior to the time of the game, you've got to
+decide:
+
+* (a) how many prizes to have (there was just one in the original
+example) 
+
+* (b) what value prizes do you want to have
+
+* (c) which doors you want to place the prizes behind
+
+Your decisions regarding (a) and (b) are then the vector **v**.
+
+You will randomly choose doors for (c), and these door numbers are then
+the vector **A**.  (Remember, in the original problem, **A** was just a
+scalar, but now it is a vector, of the same length as **v**.)
+
+As host, you'll need to have at least two doors with no prize behind
+them.  This is necessary, because in tempting the contestant to change
+her mind, you'll open a door other than the one she guessed but also
+other than the ones that do have prizes.  This forces the length of
+**v** to be less than or equal to **d-2**.
+
+**May 3, 1050:**
+
+I plan that next week's Quizzes, both Tuesday and Thursday, will include
+problems in the setting of the committee example covered in yesterday's
+lecture.  The questions will cover new concepts, e.g. probability mass
+functions, but in the context of that example.
+
+For instance, a question could ask:
+
+> Write a function with call form **pmm(k)** that returns the probability
+> mass function of the random variable **M** in the committee example.
+
+The solution would be
+
+```,r
+pmm <- function(k) 
+   # number of possible committees with k men and 4-k women),
+   # divided by the number of all 4-person committees
+   choose(6,k) * choose(3,4-k) / choose(9,4)
+```
+
+**May 3, 1035:**
+
+There is a wealth of further examples for our course in our old Quizzes,
+including solutions.  Though I previously gave you a link to all the
+files, I have now uploaded them to our [GitHub
+repo](https://github.com/ucdavis/ecs132/tree/master/Old132Quizzes) for
+your convenience.  
+
+You can clone the repo on your local machine, and among other things
+do **grep** searches.  For instance, yesterday we covered the concept of
+**probability mass function** in lecture, and you may wish to see how
+that notion might turn up as a Quiz question.  So you could run
+
+```
+grep 'probability mass function' *Questions.txt
+```
+
+and then look at the questions that **grep** finds, if any.
+
+**May 3, 0815:**
+
+If you had an answer of 0.25 for Problem 4 on yesterday's Quiz, you will
+get full credit.  Please e-mail me.
+
+**May 2, 2135:**
+
+The Tuesday Quiz 3 is now graded, and solutions placed as usual in our
+GitHub repo.  Scores ranged from 0 to 90 (there were several at both
+ends of this range).  A few comments:
+
+* Problem 1 relied on just an intuitive understanding of independence, and
+  it was placed at the first problem, generally intended as the easiest.
+It was not difficult, but it did have its subtleties.  For example,
+the pair of random variables in choice (a) was NOT independent; the
+attachment action of v3 will affect that of v4, since the probabilities
+faced by v4 will depend on what v3 does.  If you got at least 15 points
+here, consider that a good score.
+
+* Problem 2 was a very straightforward application of our basic E(X)
+  formula.  The vast majority of you got this right.
+
+* Problem 3 was a slight variation of an example in class.  And by the
+  way, that example in class came from a question that a student asked
+in class.
+
+* Problem 4 just used mailing tubes, but required a lot of computation.
+  I think that many students just ran out of time.
+
+I should review how our course grades work:
+
+* The basic formula is
+
+    course grade = 0.60 x Quizzes grade + 0.20 x Homework grade + 0.20 x
+    Term Project grade
+
+* Your 2 lowest quiz grades (letter grades) are thrown out.  In some
+  courses, I actually end up deciding to drop the lowest 3.
+
+* Term projects (done in your Homework Groups) of high quality are
+heavily rewarded, boosting your course grade 2 or even 3 notches
+about what the above formula gives.  (A notch is a + or -, e.g.
+an A is 2 notches above B+.)  Just yesterday I was showing some
+colleagues an example of a student in a previous course that had
+Quiz grades of D, A, C+, C+, A-, C, B- yet actually ended up with an A
+in the course.
+
+
+**May 2, 1800:**
+
+A couple of students asked me whether they could use helper functions in Problem 3.  The answer is yes, providing your solution is recursive.  However, my recommendation is to NOT do so; it isn't necessary, and you probably would just needlessly make things more complex.
+
+Note:  Though the function tags() is a probability, it still is a function.  Thus the principle is no different from, say a recursive computation of Fibonacci numbers.  You need to construct an equation (write an equation first, NOT code yet) that expresses tags() evaluated at m, k and s in terms of tags evaluated at one or more other sets of parameters.
+
+**May 2, 0955:**
+
+Please read the important message below from Lan right away. Also, NOTE CAREFULLY that
+during interactive grading, you will be asked questions **both about your homework 
+submission and about the course in general.** The latter is just as important as
+the former.
+
+   "Dylan has created a time slot booking page on 
+   [Google Calendar](https://calendar.app.google/6W8788hRz1XBb4LRA)
+   for interactive grading...We plan to have interactive grading happening 
+   at May. 3rd 1-4 pm, May. 5th 10 am - 3 pm, and May. 8th 1-4 pm."
+
+**May 1, 2045:**
+
+In interactive grading, each group will be asked different questions, but
+there may be some overlap.  Do not divulge to other groups the questions
+asked of you.
+
+**May 1, 1550:**
+
+I have added clarification to Problem 2.
+
+Also, in Quiz 1, Tuesday section, if you answered (2.2) to Problem 1 but did not get credit, let me know and I'll fix it.
+
+**April 30, 1530:**
+
+Earlier I stated that the statement of Problem 2 in the Homework would be changed. It is now changed, and ready for your work.
+
+**April 30, 1010:**
+
+In last Thursday's lecture, I mentioned the subject of course grades varying widely from one instructor to another. In that light, note that I gave some numerics regarding my own grading standards, in [our FAQs](https://github.com/ucdavis/ecs132/blob/master/FAQs.md). You may wish to review that statement.
+
+**April 30, 1005:**
+
+R's **repeat** function is very useful for building certain types of vectors, e.g.
+
+```,r
+> rep(8,3)
+[1] 8 8 8
+```
+
+**April 30, 0940:**
+
+In the coming week's Quizzes, make sure to be ready to compute the expected value and variance of quantities in our examples, e.g. E(L1) in the bus model.
+
+**April 29, 2330:**
+
+The function tag() is a probability:
+
+tags(m,k,s) = P(it takes us s tag draws to accumulate a sum >= k)
+
+Note that this is an unconditional probability, rather than a conditional one, though some conditional probabilities will turn out to play intermediate roles.
+
+As you know, recursion involves finding a relation between a function evaluated at one set of arguments, and the same function evaluated at other arguments. Our general solution pattern of "break big events into small events" will be prominent in the solution.
+
+Recursion coding is often challenging. I strongly recommend that you review how recursive function calls work (e.g. ECS 36C or its community college equivalent, whatever course you took) before starting on the problem.
+
+**April 28, 1335:**
+
+Very sorry, but I will have to change the wording of Problem. Please don't work on that one yet.
+
+**April 28, 1020:**
+
+I've pushed back the Hwk 2 due date to May 10.
+
+**April 27, 1605:**
+
+Some remarks on IDEs:
+
+An IDE should make one more productive, not less.
+
+In general, I am not a fan of IDEs.  I've tried many, many of them, in
+languages C/C++, Python and R, and have always found that I am much more
+productive by just using the Vim text editor--WITH my [homegrown Vim macros](https://heather.cs.ucdavis.edu/Vimrcs/).
+
+In R, for instance, if I want to write a 'for' loop, I just type 'frl', and Vim automatically expands it to
+
+```,r
+for (i in 1:n) {
+}
+```
+To create a matrix, I type 'nmm', and Vim give me
+
+```,r
+matrix(nrow=,ncol=)
+```
+
+Small things, yes, but it saves me time, allowing me to focus better on the coding itself, and avoids future arthritis in my fingers. :-)
+
+Of course, Vim automatically supplies me (in base form, i.e. not needing my own macros) with syntax highlighting, code completion etc., which the IDEs do. But the IDEs don't give me the ability to write macros.
+
+Most of my macros are 1- or 2-liners, very easy to devise, but Vim actually allows you to write more elaborate macros in Python. Note, I didn't mean one's usage of Vim to edit Python; instead I'm talking about using Python to extend Vim, for usage in editing files in any language. Indeed,[Vim plugins](https://vimawesome.com/) tend to be written in Python.
+
+So the big advantage of Vim is that it allows me to customize my work environment, whether it be for my work in R, Python or LaTeX.
+
+Obviously this is a matter of keen personal preference. Most professional deelopers do use an IDE, but many use Vim. The latter is not just something thrown into a beginning programming class as a "historical example."
+
+
+**April 27, 1005:**
+
+Please note that when a quiz or homework problem states something like "Use function X, Package Y etc.", then it is a requirement unless it explicitly says it is a suggestion.
+
+**April 26, 1845:**
+
+I've stressed the importance of submitting work using the correct e-mail address--the one to which I send you the "New blog post" announcements--because all of our course records are indexed by that address.
+
+If you use an erroneous address, it's vital that you let me know.  I will fix it and you will receive full credit.
+
+If on the other hand, I do not know about the error when I make out the course grades, it will be difficult to fix with a grade change later on.  It "probably" will be fixable, but we can't count on what the campus does.
+
+**April 26, 1430:**
+
+Homework 2 is now ready!
+
+Please heed the blog post of April 18, 2045, in the statement reading in part "1 week before the due date AT THE LATEST."
+
 **April 26, 0850:**
 
 Simon Adds:
@@ -12,7 +537,7 @@ One of the most important cocepts in programming languages is that of a strongly
 Languages such as Python and R are much looser, but even they can require much care on the part of the programmer. E.g.:
 
 ```,rc
- f <- function(a,g) g(a)
+> f <- function(a,g) g(a)
 > f(3,sqrt)
 [1] 1.732051
 > f(3,sqrt(12))
@@ -20,6 +545,8 @@ Error in g(a) : could not find function "g"
 ```
 
 What happened? The second argument **g** of the function **f** was itself a function. In the first example, we used g = sqrt. Since **sqrt** is indeed a function, it worked fine. But in the second example, we used g = 1.732..., which is NOT a function, and things blew up.
+
+So the distinction between a *function* **f** and a *call* to **f** is not a matter of pickiness; it is a *practical* issue, affecting whether code runs properly or produces an error.
 
 Unfortunately, all this is complicated by the general custom in the CS field of using parentheses to signify functions. E.g. if **h** is a function, people often refer to it as 'h()', using the parentheses to tell people that **h** is a function. But as you can see, though one might do this in informal conversation, one must be very careful in actual coding.
 

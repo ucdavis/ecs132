@@ -1,0 +1,48 @@
+
+
+DESCRIPTION
+
+Students:  Please keep in mind the OMSI rules.  Save your files often,
+make sure OMSI fills your entire screen at all times, etc.  Remember
+that clicking CopyQtoA will copy the entire question box to the answer
+box.
+
+In questions involving code which will PARTIALLY be given to you in the
+question specs, you may need add new lines.  There may not be
+information given as to where the lines should be inserted.
+
+If a question includes test code, make sure to include it in your
+submission
+
+Do not answer any question with simulation code unless this is specified. 
+
+MAKE SURE TO RUN THE CODE IN PROBLEMS INVOLVING CODE!  Hit the OMSI
+Submit and Run button.
+
+QUESTION 
+
+(Text answer.)  State the number of the mailing tube used in (7.38).
+
+QUESTION 
+
+(Text answer.)  State the number of the mailing tube used in the first
+equality in (7.41).
+
+QUESTION -ext .R -run 'Rscript omsi_answer3.R'
+
+(Code answer.) Suppose X has an exponential distribution with parameter
+1.0, i.e. its density is exp(-t) for t > 0 and 0 otherwise.  Calculate
+and print E(X^6).
+
+QUESTION -ext .R -run 'Rscript omsi_answer4.R'
+
+(Code answer.)  Write a function that will calculate EN_{it} in (6.4).
+Here P is the transition matrix.  States are numbered 1,2,...
+
+calcENit <- function(P,i,t) 
+{
+
+}
+
+m <- rbind(c(0.25,0.25,0.50),c(1/3,1/3,1/3),c(0.6,0.4,0))
+print(calcENit(m,2,3))

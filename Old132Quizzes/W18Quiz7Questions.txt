@@ -1,0 +1,84 @@
+
+
+DESCRIPTION
+
+***********************************************************************
+
+DON'T FORGET TO SAVE AND SUBMIT YOUR WORK, even work in progress.  The
+network may get busy at the end of the exam period, making it difficult
+to submit then.  The server will shut down at the appointed time, and NO
+further work will be accepted.
+
+**********************************************************************
+
+In questions involving code which will PARTIALLY be given to you in the
+question specs, you need to add new lines.  There may not be information
+given as to where the lines should be inserted.  Do not modify the lines
+already there unless instructed to do so.  If a question includes test
+code, make sure to include it in your submission.
+
+Do not answer a question via simulation code unless this is specified. 
+
+If you finish early, please leave the exam room.  If you stay, close
+your laptop and sit quietly.
+
+**************************************************************************
+
+SHOW YOUR WORK in problems involving numerical answers.  Either do so
+via comment lines or multiline code with variable names, or in a
+detailed numerical expression if it clearly shows your thinking. You
+need not show ALL details, but enough to demonstrate your insight.
+Single-number answers will likely get 0 credit.
+
+**************************************************************************
+
+QUESTION -ext .R -run 'Rscript omsi_answer1.R'
+
+Find E(Z^4), where Z ~ N(0,1).  Hint:  Either use (7.28), noting that
+the integrate() function accepts the arguments -Inf, Inf for negative
+and positive infinity; or get the exact answer via the material in Sec.
+7.33.
+
+print(                        )  # 3 (maybe with some roundoff error)
+
+QUESTION -ext .R -run 'Rscript omsi_answer2.R'
+
+Find the median (value v for which P(X < v) = 0.5) for a random variable
+X having an exponential distribution with parameter lambda.
+
+expMdn <- function(lambda) 
+{
+
+}
+
+# test case
+print(expMdn(2.5)))  # about 0.28
+
+QUESTION -ext .R -run 'Rscript omsi_answer3.R'
+
+Say f_X(t) = 4 t^3) for 0 < t < 1, 0 elsewhere.  Write a function to
+generate n random numbers from this distribution.
+
+r43 <- function(n) 
+{
+
+}
+
+# test case:
+print(mean(r43(10000)))  # about 0.8
+
+QUESTION -ext .R -run 'Rscript omsi_answer4.R'
+
+Consider the setting of Sec. 7.21.  Use simulation to find 
+E(N | N >= 25) (do not use a correction for continuity).
+
+print(                  )  # about 29.4 or 29.5
+
+QUESTION -ext .R -run 'Rscript omsi_answer5.R'
+
+The code below (7.49) evaluates that equation via pgamma().  Show
+alternate code, using one or more of dpois(), ppois() and qpois(), to
+compute that same probability.
+
+print(                   )
+

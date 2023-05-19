@@ -1,0 +1,40 @@
+
+1.
+
+(3.75) or (3.77)
+
+2.
+
+Any of (7.15)-(7.17).
+
+3.
+
+print(integrate(function(x) x^6 * exp(-x),0,Inf)$value)
+
+4.
+
+Write the quantity as a sum of indicator variables.
+
+N_{it} = 1_{i1} + ... + 1_{it}
+
+(The text says we can start at any state, say 1.)
+
+EN_{ij} is then
+
+P(X_1 = i) + ... + P(X_t = i) 
+
+> calcENit <- function(P,i,t) 
+{
+   s <- 0
+   pk <- P
+   for (j in 1:t) {
+      # currently pk = P^j                                                      
+      # currently pk[1,i] is the probability that we are in 
+      # state i at time t (starting at state 1)
+      s <- s + pk[1,i]
+      if (j < t) pk <- pk %*% P
+   }
+   s
+}
+
+

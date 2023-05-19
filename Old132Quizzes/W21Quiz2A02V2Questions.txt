@@ -1,0 +1,100 @@
+DESCRIPTION
+
+Please keep in mind the OMSI rules.
+
+Save your files often.
+
+Submit each answer individually and make sure you receive the
+notification of successful submission.
+
+Don't wait till the last moment to submit all answers, as there might be
+network traffic in the last 5 minutes causing unexpected delay and
+failure.  
+
+Remember that clicking CopyQtoA will copy the entire question box to the
+answer box.
+
+In questions involving code which will PARTIALLY be given to you in the
+question specs, you may need to add new lines.  There may not be
+information given as to where the lines should be inserted. 
+
+MAKE SURE TO RUN THE R CODE ANSWER IN PROBLEMS THAT INVOLVE R CODE!
+
+QUESTION
+
+(Text answer - 20 pts) An example in lecture concerning computer
+recognition in medical images.  What disease was of interest there?  And
+what kind of probability was this an example of?
+
+QUESTION
+
+(Text answer - 20 pts) For two events A and B, if we write P(A and B) =
+P(A)P(B), what assumption are we making?
+
+QUESTION
+
+(Text answer - 20 pts) Eqn. (2.8) gives a "mailing tube" for finding
+conditional probabilities; but often we get those probabilities from
+intuition rather than from this formula; give an example of this in the
+book
+
+QUESTION
+
+(Text Answer - 20 pts) E(XY) = E(X)E(Y) if X and Y are independent. True
+or False?
+
+QUESTION
+
+(Text answer - 20 pts) We say the mean and median are ways to quantify
+the notion of "central tendency."  What is the corresponding term for
+variance?
+
+QUESTION -ext .R -run 'Rscript ./omsi_answer6.R'
+
+(R code answer - 20 pts) In the bus ridership problem, sec 2.11 (page
+20), let's say the bus has a limit of 4 passengers and we are told that
+the bus left stop 1 with 2 passengers.  What is the proability that when
+the bus is leaving stop 2, it has reached its limit?
+
+QUESTION -ext .R -run 'Rscript ./omsi_answer7.R'
+
+(R code answer - 20 pts) In the Preferential Attachment Graph Model
+example, sec 2.13.1 (page 24) what is the proability that after v_5
+joins the graph has a structure of a chain i.e  each node has degree
+less than or equal to 2.
+
+QUESTION -ext .R -run 'Rscript ./omsi_answer8.R'
+
+(R code answer - 20 pts) If X and Y are two independent die rolls, what
+is the support of (X-Y)?
+
+print(c(   ))
+
+QUESTION -ext .R -run 'Rscript ./omsi_answer9.R'
+
+(R code answer - 20 pts) We toss a coin repeatedly until we see the
+pattern "HTH".  Let N denote the number of tosses needed, e.g. for
+sequence HTTHTH, N=6 Modify the code in sec. 2.14.11 to find approximate
+probability of N > m. Original code is as below:
+
+ngtm <- function (k,m, nreps ) {
+	count <- 0
+	for (rep in 1: nreps ) {
+		consech <- 0
+		for (i in 1:m) {
+			toss <- sample (0:1 ,1)
+			if ( toss ) {
+				consech <- consech + 1
+				if ( consech == k) break
+			} else consech <- 0
+		}
+		if ( consech < k) count <- count + 1
+	}
+	return ( count / nreps )
+} 
+
+QUESTION -ext .R -run 'Rscript ./omsi_answer10.R'
+
+(R code answer - 20 pts) In the Monty Hall problem, say there are 4
+doors and 3 goats.  Find the value of the numerator in Eqn. (3.1).
+

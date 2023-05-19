@@ -1,0 +1,25 @@
+
+1.  Discrete distributions use summation, not integration.  A discrete
+distribution doesn't have a density.
+
+2.  1 - pnorm(c(8.5,11.1,12.6),10,2)
+
+3.
+
+dw <- function(x,n)  # write this for scalar x only, not vector
+{  tot <- 0
+   for (i in 0:x) {
+      tot <- tot + dbinom(i,n,0.3) * dbinom(x-i,n,0.6)
+   }
+   tot
+}
+
+rw <- function(nw,n)
+{  u <- rbinom(nw,n,0.3)
+   v <- rbinom(nw,n,0.6)
+   u+v
+}
+
+print(dw(8,5))
+print(mean(rw(10000,5)^2))
+

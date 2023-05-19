@@ -1,0 +1,122 @@
+
+1.  modeling of the pandemic
+
+2.  median, median, mean; the mean is very relevant in the elevator, as
+the sum of the weights needs to be less than the elevator limit
+
+3. 
+
+vary <- function(p,q,r,s){
+  out <- r/4 + s  # mailing tubes
+}
+
+print(vary(1,2,2,4.3))  # 4.8
+
+4.
+
+sum((1:6)^3 / 6)  # compact form, a loop is fine; 12.25
+
+5.  
+
+Let S denote the amount of time the patron holds the book, and let I be 
+the indicator random variable for returning to a foreign branch.        
+Then
+   
+B = S + 2I
+                                                                                             Var(S)
+= E(S^2) - (ES)^2
+ES = (0.1) 4 + (0.2) 5 + (0.3) 6 + (0.4) 7
+E(S^2) = (0.1) 4^2 + (0.2) 5^2 + (0.3) 6^2 + (0.4) 7^2
+Var(S) = 1
+                                                                                             Var(B)
+= Var(S) + 4 * Var(I)
+Var(I) =  0.5(1-0.5)
+Var(B) = 1 + 1 = 2
+
+6.  The key point is that X and Y take on only the values 1 and 0.  So:
+
+If E(XY) = 0, that means that whenever X = 1 then Y = 0 and vice versa.
+In other words, Y = 1 - X.  So, E(X+Y) = 1.
+
+On the other hand, suppose E(X+Y) <= 1.  That means p + q <= 1, where p
+and q are the success probabilities of X and Y, respectively.  There are
+lots of counterexamples to show E(XY) is not necesarily 0.  E.g. Y = X,
+with p <= 0.5.
+
+7. Choices (i) and (iv) are true.  Choice (i) comes directly from a
+mailing tube, but what about (iv)?  It's pretty subtle.
+
+Consider stop i and O_i, for a fixed value of i.  The bus arrives with
+L_i passengers, among which O_i alight.  Say for instance L_{i-1} is 5.
+Given that the number of those 5 passengers who alight will have a
+binomial distribution with n = 5 and p = 0.2.  Its mean will be np =
+1.0.  
+
+In the notebook, have an L_{i-1} column and an O_i column all the lines
+of the notebook in which L_{i-1} is 5, the average number alighting will
+be 1.0.  Similarly, in all the lines of the notebook in which L_{i-1} is
+12, say, the average number alighting will 12 (0.2) = 2.4.
+
+Now reorder the lines in the notebook, first with all the having having
+L_{i-1} = 0, then with all the having having L_{i-1} = 1, then with all
+the having having L_{i-1} = 2, and so on.  In each group of lines, the
+long-run average value of O_i will be 0.2 times the L_{i-1} value.  So
+among all the notebook lines, the long-run average of O_i will be 0.2
+times the L_{i-1} column.  This gives us (iv).
+
+8.  Let p and q denote the success probabilities of I and J.  We have
+
+1.1 = E(I+J) = EI + EJ = p + q
+
+and
+
+0.7 = E[(I-J)^2] = E(I^2) - 2E(IJ) + E(J^2)
+
+Since I^2 = I and J^2 = J, that means
+
+0.7 = p - 2 E(IJ) + q = 1.1 - 2E(IJ)
+
+Thus
+
+E(IJ) = 0.2
+
+Now, note that IJ is itself an indicator random variable, as it takes on
+only the values 0 and 1.  Its success probability is
+
+P(IJ = 1) = E(IJ) = 0.2
+
+By the mailing tube for indicator variables, we then have
+
+Var(IJ) = 0.2 (1 - 0.2)
+
+9.  
+
+et <- function(nreps) {
+   nturn <- 0
+   for (i in 1:nreps) {
+      pos <- 0
+      turn <- 0
+      while(1) {
+         turn <- turn + 1
+         roll <- sample(1:6,1)
+         newpos <- pos + roll
+         if (newpos > 7) {
+            break
+         }
+         if (newpos == 3) {
+            bonus <- sample(1:6,1)
+            newpos <- newpos + bonus
+            if (newpos > 7) {
+               break
+            }
+         }  
+         pos <- newpos
+      }
+      nturn <- nturn + turn
+   }
+   nturn / nreps
+}
+
+set.seed(9999);
+print(et(10000))
+

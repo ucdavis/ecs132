@@ -1,0 +1,35 @@
+1.  disjoint
+
+2. random graph models; adjacency matrix
+
+3. Eqns. (2.2), (2.7)
+
+4. 
+
+# P(L_6 = 1 | L_5 = 1) = P(1 person alights and 1 person boards or 0
+person alights and 0 person boards at stop 6 | L_5) 
+
+# = P(1 person alights and 1 person boards at stop 6 | L_5) + P( 0
+person alights and 0 person boards at stop 6 | L_5) =
+
+0.2*0.4 + 0.8*0.5
+
+5. 
+
+nreps <- 10000; nstops <- 8; count <- 0
+for (i in 1:nreps) {
+   passengers <- 0
+   alight <- 0
+   for (j in 1:nstops) {
+      if (passengers > 0) 
+         for (k in 1:passengers) 
+            if (runif(1) < 0.2) {
+               passengers <- passengers - 1
+               alight <- alight + 1
+            }
+      newpass <- sample(0:2,1,prob=c(0.5,0.4,0.1))
+      passengers <- passengers + newpass
+   }
+   if (alight == 3) count <- count + 1
+}
+print(count/nreps)

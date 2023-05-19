@@ -1,0 +1,37 @@
+
+1. (Text answer, 35 points.) For each pair of random variables below,
+write "independent" or "not independent."
+
+a. G1 and G2+G3 in the committee example, Sec. 3.9.3
+
+b. N5 and N8 in the Preferential Attachment Model
+
+c. B1 and B2, p.78
+
+d. S1 and S2-S1, where S1 and S2, are the locations of the first and
+second open spaces in the parking space example
+
+2.  (Text answer, 15 points.) Fill in the blank:  The family of negative
+binomial distributions is a generalization of __________________.
+
+3.  (Text answer, 15 points.) In the derivations of the mean and
+variance of the binomial family, what assumption did we make use of for the
+variance that we did not need for the mean?
+
+4. (R code answer, 35 points.) Consider the parking space example.
+Suppose now there are two possible destinations, at the beginning and
+end of the second block, each equally desirable.  The driver will still
+take the first open space as before, but in this new model, she will
+walk to whichever destination is closer to her parking place.  Use
+simulation to find the probability that she ends up walking to the
+destination at the beginning of that second block.  Alter the original
+code, but you must use rgeom().
+
+parksim <- function (nreps) {
+   nvals <- rgeom(nreps ,0.15) + 1
+   dvals <- ifelse (nvals <= 10,11-nvals,nvals-11)
+   mean(dvals)
+}
+
+print(parksim(1000)
+

@@ -1,0 +1,23 @@
+1. Or
+
+2. (1/7)*(1/6)
+
+3. D
+
+4. 
+
+# P(B_1 = 1 and B_2=2 or B_1=2 and B_2=1) =  P(B_1 = 1 and B_2=2) + 
+# P(B_1=2 and B_2=1) =
+
+0.4*0.1 + 0.1*0.4
+
+5. 
+
+count <- 0
+for (i in 1:nreps) {
+   toss1 <- sample(0:1,1,replace=T)  
+   # "replace" attribute doesn't matter here, coz only one sample is drawn
+   toss2 <- sample(0:1,1,replace=T)
+   if ( toss1+toss2 ==2  ) count <- count + 1
+}
+print(count/nreps)

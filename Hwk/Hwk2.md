@@ -1,10 +1,8 @@
 
 
-NOT READY YET
-
 # ECS 132, Homework 2
 
-Due Friday, May 5, 11:59 pm.
+Due Wednesday, May 10, 11:59 pm.
 
 ## Problem 1
 
@@ -19,20 +17,20 @@ This problem involves the Preferential Attachment Model (PAM).
 ```
 
 It will simulate PAM, through time **nGen**, i.e. through the attachment
-action of v<sub>nGen</sub>.  It will return an R list, with these
+action of v<sub>nGen+2</sub>.  It will return an R list, with these
 components:
 
 - The final adjacency matrix, **adjMat**, of size m X m, where m = nGen + 2.
 
-- A **attachHistory** vector, of length **nGen**.  Component i of that
+- An **attachHistory** vector, of length **nGen**.  Component i of that
   vector will be the index of the existing node that v<sub>i+2</sub>
   attaches to.  E.g. if v<sub>12</sub> attaches to 
-  v<sub>5</sub>, then attachHistory[12] = 5.
+  v<sub>5</sub>, then attachHistory[10] = 5.
 
 <li>  Write a function with call form
 
 ``` r
-    PAMemaxd(nGen)
+    PAMemaxd(nGen,nReps)
 ```
 
 that uses simulation to find the approximate expected value of the
@@ -45,36 +43,43 @@ maximum degree in the graph at time **nGen**.  It should call
 
 This problem concerns the Monty Hall example.  
 
-Say the contestant always chooses Door 1 (always, meaning in many plays
-of the game).  Thus C is not a random variable, while A and H still *are*
-random variables.
+Here we will have d doors and multiple prizes, with different values according to a vector v. The length of v is less than d-1. Note that d and v are merely parameters of the problem, NOT random variables.
 
-Also, say the contestant's strategy is to never budge; she will always
-stick to her original guess when the host offers her a chance to chage
-her mind.
+Say that, unknown to the host, the contestant always chooses Door 1 (always, meaning in many plays
+of the game).  Thus C is not a random variable, while A and H still *are* random variables. Note that 
+now A is now a random vector, whose component i is the door behind which the prize of value v[i] waits. 
+There is nothing behind the other doors. The host chooses a door to open as in our book, i.e. from among the 
+doors with no prizes.
 
-So A is randomly chosen (by the host or the producer of the game show)
-among 1, 2 and 3, and H is as in the book.  
+Also, say the contestant's strategy is to either accept the host's invitation to change her mind, with probability p, 
+or stick with Door 1 with probability 1-p. If she does change her mind, she will choose one of the d-2 remaining doors (i.e.
+not door 1 and not the door opened by the host) with equal probability.
 
-Say the car is worth $20,000 and the goats have 0 value.  You will Find
-EW, the contestant's expected winnings.  Note:  This is a not a
-*conditional* expected value.  You will write two functions, with call
-forms
+You will write a function with call form
 
 ``` r
-    exactEW()
+    simEVarW(d,v,p,nreps)
 ```
 
-and
+that uses simulation to find EW and Var(W), where W is what the contestant wins (one of the values in v or 0).
 
-``` r
-    simEW(nreps)
-```
-
-that find the exact value of EW and its approximate, simulated value.
-The two will serve as checks on each other.
 ## Problem 3
 
-Recursion, tags problem.
+We have tags numbered 1,2,...,m.  We keep choosing tags at random, with
+replacement, until we accumulate a sum of at least k.  We wish to find the
+probability that it takes us s tag draws to achieve this. (As always, unless a problem specifically asks for a simulation, all probabilities, expected values and so on must be derived exactly.)
+
+Write a function with call form
+
+``` r
+tags(m,k,s) 
+```
+
+that uses recursive calls to find this probability exactly.  Note that
+your function must be fully general, for any nonnegative integers m, k
+and s.  (The probability will be considered 0 for nonpositive m, k and
+s.)
+
+
 
 

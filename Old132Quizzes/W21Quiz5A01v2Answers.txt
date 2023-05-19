@@ -1,0 +1,19 @@
+
+1.  committee problem, Sec. 3.9.3, specifically the variables G_i
+
+2.  1/sigma^2
+
+3.  (iv), (v)
+
+4.  (iv)
+
+5.  
+
+F_X <- function(t){
+  f_x <- function(x) 1/(1+x^2)
+  cc <- 1/ integrate(f_x,-5,5)$value
+  cc * integrate(f_x,-5,t)$value
+}
+
+print(F_X(1))  # 0.79
+

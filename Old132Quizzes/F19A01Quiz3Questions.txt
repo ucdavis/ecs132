@@ -1,0 +1,40 @@
+
+1.  (R code answer, 25 pts.) In the bus ridership example, find
+p_{B_1}(1), i.e. the probability mass function of B_1 evaluated at 1.
+
+print(     )
+
+2.  (R code answer, 25 pts.) In the bus ridership example, state the
+support of L_2,  giving your answer as an R vector.
+
+print(     )
+
+3.  (R code answer, 25 pts.) In the parking space example, Jill tells
+you she parked in the second block.  Find the probability that she is in
+the first space of that block, i.e. right at the destination.
+
+print(     )
+
+4.  (R code answer, 25 pts.) Write simulation code to find Cov(L_1,L_2)
+in the bus ridership problem.  For your convenience, the code from p.30
+is included below; modify as needed.  BE SURE TO HAVE YOUR CODE PRINT
+OUT THE ANSWER.
+
+nreps <- 10000
+nstops <- 10
+count <- 0
+for (i in 1:nreps) {
+   passengers <- 0
+   for (j in 1:nstops) {
+      if (passengers > 0)
+         for (k in 1:passengers)
+            if (runif(1) < 0.2)
+               passengers <- passengers - 1
+      newpass <- sample(0:2,1,prob=c(0.5,0.4,0.1))
+      passengers <- passengers + newpass
+   }
+   if (passengers == 0) count <- count + 1
+}
+print(count/nreps)
+
+

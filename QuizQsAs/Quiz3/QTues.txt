@@ -1,0 +1,40 @@
+
+1.  (Text answer, 25 points) List all examples below in which the stated
+pair of random variables is independent.  Sample answer: (a), (b), (d).
+
+a.  v4 and v3 in the Pref. Attach Model
+
+b.  B1 and B2 in the bus model
+
+c.  X1 and X3 in the ALOHA model
+
+d.  lengths of the smallest and largest pieces in the broken
+    rod model
+
+e.  C and A in the Monty Hall problem
+
+f.  R and B in the board game
+
+2.  (R code answer, 25 points) Find E(X1) in the ALOHA model.  Feel free
+to cite numbers already derived in the book, rather than rederiving
+them.
+
+3.  (R code answerr, 25 points) Write a function with call form evalg(p,g)
+to find E[g(X)], where p is a vector consisting of the P(X = i), i =
+1,2,...  (range of i assumed finite).  For full credit, use no loops.
+Fill in the blanks:
+
+evalg <- function(p,g) 
+{
+
+
+
+}
+
+# expected value of the square root of X, where X = dots in 1 roll of die
+evalg(rep(1/6,6),sqrt)  
+
+4.  (R code answer, 25 points) Consider the example of Coins A, B and C
+following Eqn. (3.80).  Let U = X + Y and V = Y + Z.  Find Cov(U,V),
+using the "handy shortcut" Eqn. (3.72).
+

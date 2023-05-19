@@ -1,0 +1,48 @@
+
+1.
+
+(3.13)
+
+2,
+
+(3.56)
+
+3.  
+
+W is an indicator variable, so Var(W) = p(1-p), where p = P(W = 1), 
+which is computed in (4.21).
+
+# 0.0564
+
+4.  
+
+To really capture the spirit of simulating conditional probabilities,
+find the notebooks lines where D = 3, then ask what proportion of
+those lines had a first-block space.  Do NOT just divide probabilities
+(Sec. 2.14.5).
+
+sim3 <- function(nreps) 
+{
+   nvals <- rgeom(nreps,0.15) + 1
+   dvals <- abs(11 - nvals)
+   d3 <- which(dvals == 3)
+   mean(nvals[d3] <= 10)
+}
+
+print(sim3(10000))  # 0.71
+
+5.
+
+P( M <= k | M <= r) = 
+   P(M <-= k and M = r) / P(M <= r) =
+   P(M <= k) / P(M <= r) =
+   (1 - P(M > k)) / [1 - P(M > r)] =
+   (1-(1-p)^k) / (1-(1-p)^r) 
+
+probkr <- function(p,k,r)
+{
+   (1-(1-p)^k) / (1-(1-p)^r)
+}
+
+print(probkr(0.6,5,8))  # 0.99
+

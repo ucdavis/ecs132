@@ -1,0 +1,73 @@
+
+DESCRIPTION
+
+Students:  Please keep in mind the OMSI rules.  Save your files often,
+make sure OMSI fills your entire screen at all times, etc.  Remember
+that clicking CopyQtoA will copy the entire question box to the answer
+box.
+
+In questions involving code which will PARTIALLY be given to you in the
+question specs, you may need add new lines.  There may not be
+information given as to where the lines should be inserted.
+
+If a question includes test code, make sure to include it in your
+submission.
+
+Do not answer any question with simulation code unless this is specified. 
+
+MAKE SURE TO RUN THE CODE IN PROBLEMS INVOLVING CODE!  Hit the OMSI
+Submit and Run button.
+
+
+QUESTION 
+
+(Text answer, 25 pts.) Jack and Jill each toss a fair coin 10 times,
+resulting in X and Y heads, respectively.  Let W = X - Y. Name the parametric
+distribution family, if any, that W's distribution belongs to; if none,
+answer None.
+
+
+QUESTION -ext .R -run 'Rscript omsi_answer2.R'
+
+(R code answer, 25 pts.) Consider the setting of Problem 1, but in
+which each person tosses the coin n times.  Write a function g(n,k) that
+finds the probability that X and Y differ by at most k. 
+
+g <- function(n,k) 
+{
+
+
+
+}
+
+print(g(10,3))
+
+QUESTION -ext .R -run 'Rscript omsi_answer3.R'
+
+(R code answer, 25 pts.) The skewness of the distribution of a
+random variable X, a measure of asymmetry, is defined to be
+
+E[{(X - mu)/sigma}^3]
+
+where mu and sigma are the mean and standard deviation of X, respectively.
+Write a function sk(n,p) that calculates the skewness of a random
+variable having a binomial distribution with parameters n and p.
+
+sk <- function(n,p) 
+{
+   
+
+
+}
+
+print(sk(10,0.3))
+
+
+QUESTION -ext .R -run 'Rscript omsi_answer4.R'
+
+(R code answer, 25 pts.) Consider the parking space example, p.76.  Let B
+denote the number of the block we end up parking in.  E.g. if we park in
+the second block, B = 2.  Find EB.
+
+print(        )
+

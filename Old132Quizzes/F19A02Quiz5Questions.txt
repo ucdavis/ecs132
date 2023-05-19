@@ -1,0 +1,55 @@
+DESCRIPTION
+
+Students:  Please keep in mind the OMSI rules.  Save your files often,
+make sure OMSI fills your entire screen at all times, etc.  Remember
+that clicking CopyQtoA will copy the entire question box to the answer
+box.
+
+In questions involving code which will PARTIALLY be given to you in the
+question specs, you may need add new lines.  There may not be
+information given as to where the lines should be inserted.
+
+If a question includes test code, make sure to include it in your
+submission.
+
+Do not answer any question with simulation code unless this is specified. 
+
+MAKE SURE TO RUN THE CODE IN PROBLEMS INVOLVING CODE!  Hit the OMSI
+Submit and Run button.
+
+QUESTION -ext .R -run 'Rscript omsi_answer1.R'
+
+(R code answer, 25 pts.) In the example on p.130, find P(X < 1.6).
+
+print(           )
+
+QUESTION -ext .R -run 'Rscript omsi_answer2.R'
+
+(R code answer, 25 pts.) In the example on p.33, let M be the number
+of kings drawn.  Find F_M(2.2).
+
+print(           )
+
+QUESTION -ext .R -run 'Rscript omsi_answer3.R'
+
+(R code answer, 25 pts.)  A vendor guarantees a certain product for 6
+months.  We treat the lifetime L in months of the product as a discrete 
+random variable taking on the values 1,2,3,...  If L <= 2, the vendor 
+refunds the purchaser $5.  If 2 < L <= 6, the vendor gives a refund of $1.  
+Find the expected payout (per purchaser).  Assume the lifetime of the product
+has a geometric distribution with p = 0.25, so that P(L = 3) = 0.75^2 0.25.
+
+print(           )
+
+QUESTION -ext .R -run 'Rscript omsi_answer4.R'
+
+(R code answer, 25 pts.)  Write a function q(v) to compute the
+inverse of F_X on p.130, for 0 < v < 1. 
+
+q <- function(v) 
+{
+
+
+}
+
+print(q(0.36))

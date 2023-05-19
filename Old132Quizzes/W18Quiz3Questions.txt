@@ -1,0 +1,93 @@
+
+
+DESCRIPTION
+
+Students:  Please keep in mind the OMSI rules.  Save your files often,
+make sure OMSI fills your entire screen at all times, etc.  Remember
+that clicking CopyQtoA will copy the entire question box to the answer
+box.  
+
+***********************************************************************
+*                                                                     *
+*  DON'T FORGET TO SAVE AND SUBMIT YOUR WORK, even work in progress.  *
+*  The network may get busy at the end of the exam period, making     *
+*  it difficult to submit then.  The server will shut down at the     *
+*  appointed time, and NO further work will be accepted.              *
+*                                                                     *
+**********************************************************************
+
+In questions involving code which will PARTIALLY be given to you in the
+question specs, you need to add new lines.  There may not be information
+given as to where the lines should be inserted.  Do not modify the lines
+already there unless instructed to do so.
+
+If a question includes test code, make sure to include it in your
+submission.
+
+Do not answer question via simulation code unless this is specified. 
+
+If you finish early, please leave the exam room.  If you stay, close
+your laptop and sit quietly.
+
+MAKE SURE TO RUN THE CODE IN PROBLEMS THAT INVOLVING CODE!  Hit the OMSI
+Run button.
+
+QUESTION -ext .R -run 'Rscript omsi_answer1.R'
+
+Find the value of P(D = 3) in the parking space example, Sec. 4.2.2.
+
+print(                             )
+
+QUESTION -ext .R -run 'Rscript omsi_answer2.R'
+
+Add code to the parking space example simulation, p.74, so that the
+value returned will be the approximate value of P(D = 3).  (The the call
+to mean() in the book has been deleted, but you may call that function
+in your own code.  You must make use of nvals or dvals or both.  For
+full credit, do not use loops.)
+
+parksim <- function(nreps) {
+   nvals <- rgeom(nreps,0.15) + 1
+   dvals <- ifelse(nvals <= 10,11-nvals,nvals-11)
+}
+
+print(parksim(10000))
+
+QUESTION -ext .R -run 'Rscript omsi_answer3.R'
+
+Consider the committee problem, Sec. 3.9.3.  In choosing people at
+random, we of course do so without replacement; we wouldn't want to
+choose the same person twice.  But suppose we were to sample WITH
+replacement.  What would be the value of ED now?  Hint:  This can be
+done without resorting to a lot of computation.
+
+print(             )
+
+QUESTION -ext .R -run 'Rscript omsi_answer4.R'
+
+Suppose X and Y are indicator variables with P(X = 1) = P(Y = 1) = v,
+and such that P(X = Y = 1) = w.  Write an R function to calculate 
+Var(X + Y).  Hint:  Make use of the "mailing tubes" in Sections 3.8 and
+3.9.
+
+varxy <- function(v,w) 
+{
+
+}
+
+print(varxy(0.5,0.2))
+
+QUESTION -ext .R -run 'Rscript omsi_answer5.R'
+
+Consider the Watts-Strogatz graph model, Section 3.13.3 of our book.
+Fill in the details of the function below, which finds the probability
+that a specified node connects to exactly one shortcut.  Here n is the
+number of nodes on the circle, and s is the total number of shortcuts in
+the graph.
+
+calc1short <- function(n,s)
+{
+}
+
+print(calc1short(80,20))  # about 0.31
+

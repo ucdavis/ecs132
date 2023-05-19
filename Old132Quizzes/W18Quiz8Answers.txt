@@ -1,0 +1,23 @@
+
+lmout <- lm(Ozone ~ .,data=airquality[,-(5:6)])
+
+a <- c(1,188,8.8,62)  # prepare for (10.56)
+pred <- t(a) %*% coef(lmout)
+print(pred)
+se <- sqrt(t(a) %*% vcov(lmout) %*% a)
+print(c(pred-1.96*se,pred+1.96*se))
+
+aq <- airquality[,-6]
+# need to form dummy variables (4 of them, since have 5 months)
+month <- aq$Month
+aq$D5 <- as.integer(month == 5)
+aq$D6 <- as.integer(month == 6)
+aq$D7 <- as.integer(month == 7)
+aq$D8 <- as.integer(month == 8)
+aq$Month <- NULL
+lmout <- lm(Ozone ~ .,data=aq)
+a <- c(0,0,0,0,1,0,-1,0)
+mayjuly <- t(a) %*% coef(lmout)
+se <- sqrt(t(a) %*% vcov(lmout) %*% a)
+print(c(mayjuly-1.96*se,mayjuly+1.96*se))
+

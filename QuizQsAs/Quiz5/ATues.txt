@@ -1,0 +1,34 @@
+
+1.
+
+   P <- rbind(c(0.5,0,0.5),c(0.25,0.5,0.25),c(1,0,0))
+   iMinusPprime <- diag(3) - t(P)
+   print(iMinusPprime)
+
+2.
+
+print(0.5*1*1 + 0.5*1*3)
+
+3.  Take "success" to mean leaving state 2.  This has probability 
+p = 1-1/2 = 1/2.  By Eqn. (4.12), the variance is then
+
+(1-p) / (p^2) = 2
+
+4.  We need P^5.
+
+   P <- matrix(rep(0,9),nrow=3)
+   P[1,1] <- 0.5
+   P[1,2] <- 0.5
+   P[2,3] <- 0.5
+   P[2,1] <- 0.5
+   P[3,1] <- 1
+
+   I <- diag(3)           # 3x3 identity matrix
+   tmp <- I
+   for (i in 1:5) {
+     tmp <- tmp %*% P
+   }
+   probAt2Again <- tmp[3,3]
+   print(probAt2Again)
+
+

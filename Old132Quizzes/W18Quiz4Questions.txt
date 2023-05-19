@@ -1,0 +1,88 @@
+
+
+DESCRIPTION
+
+***********************************************************************
+
+DON'T FORGET TO SAVE AND SUBMIT YOUR WORK, even work in progress.
+The network may get busy at the end of the exam period, making  
+it difficult to submit then.  The server will shut down at the 
+appointed time, and NO further work will be accepted.         
+
+**********************************************************************
+
+In questions involving code which will PARTIALLY be given to you in the
+question specs, you need to add new lines.  There may not be information
+given as to where the lines should be inserted.  Do not modify the lines
+already there unless instructed to do so.  If a question includes test
+code, make sure to include it in your submission.
+
+Do not answer question via simulation code unless this is specified. 
+
+If you finish early, please leave the exam room.  If you stay, close
+your laptop and sit quietly.
+
+**************************************************************************
+
+SHOW YOUR WORK in problems involving numerical answers.  Either do    
+so via comment lines or multiline code with variable names, or in a  
+detailed numerical expression if it clearly shows your thinking. You
+need not show ALL details, but enough to demonstrate your insight. 
+Single-number answers will likely get 0 credit.                   
+
+**************************************************************************
+
+QUESTION -ext .R -run 'Rscript omsi_answer1.R'
+
+Fill in the blank below so that the matrix
+
+1 4 7
+2 5 8
+3 6 9
+
+is printed.
+
+print(matrix(                 ))
+
+QUESTION -ext .R -run 'Rscript omsi_answer2.R'
+
+Consider the die game, p.103.  Suppose on each turn we roll two dice
+instead of one.  We still have 10 states, 1 through 10, but the
+transition matrix P changes.  If for instance we are now in state 6 and
+roll (3,2), we win a dollar and our next state is 1.  Fill in the blank
+so that it prints out the first four elements of row 1 of P, which will
+consist of the probabilities p_{1,j}, j = 1,2,3,4.
+
+print(c(            ))
+
+QUESTION -ext .R -run 'Rscript omsi_answer3.R'
+
+Suppose Z is an indicator random variable with P(Z = 1) = w.  Write a
+function to calculate the skewness of Z,
+
+E[ {(Z - EZ)/ sqrt(Var(Z))}^3 ]
+
+skInd <- function(w)
+{
+
+
+}
+
+print(skInd(0.25))  # about 1.15
+
+QUESTION -ext .R -run 'Rscript omsi_answer4.R'
+
+Consider the setting of the binomial distribution family, with one
+change:  The probability of success varies from trial to trial.  Let p_i
+denote the probability of success on trial i, and as before let X denote
+the number of successes out of n trials.  Write a function to calculate
+Var(X).  For full credit, do not use any loops.
+
+# pvec is the vector (p_1,...,p_n)
+varx <- function(pvec)  # n inferred, no need for a parameter n
+{
+
+}
+
+print(varx(c(0.25,0.45,0.30))
+

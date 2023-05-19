@@ -1,0 +1,39 @@
+
+1.  generic
+
+2.  
+
+ET = E(X1 X2) = EX1 EX2 by independence.
+
+EX1 = (1/3) 69 + (1/3) 72 + (1/3) 70 = 70.33
+
+ET = 70.33^2
+
+3.  
+
+sim <- function(n,nreps) {
+   w <- replicate(nreps, {
+      x <- rexp(n,1/2)
+      xbar <- mean(x)
+      abs(xbar - 2.0)
+      })
+   mean(w)
+}
+
+print(sim(1000,10000))  # 0.05
+
+4.  
+
+kNear <- function(x,y,k,newx)  # x,y are vector, newx a "scalar"
+{  
+   dsts <- abs(x - newx)
+   odsts <- order(dsts)[1:k]  # which are the k closest?
+   mean(y[odsts])
+}
+
+x <- c(5,12,13,8.88)
+y <- c(22,11,5.5,12.12)
+newx <- 13.2
+print(kNear(x,y,3,newx))  # 9.54
+
+

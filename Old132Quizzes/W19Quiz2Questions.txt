@@ -1,0 +1,73 @@
+
+
+DESCRIPTION
+
+Students:  Please keep in mind the OMSI rules.  Save your files often,
+make sure OMSI fills your entire screen at all times, etc.  Remember
+that clicking CopyQtoA will copy the entire question box to the answer
+box.
+
+In questions involving code which will PARTIALLY be given to you in the
+question specs, you may need add new lines.  There may not be
+information given as to where the lines should be inserted.
+
+If a question includes test code, make sure to include it in your
+submission
+
+Do not answer any question with simulation code unless this is specified. 
+
+MAKE SURE TO RUN THE CODE IN PROBLEMS INVOLVING CODE!  Hit the OMSI
+Submit and Run button.
+
+QUESTION 
+
+(Text answer.) In an adjacency matrix, the number of 1s in row i is
+called the _______________________ of vertex i.
+
+QUESTION -ext .R -run 'Rscript omsi_answer2.R'
+
+(Code answer.) Consider the ALOHA example, p = 0.4 and q = 0.8,
+but with three nodes, all of which start out active. The records at
+terminal at node 1 show that there was a collision in epoch 1. (It does
+not indicate whether that node was involved.)
+
+Write simulation code to find the probability that all three nodes were
+involved in that collision.
+
+sim3coll <- function(nreps)
+{
+
+
+}
+
+print(sim3coll(10000))
+
+QUESTION -ext .R -run 'Rscript omsi_answer3.R'
+
+(R code answer.)  Solve Problem 2 mathematically (i.e. "with mailing
+tubes"), obtaining an exact answer.  
+
+print(        )
+
+QUESTION -ext .R -run 'Rscript omsi_answer4.R'
+
+(R code answer.) Suppose m numbers are chosen at random, without
+replacement, from 1,2,...,n.  Let X denote the length of the largest gap
+between consecutive numbers in the chosen set.  The gap starting at 1,
+and the one ending at n, do not count unless 1 or n is in the chosen
+set, respectively.  For example, if n = 10 and m = 3, we might choose 2,
+6 and 7.  The gaps would then be 4 and 1.  Write a function to find the
+exact probability (this is not a simulation) that X = k. You must make
+use of R's built-in functions combn() and diff().
+
+maxgap <- function(n,m,k)
+{
+
+
+}
+
+print(maxgap(6,3,3))  # 0.3
+print(maxgap(8,4,3))  # about 0.39
+print(maxgap(5,2,2))  # 0.3
+print(maxgap(20,6,8))  # about 0.10
+

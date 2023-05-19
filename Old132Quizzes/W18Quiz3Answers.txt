@@ -1,0 +1,44 @@
+
+Q1:
+
+# P(D = 3) = P(N = 8 or N = 14) 
+print((1-0.15)^7 * 0.15 + (1-0.15)^13 * 0.15)
+
+Q2:
+
+parksim <- function(nreps) {
+   nvals <- rgeom(nreps,0.15) + 1
+   dvals <- ifelse(nvals <= 10,11-nvals,nvals-11)
+   mean(dvals == 3)
+}
+
+print(parksim(10000))
+
+Q3:
+
+# P(G_i = 1) is still 6/9!
+print(2*4*(6/9) - 4)
+
+Q4:
+
+varxy <- function(v,w) 
+{
+   # Cov(X,Y) = E(X*Y) - EX * EY = P(X=Y=1) - v*v = w - v^2
+   2*v*(1-v) + 2*(w - v^2)
+}
+
+print(varxy(0.5,0.2))
+
+Q5:
+
+calc1short <- function(n,s)  
+{
+   r <- 3
+   n22 <- n^2 / 2
+   num <- choose(n-3,r-2) * choose(n22-5*n/2+3,s-(r-2))
+   den <- choose(n22-3*n/2,s)
+   num/den
+}
+
+print(calc1short(80,20))  # about 0.31
+

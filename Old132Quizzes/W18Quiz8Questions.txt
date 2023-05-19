@@ -1,0 +1,58 @@
+
+DESCRIPTION
+
+Students:  Please keep in mind the OMSI rules.  Save your files often,
+make sure OMSI fills your entire screen at all times, etc.  Remember
+that clicking CopyQtoA will copy the entire question box to the answer
+box.  
+
+**************************************************************************
+*                                                                        *
+*  IMPORTANT:  If your code works partially but on some parts either has *
+*  syntax errors or results in an execution error, COMMENT OUT THOSE     *
+*  PARTS SO THAT THE CODE DOES RUN.                                      *
+*                                                                        *
+**************************************************************************
+
+Don't forget to FREQUENTLY save and submit your work, even work    
+in progress.  The network may get busy at the end of the exam     
+period, making it difficult to submit then.  The server will shut
+down at the appointed time, and NO further work will be accepted.
+                                                                
+In questions involving code which will PARTIALLY be given to you in the
+question specs, you need to add new lines.  There may not be information
+given as to where the lines should be inserted.  Do not modify the lines
+already there unless instructed to do so.
+
+If a question includes test code, make sure to include it in your
+submission.
+
+IF YOU FINISH EARLY, please leave the exam room.  If you stay, close
+your laptop and sit quietly.
+
+QUESTION -ext .R -run 'Rscript omsi_answer1.R'
+
+This question will concern R's built-in 'airquality' dataset.  
+
+First fit a linear model, predicting Ozone from all other variables
+except Month and Day.  Print out the predicted Ozone for a day with
+Solar.R = 188, Wind = 8.8 and Temp = 62.  (This is the same as the
+conditional mean Ozone for those conditions.) Then print an approximate
+95% confidence interval for that value.
+
+Then fit another linear model, predicting Ozone from all other variables
+except Day.  Print out the left and right endpoints of an approximate
+95% confidence interval for the difference in mean Ozone for days in
+May and days in July (i.e. the latter is subtracted from the former).
+
+I recommend running table(airquality$Month) to get a sense of the data.
+
+PROVIDE YOUR ENTIRE CODE, not just the print statements.
+
+print('predict Ozone for a day with Solar.R = 188, Wind = 8.8 and Temp = 62:')
+print(                         )
+print('left and right endpoints of the CI:')
+print(                         )
+print('left and right endpoints of the CI:')
+print(                         )
+

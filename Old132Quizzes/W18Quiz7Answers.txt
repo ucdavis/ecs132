@@ -1,0 +1,38 @@
+
+Q1:
+
+print(integrate(function(t) t^4 * dnorm(t), -Inf,Inf))  # about 3
+
+# or, note that Z^2 has a chi-squared distribution with 1 degree of
+# freedom, and use the information in Sec. 7.33
+
+Q2:
+
+expMdn <- function(lambda) 
+{
+   qexp(0.5,lambda)
+}
+
+print(expMdn(2.5))  # about 0.28
+
+Q3:
+
+r43 <- function(n) 
+{
+   (runif(n))^0.25
+}
+
+print(mean(r43(10000)))  # about 0.8 
+
+Q4:
+
+n <- rnorm(10000,28.8,3.1) 
+n25 <- n[n >= 25]
+mean(n25)
+
+Q5:
+
+# need P(N(552) <= 4) 
+# N(552) is Poisson with param 552 x (1/100) = 5.52
+print(ppois(4,5.52))
+

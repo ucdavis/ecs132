@@ -1,0 +1,41 @@
+
+1.  generic
+
+2.  
+
+varDivByN <- function(x)    # x is vector of sample
+{
+   vr <- var(x)
+   n <- length(x)
+   ((n-1)/n) * vr
+}
+
+print(varDivByN(c(5,12,13,8.88)))  # 9.74
+
+3.
+
+varHist <- function(n,i)
+{
+   # N_i has a binomial distribution, so Var(N_i) = np(-1p);
+   # here n = sample size and # p = P(i-1 < X < i); 
+   p <- pexp(i,1/2) - pexp(i-1,1/2)
+   n*p*(1-p)
+}
+
+print(varHist(100,2))  # 18.17
+
+4.
+
+
+mmGamma <- function(x)  {
+
+   xbar <- mean(x)
+   s2 <- var(x)
+   estR <- xbar^2 / s2
+   estLambda <- xbar / s2
+   return(c(estR,estLambda))
+}
+
+print(mmGamma(c(5,12,13,8.88)))  # 7.28, 7.49
+
+

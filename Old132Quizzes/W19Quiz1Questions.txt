@@ -1,0 +1,55 @@
+
+
+DESCRIPTION
+
+Students:  Please keep in mind the OMSI rules.  Save your files often,
+make sure OMSI fills your entire screen at all times, etc.  Remember
+that clicking CopyQtoA will copy the entire question box to the answer
+box.
+
+In questions involving code which will PARTIALLY be given to you in the
+question specs, you may need add new lines.  There may not be
+information given as to where the lines should be inserted.
+
+If a question includes test code, make sure to include it in your
+submission.
+
+Do not answer any question with simulation code unless this is specified. 
+
+MAKE SURE TO RUN THE CODE IN PROBLEMS INVOLVING CODE!  Hit the OMSI
+Submit and Run button.
+
+QUESTION 
+
+(Text answer.) Fill in the blank with a formal term:  Our book defines
+probability in terms of the long-run behavior of repeated experiments.
+This is in contrast to most books, which define things in terms of a
+________________________.
+
+QUESTION 
+
+(Text answer.) Give the number of the "mailing tube" used to go from
+(2.46) to (2.47).
+
+QUESTION -ext .R -run 'Rscript omsi_answer3.R'
+
+(R code answer.)  Consider the problem ``Someone tells you...'' on p.21,
+whose solution is in (2.55)-(2.57).  Suppose we had not realized that
+the wording of the problem not only tells us L2 = 0 but also tells us L1
+> 0.  We then would have found P(L1 = 1 | L2 = 0).  Find this
+probability.  Feel free to use numbers already found in pp.20-22.
+
+QUESTION -ext .R -run 'Rscript omsi_answer4.R'
+
+(R code answer.) Jill arrives daily at a parking lot, at 9:00, 9:15 or
+9:30, with probably 0.5, 0.3 and 0.2, respectively.  The probability of
+there being an open space at those times is 0.6, 0.3 and 0.8,
+respectively.  Find the probability that she gets a space.
+
+QUESTION -ext .R -run 'Rscript omsi_answer5.R'
+
+(R code answer.) In Problem 4, suppose one day she tells us that she
+found a space.  Determine the most likely time she arrived, and the
+probability that it was that time.  But in your answer, just show
+the expression for the probability, NOT the arrival time.
+

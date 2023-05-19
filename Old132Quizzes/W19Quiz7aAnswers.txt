@@ -1,0 +1,28 @@
+
+1.
+
+(1 - pnorm(30,28.8,3.1)) / (1 - pnorm(25,28.8,3.1))
+
+2.  
+
+mean(pe$age)
+
+3.
+
+(3.22)
+
+4.
+
+qgamma(0.90,5,0.01)
+
+5.
+
+f <- function(nreps)
+
+{
+   tmp <- replicate(nreps,sum(runif(50,-0.5,0.5)))
+   mean(tmp > 2.0)
+}
+
+f(10000)
+

@@ -1,0 +1,14 @@
+
+1.  the support
+
+2.  (i), (iii), (vi)
+
+3.  biased
+
+4.  G(48.8) is N, the number of X_i that are <= 48.8, divided by n.  N
+has a binomial distribution, with n trials and p = F_X(48.8) = 
+(48.8-40) / (60-40) = 0.44.  We know that since N is binomial
+Var(N) = np(1-p).  Thus Var(N/n) = p(1-p)/n.
+
+0.44 * (1-0.44) / n
+

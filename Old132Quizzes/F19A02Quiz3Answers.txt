@@ -1,0 +1,39 @@
+
+1. 
+
+None.
+
+2.
+
+g <- function(n,k) {
+   sumProbs <- 0
+   for (i in 0:n) {
+      for (j in 0:n) {
+         if (abs(i-j) <= k)
+            sumProbs <- sumProbs +
+               dbinom(i,n,0.5) * dbinom(j,n,0.5) 
+      }
+   }
+   sumProbs
+}
+print(g(10,3))  # 0.0.8846817
+
+3.
+
+sk <- function(n,p) {
+   mu <- n * p
+   sg <- sqrt(n*p*(1-p))
+   sumTerms <- 0
+   for (i in 0:n) {
+      sumTerms <- sumTerms + ((i-mu)/sg)^3 * dbinom(i,n,p)
+   }
+   sumTerms
+}
+
+sk(10,0.3)  # 0.2760262
+
+4.  B has a geometric distribution!
+
+p = P(N <= 10) = 1 - P(N > 10) = 1 - 0.85^10
+
+EB = 1/p   # 1.245135

@@ -1,0 +1,28 @@
+
+1.  variance of U
+
+2.  T,F,T,T
+
+3.  
+
+X, Y independent, so 
+
+E(XY^2) = EX E(Y^2) = (1) E(Y^2)
+
+Then
+
+E(Y^2) = Var(Y) + (EY)^2 = 4 + 2^2 = 8
+
+4.  Note that the question asks for E(R+B), not E[(R+B) mod 8].
+
+E(R+B) = ER + EB (even though R,B not independent!)
+
+ER = 3.5
+
+P(B = i) = 5/6 for i = 0 and (1/6) (1/6) for i = 1,2,...,6
+
+So, EB = (1/36) (1+2+3+4+5+6) = 7/12
+
+So, E(R+B) = 3.5 + 7/12.
+
+

@@ -1,0 +1,82 @@
+
+
+DESCRIPTION
+
+Students:  Please keep in mind the OMSI rules.  Save your files often,
+make sure OMSI fills your entire screen at all times, etc.  Remember
+that clicking CopyQtoA will copy the entire question box to the answer
+box.  DON'T FORGET TO SAVE AND SUBMIT YOUR WORK, even work in progress.
+
+In questions involving code which will PARTIALLY be given to you in the
+question specs, you may need add new lines.  There may not be
+information given as to where the lines should be inserted.  Do not
+modify the lines already there.
+
+If a question includes test code, make sure to include it in your
+submission.
+
+Do not answer question via simulation code unless this is specified. 
+
+MAKE SURE TO RUN THE CODE IN PROBLEMS THAT INVOLVING CODE!  Hit the OMSI
+Run button.
+
+QUESTION 
+
+We discussed a term from probability theory that is heavily used but is
+misleading.  What term was it?
+
+QUESTION -ext .R -run 'Rscript omsi_answer2.R'
+
+In the context of the example in Sec. 3.6.2, find the variance of X+2Y,
+expressing your answer in R:
+
+print(             )
+
+QUESTION -ext .R -run 'Rscript omsi_answer3.R'
+
+Consider the ALOHA example, using two nodes, both of which start out
+active, with p = 0.4, q = 0.8.  Find the expected value of the number of
+attempted transmissions (successful or not) during the first epoch,
+answering using R:
+
+print(               )
+
+QUESTION -ext .R -run 'Rscript omsi_answer4.R'
+
+Consider the board game example, Section 2.11 of our book.  
+
+Instead of assuming we start at square 0, as before, we now assume we
+start on any of the 8 squares, with probability 1/8 each.  Also, we now
+want to find P(X = 7) and EB, where X is the position after one turn
+(including bonus, if any), and B is the bonus (taking on the values
+0,1,...,6).  Add lines to the simulation code appropriately.
+
+boardsim <- function(nreps) {
+   for (i in 1:nreps) {
+      position <- sample(1:6,1)
+      bonus <- 0
+      if (position == 3) {
+         bonus <- sample(1:6,1)
+         position <- (position + bonus) %% 8
+   }
+   c(prbsq7,eb)
+}
+
+set.seed(99999)
+print(boardsim(1000))
+
+QUESTION -ext .R -run 'Rscript omsi_answer5.R'
+
+Write a function that returns E[g(X)] for a given discrete random
+variable X having finite support.  The latter is specified via its
+support and probabilities on that support, given in the top and bottom
+rows of a matrix.  Complete the code below:
+
+egx <- function(xInfo,g) 
+{
+
+}
+
+print(egx(rbind(1:6,rep(1/6,6)),function(x) x^2))  # about 15.17
+
+

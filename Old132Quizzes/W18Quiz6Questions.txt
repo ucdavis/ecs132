@@ -1,0 +1,65 @@
+
+
+DESCRIPTION
+
+***********************************************************************
+
+DON'T FORGET TO SAVE AND SUBMIT YOUR WORK, even work in progress.  The
+network may get busy at the end of the exam period, making it difficult
+to submit then.  The server will shut down at the appointed time, and NO
+further work will be accepted.
+
+**********************************************************************
+
+In questions involving code which will PARTIALLY be given to you in the
+question specs, you need to add new lines.  There may not be information
+given as to where the lines should be inserted.  Do not modify the lines
+already there unless instructed to do so.  If a question includes test
+code, make sure to include it in your submission.
+
+Do not answer a question via simulation code unless this is specified. 
+
+If you finish early, please leave the exam room.  If you stay, close
+your laptop and sit quietly.
+
+**************************************************************************
+
+SHOW YOUR WORK in problems involving numerical answers.  Either do so
+via comment lines or multiline code with variable names, or in a
+detailed numerical expression if it clearly shows your thinking. You
+need not show ALL details, but enough to demonstrate your insight.
+Single-number answers will likely get 0 credit.
+
+**************************************************************************
+
+QUESTION -ext .R -run 'Rscript omsi_answer1.R'
+
+Suppose the random variable X has density 1.5 t^0.5 on (0,1), 0
+elsewhere.  Find F_X(0.5).
+
+print(                )
+
+QUESTION -ext .R -run 'Rscript omsi_answer2.R'
+
+In the parking garage example of Sec. 7.6.3.4, find P(W < 2.5).
+
+print(                 )
+
+QUESTION -ext .R -run 'Rscript omsi_answer3.R'
+
+For the random variable X in Sec. 7.4, find the skewness,
+E{ [(X-mu)/sigma]^3 }, where mu and sigma are the mean and standard
+deviation of X.  Feel free to use quantities already computed in the
+book.
+
+print(                )  # about -0.40
+
+QUESTION -ext .R -run 'Rscript omsi_answer4.R'
+
+Consider the network buffer example, Sec. 7.6.4.2.  Suppose interarrival
+times, instead of having an exponential distribution with mean 100, are
+uniformly distributed between 60 and 140 milliseconds.  Write simulation
+code to find the new value of (7.49).
+
+print(                 )  # about 0.16
+

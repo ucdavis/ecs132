@@ -1,0 +1,22 @@
+
+1.  integrate(function(t) 2*t/15,1,1.6)
+
+2.  We need P(M <= 2.2) = P(M <= 2).
+
+choose(4,0) * choose(48,5) / choose(52,5) +
+choose(4,1) * choose(48,4) / choose(52,5) +
+choose(4,2) * choose(48,3) / choose(52,5) 
+
+3.  5 P(L <= 2) + 1 P(3 <= L <= 6)
+
+5 * pgeom(2-1,0.25) + 1 * (pgeom(6-1,0.25) - pgeom(2-1,0.25))
+
+4.  
+
+q <- function(v) 
+{
+   sqrt(15*v + 1)
+}
+
+print(q(0.36))
+

@@ -1,0 +1,30 @@
+
+1.  innocent until proven guilty
+
+2.  (ii), (vi)
+
+3.  Setting the integral across the entire support equal to 1, we find
+that 1 = c (1/3)(6^3 - 2^3), so c = 3/208.  Then F_x(s) is equal to the
+integral of (3/208) t^2 from 2 to s, i.e. (1/208)(s^3 - 8).
+
+cdf <- function(t) 
+{
+   (1/208) * (t^3 - 8)
+}
+
+print(cdf(3.5))  # 0.1676683
+
+4.  
+
+library(mlbench)
+data(PimaIndiansDiabetes2)
+age <- PimaIndiansDiabetes2$age
+xbar <- mean(age)
+s2 <- var(age)
+tail <- -qnorm(0.01/2)
+rad <- tail * sqrt(s2 / length(age))
+print(c(xbar-rad,xbar+rad))  # (32.15,34.33)
+
+
+
+

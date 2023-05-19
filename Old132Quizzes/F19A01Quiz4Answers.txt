@@ -1,0 +1,18 @@
+
+1. 2 board, 18 stay 
+
+(0.1) (1-0.2)^18 
+
+2.  The 1 in the last transmat line.
+
+3.  The total payouts are 4,8,12,13,14 if 1,2,3,4,5+ customer come in.
+The 5 corresponding probabilities are dpois(i,lambda), i = 1,2,3,4 and
+1 - ppois(4,lambda).
+
+c(4,8,12,13,14) %*% c(dpois(1:4,lambda),1-ppois(4,lambda))
+
+4.  
+
+1:5 %*% inventory(0.6,0.4,5)
+
+

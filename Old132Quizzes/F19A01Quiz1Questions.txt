@@ -1,0 +1,57 @@
+
+
+DESCRIPTION
+
+Students:  Please keep in mind the OMSI rules.  Save your files often,
+make sure OMSI fills your entire screen at all times, etc.  Remember
+that clicking CopyQtoA will copy the entire question box to the answer
+box.
+
+In questions involving code which will PARTIALLY be given to you in the
+question specs, you may need add new lines.  There may not be
+information given as to where the lines should be inserted.
+
+If a question includes test code, make sure to include it in your
+submission.
+
+Do not answer any question with simulation code unless this is specified. 
+
+MAKE SURE TO RUN THE CODE IN PROBLEMS INVOLVING CODE!  Hit the OMSI
+Submit and Run button.
+
+QUESTION 
+
+(Text answer, 25 pts.) Give the number of the "mailing tube" used to go from
+(3.2) to (3.3), p.41.
+
+QUESTION -ext .R -run 'Rscript omsi_answer2.R'
+
+(R code answer, 25 pts.)  Consider the bus ridership model, pp.20ff.  Find the
+probability that no one alights at the second stop. 
+
+QUESTION -ext .R -run 'Rscript omsi_answer3.R'
+
+(R code answer, 25 pts.)  In Sec. 2.15.3, we find the probability that two of
+five winning lottery tickets are even-numbered.  Here you will solve the
+problem approximately via simulation.  
+
+simLott <- function(nreps) 
+{
+   countTwoEven <- 0
+   for (i in 1:nreps) {
+      winners <- sample(  )
+      evenOdd <- winners %% 2
+      twoEven <-        # boolean
+      countTwoEven <- countTwoEven + twoEven
+   }
+   countTwoEven / nreps
+}
+
+print(simLott(5000))
+
+QUESTION -ext .R -run 'Rscript omsi_answer4.R'
+
+(R code answer, 25 pts.)  Consider the Preferential Attachment Model, Sec.
+2.13.1, at the time just after v4 joins the network.  Find the
+probability that the degree of v1 is 1.
+

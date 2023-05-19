@@ -1,0 +1,49 @@
+DESCRIPTION
+
+Students:  Please keep in mind the OMSI rules.  Save your files often,
+make sure OMSI fills your entire screen at all times, etc.  Remember
+that clicking CopyQtoA will copy the entire question box to the answer
+box.
+
+In questions involving code which will PARTIALLY be given to you in the
+question specs, you may need add new lines.  There may not be
+information given as to where the lines should be inserted.
+
+If a question includes test code, make sure to include it in your
+submission.
+
+Do not answer any question with simulation code unless this is specified.
+
+MAKE SURE TO RUN THE CODE IN PROBLEMS INVOLVING CODE!  Hit the OMSI
+Submit and Run button.
+
+QUESTION -ext .R -run 'Rscript ./omsi_answer1.R'
+
+(R code answer, 25 pts.)  On p.115, find p_18,20, the probability of
+going from state 18 to state 20.
+
+print(              )
+
+QUESTION
+
+(Text answer, 25 pts.)  At the bottom of p.114, it mentions
+recycling.  What specific object is recycled in this case?
+
+QUESTION -ext .R -run 'Rscript ./omsi_answer3.R'
+
+(R code answer, 25 pts.)  A bank opens at 10 a.m., and N customers
+arrive in the next 15 minutes, where N has a Poisson distribution with
+mean 4.2.  The first 3 customers, if any, will get an ice cream coupon
+worth $4; the next 2, if any, will receive a $1 coupon. Find the
+expected total payout T.  E.g. if just 2 customers come in, T = 2 X 4 =
+8, while if 5 come in, T = 3 X 4 + 2 X 1 = 14.
+
+print(              )
+
+QUESTION -ext .R -run 'Rscript ./omsi_answer4.R'
+
+(R code answer, 25 pts.)  Consider the inventory model, p.117, with
+v = 0.6, w = 0.4 and r = 5.  Find the long-run average amount of stock,
+measured at the start of each day.
+
+print(              )
