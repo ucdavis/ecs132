@@ -5,7 +5,8 @@
 
 **May 19, 2250:**
 
-The Term Project is ready!
+The Term Project is
+[ready](https://github.com/ucdavis/ecs132/blob/master/Hwk/TermProject.md)!
 
 As noted before in the [course Procedural
 Information](https://github.com/matloff/nmGeneralCourseInfo/blob/master/RulesAndProcedures.md),
