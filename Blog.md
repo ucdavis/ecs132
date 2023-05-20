@@ -3,6 +3,18 @@
 
 **Spring 2023**
 
+**May 19, 2250:**
+
+The Term Project is ready!
+
+As noted before in the [course Procedural
+Information](https://github.com/matloff/nmGeneralCourseInfo/blob/master/RulesAndProcedures.md),
+very good Term Project submissions result in each student in the team
+being given a bonus in the computation of the course grade.
+
+Start now!  The earlier you start work on the Project, the more likely
+it is that you do good enough work to obtain this bonus.
+
 **May 17, 1525:**
 
 I've gotten several requests for makeup sessions for missed interactive grading sessions.  I've approved them so far, but will stop doing so, except for seriously extenuating circumstances.
