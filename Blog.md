@@ -3,6 +3,12 @@
 
 **Spring 2023**
 
+**May 21, 1410:**
+
+After we finish the current chapter, the rest of the course will cover my [tutorial on statistics](https://github.com/matloff/fastStat), something like the first 10-12 lessons. (They're short.) This material will appear on Quizzes, and will be vital to your Term Project.
+
+Concerning the latter, recall from the Project specs that proper interpretation will be vital, especially in your written report.  Issues of interpretation will be a major focus of the stat tutorial. It is not enough to merely understand the mechanics of the formula etc.
+
 **May 21, 0935:**
 
 **REMINDER!**
