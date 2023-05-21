@@ -7,7 +7,7 @@
 
 **REMINDER!**
 
-As noted multiple times in class and in the class [Procedural Information](https://github.com/matloff/nmGeneralCourseInfo/blob/master/RulesAndProcedures.md), **all of your ECS 132 course records** are indexed by your official UCD e-mail address. This is the address at which you receiving my blog announcements, for instance. If you submit Quizzes, Homwork and the Term Project under any other address, you risk having the work overlooked. This can **adversely impact your grade**, and possibly even **cause you to fail the course**.
+As noted multiple times in class and in the class [Procedural Information](https://github.com/matloff/nmGeneralCourseInfo/blob/master/RulesAndProcedures.md), **all of your ECS 132 course records** are indexed by your official UCD e-mail address. This is the address at which you have been receiving my blog announcements, for instance. If you submit Quizzes, Homwork and the Term Project under any other address, you risk having the work overlooked. This can **adversely impact your grade**, and possibly even **cause you to fail the course**.
 
 Soon I will be e-mailing you a list of all Quiz grades I have for you. Check it carefully!
 
