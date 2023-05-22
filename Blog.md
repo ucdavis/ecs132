@@ -3,6 +3,10 @@
 
 **Spring 2023**
 
+**May 22, 1255:**
+
+For this week's quizzes, know the "d,p,q,r" functions backwards and forwards. Know not only their call forms but also how to use them to solve problems. Make up your own problems as practice!
+
 **May 21, 1720:**
 
 Thanks to an alert student, I just corrected a typo in Problem 3. Only one new call (or none) can arrive in any epoch.
