@@ -53,8 +53,8 @@ Here you will develop a Markov model of a call center.
 
 * Time is discrete, similar to the epochs in the ALOHA model.
 
-* At the beginning of an epoch, each existing call either terminates
-  with probability p, or continues with probability 1-p.  The calls act
+* At the beginning of an epoch, each call currently in service either terminates
+with probability p, or continues with probability 1-p.  The calls act
 independently of each other, and through time.  Concerning the latter,
 for instance, the probability of a specific call continuing through its
 first epoch but ending in the second is (1-p)p.
