@@ -3,6 +3,10 @@
 
 **Spring 2023**
 
+**May 21, 1720:**
+
+Thanks to an alert student, I just corrected a typo in Problem 3. Only one new call (or none) can arrive in any epoch.
+
 **May 21, 1410:**
 
 After we finish the current chapter, the rest of the course will cover my [tutorial on statistics](https://github.com/matloff/fastStat), something like the first 10-12 lessons. (They're short.) This material will appear on Quizzes, and will be vital to your Term Project.
