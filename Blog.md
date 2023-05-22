@@ -3,6 +3,14 @@
 
 **Spring 2023**
 
+**May 22, 1330:**
+
+A student asked a question re Problem 3. My answer was, 
+
+> If we are currently in state r+3, i.e. r calls in service, 3 waiting, then the
+> biggest drop would occur of all r calls terminate.  The 3 waiting would then be
+> in service, i.e. we are in state 3.
+
 **May 22, 1255:**
 
 For this week's quizzes, know the "d,p,q,r" functions backwards and forwards. Know not only their call forms but also how to use them to solve problems. Make up your own problems as practice!
