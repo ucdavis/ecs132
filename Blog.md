@@ -3,6 +3,10 @@
 
 **Spring 2023**
 
+**May 22, 1350:**
+
+I fixed an ambiguity in Problem 3. Each call *currently in service* terminates with probability p. Calls on hold do not terminate.
+
 **May 22, 1330:**
 
 A student asked a question re Problem 3. My answer was, 
