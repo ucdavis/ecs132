@@ -59,7 +59,7 @@ independently of each other, and through time.  Concerning the latter,
 for instance, the probability of a specific call continuing through its
 first epoch but ending in the second is (1-p)p.
 
-* Near the end of an epoch, a new calls arrives, with probability q, or
+* Near the end of an epoch, a new call arrives, with probability q, or
   does not, with probability 1-q.  Again, this is independent across
 time, and independent of what happens to existing calls.
 
