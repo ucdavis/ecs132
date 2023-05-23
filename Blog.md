@@ -3,6 +3,10 @@
 
 **Spring 2023**
 
+**May 22, 1920:**
+
+Lan will be away at a research conference this week. Dylan will sub for him in tomorrow's discussion section. Lan will hold his Wednesday office hour on Zoom, using the link he used before. His Friday hour will be canceled.
+
 **May 22, 1350:**
 
 I fixed an ambiguity in Problem 3. Each call *currently in service* terminates with probability p. Calls on hold do not terminate.
