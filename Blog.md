@@ -3,6 +3,10 @@
 
 **Spring 2023**
 
+**May 22, 1930:**
+
+If you missed class last Thursday, note that I discussed the Central Limit Theorem and the"memoryless" property of the exponential distribution family. What I presented was material in Sections 7.10 and 8.2, though much briefer than what is in those sections.
+
 **May 22, 1920:**
 
 Lan will be away at a research conference this week. Dylan will sub for him in tomorrow's discussion section. Lan will hold his Wednesday office hour on Zoom, using the link he used before. His Friday hour will be canceled.
