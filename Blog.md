@@ -3,6 +3,22 @@
 
 **Spring 2023**
 
+**May 23, 2140:**
+
+I've finished grading the Thursday Quiz 5.  Sorry for the delay.
+
+In general, I was very pleased at how well you did on that Quiz (both days).
+
+As we now near the end of the quarter, please keep in mind the "bonuses" that can boost your course grades:
+
+* Your lowest 3 Quizzes (in letter grades) will be dropped.
+
+* An excellent Term Project can bring a major boost to your course 
+grade.  (See the example in the course Procedural Information document.)
+
+An example of noncompliance is being a No-Show at a scheduled interactive grading session.  I'm told that there have been a number of such incidents, something that did NOT happen in the many earlier times I've taught this and other courses.  Of course, one might have a valid excuse for missing a scheduled grading session, but apparently the students in these cases are not even offering excuses.  They will not get credit for the assignment, and if a student is a multiple No-Show, he/she will fail the course.
+
+
 **May 22, 1930:**
 
 If you missed class last Thursday, note that I discussed the Central Limit Theorem and the"memoryless" property of the exponential distribution family. What I presented was material in Sections 7.10 and 8.2, though much briefer than what is in those sections.
