@@ -1,0 +1,58 @@
+
+
+1.
+
+p <- matrix(rep(0,16),nrow=4)
+p[1,1] <- 0.5
+p[1,2] <- 0.5
+p[2,3] <- 0.5
+p[2,1] <- 0.5
+p[3,1] <- 0.5
+p[3,4] <- 0.5
+p[4,1] <- 1
+
+print(findpi1(p))
+
+findpi1 <- function(p) {
+   n <- nrow(p)
+   imp <- diag(n) - t(p)
+   imp[n,] <- rep(1,n)
+   rhs <- c(rep(0,n-1),1)
+   solve(imp,rhs)
+}
+
+
+
+
+print(pivec)
+
+2.
+
+P <- rbind(
+   c(0.5,0,0.5),
+   c(0.25,0.5,0.25),
+   c(1,0,0))
+
+P[3,1] <- 0
+P[3,3] <- 1
+
+print(P)
+
+3.
+
+dcomm <- function(m,w,k,i) choose(m,i) * choose(w,k-i) / choose(m+w,k)
+
+print(dcomm(6,3,4,2))
+
+4.
+
+nfromg <- function(G) 
+{
+   N <- apply(G,1,cumsum)
+   N <- t(N)
+   return(N)
+}
+
+testG <- rbind(c(1,0,0),c(0,1,1),c(0,1,0))
+print(nfromg(testG))
+
