@@ -3,6 +3,28 @@
 
 **Spring 2023**
 
+**May 23, 2240:**
+
+Keep in mind that our Group Quiz will be held in the last lecture, June 8.
+
+* You will have the entire 70 minutes.
+
+* You work with your Group, and submit just ONE quiz.
+
+* Note:  Attendance is required.
+
+* I suggest sitting on the floor, maybe bringing your own portable chairs,
+etc. to facilitate interaction.
+
+* It will use OMSI, as usual.  Write your e-mail address in the usual 
+ajones.bsmith.clee format, as in our homework.  Make SURE to get this right.  The usual rules apply: No use of the Internet but the Quiz is open-book, open-notes.
+
+* The Quiz problems will be similar to what we've had, but somewhat more  
+elaborate.  There probably will be 3 problems for the 70-minute Quiz.
+
+* It will be noisy, maybe even fun.  But it's a serious Quiz, and counts 
+just like any other.
+
 **May 23, 2140:**
 
 I've finished grading the Thursday Quiz 5.  Sorry for the delay.
