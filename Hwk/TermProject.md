@@ -27,6 +27,8 @@ get started.
 
 ## Use of the datasets
 
+I would prefer that you use a dataset from [the repo for my other
+class](https://github.com/ucdavis/FairMLCourse/tree/main/Data).
 Most of the datasets in the repo are compressed data resulting from
 calling **save()** in R.  These have '.rda', '.RData' etc. suffices in
 their file names.  The paired function is **load()**.
@@ -43,6 +45,9 @@ hist(bank$age)
 Most of the datasets are fairly self-explanatory via their column
 names.  In some cases, you'll need to dig a little; let me know if you
 have trouble tracking down a particular dataset.
+
+Another possible  source would be the 
+[UCI ML Repository](https://archive.ics.uci.edu/ml/index.php).
 
 ## Your analysis
 
