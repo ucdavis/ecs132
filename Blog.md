@@ -3,7 +3,11 @@
 
 **Spring 2023**
 
-**May 25, 1805:"
+**May 26, 1020:**
+
+I corrected the typos in Lesson BIAS in the stat tutorial, mentioned in class yesterday, and have added a bit of wording.
+
+**May 25, 1805:**
 
 I added the missing material on the data repo.
 
