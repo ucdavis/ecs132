@@ -3,6 +3,10 @@
 
 **Spring 2023**
 
+**May 25, 1805:"
+
+I added the missing material on the data repo.
+
 **May 24, 0945:**
 
 We began the [tutorial on statistics](https://github.com/matloff/fastStat) yesterday, and will be using it in our remaining lectures. In Quizzes, including the Group Quiz, you will need to have both this document and our textbook on your machine.
