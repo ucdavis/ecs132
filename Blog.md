@@ -3,6 +3,19 @@
 
 **Spring 2023**
 
+**May 26, 2140:**
+
+News items:
+
+* Next week, the week of May 29, we will have our discussion section
+  Quizzes as usual.  Coverage will mainly be on the statistics tutorial,
+but may also include variants of Quiz questions from this past week.
+
+* During the week of June 5, we will not have discussion section
+  Quizzes, and in fact the discussion sections will not meet that week.
+However, we will have our major Group Quiz during the lecture time slot
+on June 8.  Make sure you've read the blog post of May 23, 2240.
+
 **May 26, 1020:**
 
 I corrected the typos in Lesson BIAS in the stat tutorial, mentioned in class yesterday, and have added a bit of wording.
