@@ -7,7 +7,7 @@
 
 A student asked me today that about the amount of writing in your Term
 Project report.  I had previously said you'd have a lot of writing to
-do, from the Term Project specs it looks like there isn't much.  Here is
+do, but from the Term Project specs it looks like there isn't much.  Here is
 the situation.
 
 Actually the project I gave you is somewhat scaled back from what I originally planned. There was going to be a second problem, with a considerable amount of writing.
