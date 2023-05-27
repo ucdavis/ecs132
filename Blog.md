@@ -35,6 +35,11 @@ You won't find the above point in any book. The authors of the books do know thi
 
 And of course if the readers, for their part, are just memorizing the mechanics of statistical procedures, there is no hope that they'll understand. Our remaining Quizzes, and the writing standard for your Term Project, will focus on *understanding*.
 
+I mentioned in class that statistics is hard, actually harder to understand than Markov chains. This may surprise you; how hard can it be, given that this material is in a high school class? But the interpretation is crucial, and in turn *statistics* is crucial to our lives. It affects how much you are charged for insurance, what kinds of medical treatment you get, how the government manages the economy, and so on.
+
+The importance of this material greatly transcends the grade you get in this class.
+
+
 **May 26, 2140:**
 
 News items:
