@@ -10,9 +10,7 @@ Project report.  I had previously said you'd have a lot of writing to
 do, from the Term Project specs it looks like there isn't much.  Here is
 the situation.
 
-Actually the project I gave you is somewhat scaled back from what      
-I originally planned. There was going to be a second problem, with a
-considerable amount of writing.
+Actually the project I gave you is somewhat scaled back from what I originally planned. There was going to be a second problem, with a considerable amount of writing.
 
 Nevertheless, your writing in the report much be done very carefully and
 thoughtfully.  You will explain specifically and in detail what you're
