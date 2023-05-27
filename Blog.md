@@ -12,7 +12,7 @@ the situation.
 
 Actually the project I gave you is somewhat scaled back from what I originally planned. There was going to be a second problem, with a considerable amount of writing.
 
-Nevertheless, your writing in the report much be done very carefully and
+Nevertheless, your writing in the report must be done very carefully and
 thoughtfully.  You will explain specifically and in detail what you're
 trying to do and how you did it, and then explain the results. There
 still will be a non-trivial amount of serious writing.
