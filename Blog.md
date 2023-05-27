@@ -27,7 +27,13 @@ forefront of your mind the interpretation of the concepts.  For example,
 on Thursday, we discussed the following:
 
 Say T is an unbiased estimate of some population value &theta;, meaning
-ET = &theta;.
+ET = &theta;. This means over all possible samples of size n from this population, T is sometimes less than &theta;, sometimes greater tan &theta;, but on average working out to exactly &theta;.
+
+Now, couple that with a situation in which Var(T) is small. The small variance means that T doesn't vary from one sample to another, and since the values of T are centered at &theta;, that means **in most samples T will be near &theta;.**
+
+You won't find the above point in any book. The authors of the books do know this, of course, but they don't realize that the readers may not realize what is going on. 
+
+And of course if the readers, for their part, are just memorizing the mechanics of statistical procedures, there is no hope that they'll understand. Our remaining Quizzes, and the writing standard for your Term Project, will focus on *understanding*.
 
 **May 26, 2140:**
 
