@@ -3,6 +3,34 @@
 
 **Spring 2023**
 
+**May 27, 1545:**
+
+A student asked me today that about the amount of writing in your Term
+Project report.  I had previously said you'd have a lot of writing to
+do, from the Term Project specs it looks like there isn't much.  Here is
+the situation.
+
+Actually the project I gave you is somewhat scaled back from what        
+I originally planned. There was going to be a second problem, with a
+considerable amount of writing.
+
+Nevertheless, your writing in the report much be done very carefully and
+thoughtfully.  You will explain specifically and in detail what you're
+trying to do and how you did it, and then explain the results. There
+still will be a non-trivial amount of serious writing.
+
+One thing that definitely has not changed is my statement in class that
+you have to make sure you don't say anything that is conceptually
+incorrect. For instance, failure to distinguish between a population
+quantity and its estimator is a serious, fundamental error. 
+
+Both in the Term Project and in our remaining Quizzes, keep at the
+forefront of your mind the interpretation of the concepts.  For example,
+on Thursday, we discussed the following:
+
+Say T is an unbiased estimate of some population value &theta;, meaning
+ET = &theta;.
+
 **May 26, 2140:**
 
 News items:
