@@ -7,7 +7,9 @@
 
 The Central Limit Theorem says, roughly, that sums of random variables have approximately normal distributions.  The basic form says that if X<sub>1</sub>, X<sub>2</sub>, ..., X<sub>n</sub> are IID, then X<sub>1</sub>+X<sub>2</sub>+ ...+X<sub>n</sub> has an approximately normal distribution with &mu; = EX and &sigma;^2 = Var(X).  The larger n is, the more accurate the approximation.
 
-So if  X<sub>1</sub>, X<sub>2</sub>, ..., X<sub>100</sub>is a sample from a population in which X has mean 52 and variance 2.4, then W will have an approximately normal distribution with mean 5200 and variance 240.
+So for example if  X<sub>1</sub>, X<sub>2</sub>, ..., X<sub>100</sub> is a sample from a population in which X has mean 52 and variance 2.4, then W will have an approximately normal distribution with mean 5200 and variance 240.
+
+The cdf of (W - n &mu;) / (<sup>0.5</sup> W) converges to that of a N(0,1) random variable as n goes to &infinity;.                                                 
 
 **May 28, 2050:**
 
