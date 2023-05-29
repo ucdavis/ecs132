@@ -9,7 +9,7 @@ The Central Limit Theorem says, roughly, that sums of random variables have appr
 
 So for example if  X<sub>1</sub>, X<sub>2</sub>, ..., X<sub>100</sub> is a sample from a population in which X has mean 52 and variance 2.4, then W will have an approximately normal distribution with mean 5200 and variance 240.
 
-The cdf of (W - n &mu;) / (<sup>0.5</sup> W) converges to that of a N(0,1) random variable as n goes to &infinity;.                                                 
+The formal theorem says that the cdf of (W - n &mu;) / (n<sup>0.5</sup> W) converges to that of a N(0,1) random variable as n goes to &infin;.                                                 
 
 **May 28, 2050:**
 
