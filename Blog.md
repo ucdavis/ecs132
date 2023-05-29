@@ -5,7 +5,7 @@
 
 **may 28, 2240:**
 
-The Central Limit Theorem says, roughly, that sums of random variables have approximately normal distributions.  The basic form says that if X1,X2,...,Xn are IID, then W = X1+...+Xn has an approximately normal distribution with mu = EX and sigma^2 = Var(X).  The larger n is, the more accurate the approximation.
+The Central Limit Theorem says, roughly, that sums of random variables have approximately normal distributions.  The basic form says that if X1,X2,...,Xn are IID, then W = X1+...+Xn has an approximately normal distribution with &mu; = EX and &sigma;^2 = Var(X).  The larger n is, the more accurate the approximation.
 
 So if X1,...,X100 is a sample from a population in which X has mean 52 and variance 2.4, then W will have an approximately normal distribution with mean 5200 and variance 240.
 
