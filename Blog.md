@@ -3,6 +3,10 @@
 
 **Spring 2023**
 
+**May 28, 2050:**
+
+For this coming week's Quizzes, make sure you understand the stat tutorial, through the lesson on confideence intervals, both in terms of interpretation and implementation. Concerning the latter, make sure you can access data in R, up through the lesson on data frames.
+
 **May 27, 1545:**
 
 A student asked me today that about the amount of writing in your Term
