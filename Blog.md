@@ -3,7 +3,11 @@
 
 **Spring 2023**
 
-**may 28, 2240:**
+**May 30, 0935:**
+
+This is a reminder that in your Term Project report, you must be very careful to distinguish between population and sample quantities, e.g. between the mean value of X in the population and the average of X in the sample, (X<sub>1</sub>,...,X<sub>n</sub>)/n.
+
+**May 28, 2240:**
 
 The Central Limit Theorem says, roughly, that sums of random variables have approximately normal distributions.  The basic form says that if X<sub>1</sub>, X<sub>2</sub>, ..., X<sub>n</sub> are IID, then X<sub>1</sub>+X<sub>2</sub>+ ...+X<sub>n</sub> has an approximately normal distribution with &mu; = EX and &sigma;^2 = Var(X).  The larger n is, the more accurate the approximation.
 
