@@ -14,8 +14,7 @@ Message from Lan:
 >  Dylan,  [2]https://calendar.app.google/JvX3VjWSAQ5gdPyY8                     
 >  Also, since I have to attend the graduate student yearly assessment on       
 >  Friday, my OH on Friday will be using the zoom link included in my           
->  booking link.                                                           kkk
-
+>  booking link.
 
 **May 30, 0935:**
 
