@@ -3,6 +3,19 @@
 
 **Spring 2023**
 
+**May 31, 1110:**
+
+As I have mentioned, members of teams who submit a very good Term Project will be given a substantial bonus in determining their course grade.
+
+The same is true for the Group Quiz.  On one level, it counts in the course grading formula like any other Quiz.  But again, members of teams who do very well on the Group Quiz will be given a bonus when I determine their course grade.
+
+Like any Quiz, the Group Quiz is technically cumulative in scope, since the course material builds up continually through the quarter, but focuses on more recent material.  In other words, earlier material may be used in current contexts, just we saw with use of mailing tubes for expected value and variance yesterday in class. 
+
+The main material covered will be continuous distribution families and statistics, and properties of expected value and variance.
+
+The Group Quiz will assess your ability to integrate material from various parts of the course, and thus is of very high importance.
+
+
 **May 31, 1035:**
 
 Tomorrow in class, I will skip ahead and discuss MM and MLE methods, which you will use in the Term Project.
