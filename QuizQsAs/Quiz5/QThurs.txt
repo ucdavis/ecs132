@@ -1,0 +1,71 @@
+
+1.  (R code answer, 35 points.)  In Section 5.4.1, suppose the game is to
+flip the coin until we get four heads in a row.  Find and print the
+resulting pi vector.
+
+findpi1 <- function(p) {
+   n <- nrow(p)
+   imp <- diag(n) - t(p)
+   imp[n,] <- rep(1,n)
+   rhs <- c(rep(0,n-1),1)
+   solve(imp,rhs)
+}
+
+# set up transition matrix p; here is part
+p <- matrix(rep(0,   ),nrow=   )
+p[1,1] <- 0.5
+p[1,2] <- 0.5
+p[2,3] <- 0.5
+p[2,1] <- 0.5
+p[3,1] <- 0.5
+
+
+
+print(findp1(p))
+
+2.  (R code answer, 25 points.)  In the transition matrix P in Eqn. (5.2),
+change two entries so that the chain has exactly 1 absorbing state.  Print
+out the matrix.  Fill in the blanks.
+
+P <- rbind(
+   c(0.5,0,0.5),
+   c(0.25,0.5,0.25),
+   c(1,0,0))
+
+# make changes to P
+
+
+print(P)
+
+3.  (R code answer, 20 points.) Consider the committee example, Sec.
+3.9.3, but in more generality: There are m men, w women and we choose k
+for the committee.  Let M denote the number of men in the committee.
+The distribution of M is a parametric family, with parameters m, w and
+k.  Thus we can write d,p,q,r functions for the family.  Do so for d.
+Fill in the blanks.  (You may assume that 1 <= k <= m+n and that 0 <= i
+<= k.)
+
+dcomm <- function(m,w,k,i)
+{
+
+}
+
+print(dcomm(6,3,4,2))
+
+# we suggest using R's choose() function; e.g. choose(5,2) = 10
+
+4.  (R code answer, 15 points.)  In the context of N_{it} in Eqn. 5.4,
+define G_{it} to be the indicator variable for the event X_t = i.  We
+will consider only times 1,2,...,r.  Let N and G denote the r x r
+matrices consisting of the N_{it} and G_{it}.  Write a function that
+computes N from G.  It's possible to use loop-free code (e.g.
+cumsum(c(5,2,12)) = (5,7,19)),  but correct code will get full credit
+even with loops.
+
+nfromg <- function(G) 
+{
+
+
+   return(N)
+}
+

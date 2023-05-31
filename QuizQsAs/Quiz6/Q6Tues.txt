@@ -1,0 +1,45 @@
+
+1. (R code answer,  30 points) Say sticks come in various sizes.  Let L
+denote the length of a stick.  Suppose it's measured with some amount of
+independent error R, so the observed length is O = L + R.  Suppose L has an
+exponential distribution with mean 50.0, and R is normal with mean 0 and
+variance 1.6.  Find Var(O).
+
+print(         )
+
+2. (R code answer, 30 points) A light bulb manufacturer is trying to
+determine a good time for its guarantee. They will guarantee that a bulb
+will last at least w amount of time, and will give a refund otherwise.
+Say the lifetime of light bulbs is exponential with mean 100 hours.  If
+they take w = 150 hours, what proportion of bulbs will result in refunds?
+
+print(              )
+
+3. (R code answer, 20 points) Consider a random walk on 1,2,...,w.  From
+any state i=2,...,w-1 we go to i-1 or i+1 with probability p and 1-p.
+From 1 and w we go to 2 and w-1 respectively.  Say X_0 = 1.  X_2 has a
+parametric distribution with parameters p and w.  Let's call it the "pw
+family."  It will have "d,p,q,r" functions.  Find d().  Fill in the
+blanks.  Assume w >= 4.  You need not account for values of i outside
+the support of X_2.
+
+dpw <- function(i,p,w) 
+{
+
+}
+
+print(dpw(1,0.75,5))
+
+4. (R code answer, 20 points) Consider a parametric family of densities
+defined on 0 to 1, with density r t^{r-1}.  The parameter r can be any
+value greater than 1.  Find the q function.  Fill in the blanks.
+
+q <- function(r,u) 
+{
+
+}
+
+print(q(1.5,0.2))
+
+
+

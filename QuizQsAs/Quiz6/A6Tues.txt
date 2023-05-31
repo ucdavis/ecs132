@@ -1,0 +1,32 @@
+
+1.  Var(O) = Var(L) + Var(R) by independence
+
+varl <- 50.0^2
+print(varl+1.6)
+
+2. 
+
+pexp(1/100,150)
+
+3.  X_2 could be either 1 or 3, with probability p^2 and p(1-p),
+respectively.
+
+dpw <- function(i,p,w)
+{  
+   if (i == 1) return(1-p)
+   return(p) 
+}
+
+print(dpw(1,0.75,5))
+
+4.
+
+F_X(t) = t^r for t in (0,1), so its inverse is q(u) = u^(1/r)
+
+q <- function(r,u)
+{
+   u^(1/r)
+}
+
+print(q(1.5,0.2))
+

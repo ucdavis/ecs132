@@ -1,0 +1,41 @@
+
+1.  (Text answer, 30 points)  Fill in the blank:  The formal name of the
+analog of density functions for discrete distributions is
+___________________________.
+
+2.  (R code answer, 25 points)  Say X is the number of dots in one roll of
+a fair die.  Write a function with call form dotsF(t) that finds and
+returns the cdf F_X(t), for any t between -infinity and infinity,
+exclusive.
+
+dotsF <- function(t) 
+{
+
+}
+
+print(c(dotsF(-1), dotsF(2), dotsF(3.3), dotsF(6.6))
+
+3.  (R code answer, 25 points)  Suppose light bulb lifetimes are
+exponentially distributed with mean m hours.  Say we have a pack of b
+bulbs, and we are interested in the number of them N that last for more
+than h hours.  The distribution of N is a parametric family, which we'll
+call bulbLife, with parameters m, b and h.  Thus one could write
+"d,p,q,r" functions for it.  Write the r function.
+
+rbulbLife <- function(n,m,b,h)
+
+{
+
+
+
+}
+
+print(mean(rbulbLife(1000,100,6,120))
+
+4.  (R code answer, 20 points)  Say in the 3-Heads game, there is a prize
+of $2 every time we reach state 2, i.e. 2 consecutive heads, and a prize
+of $3 whenever we obtain 3 consecutive heads.  Find the long-run average
+winnings for a player per play of the game.
+
+print(                   )
+

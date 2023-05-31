@@ -3,6 +3,213 @@
 
 **Spring 2023**
 
+**May 31, 1110:**
+
+As I have mentioned, members of teams who submit a very good Term Project will be given a substantial bonus in determining their course grade.
+
+The same is true for the Group Quiz.  On one level, it counts in the course grading formula like any other Quiz.  But again, members of teams who do very well on the Group Quiz will be given a bonus when I determine their course grade.
+
+Like any Quiz, the Group Quiz is technically cumulative in scope, since the course material builds up continually through the quarter, but focuses on more recent material.  In other words, earlier material may be used in current contexts, just we saw with use of mailing tubes for expected value and variance yesterday in class. 
+
+The main material covered will be continuous distribution families and statistics, and properties of expected value and variance.
+
+The Group Quiz will assess your ability to integrate material from various parts of the course, and thus is of very high importance.
+
+
+**May 31, 1035:**
+
+Tomorrow in class, I will skip ahead and discuss MM and MLE methods, which you will use in the Term Project.
+
+In your Term Project report, you must show the equations used to compute the MM and MLE values for your data. (Of course, this means doing this once for each distribution family.) And, if an equation has a closed-form, show it; otherwise, show the code used to compute it iteratively.
+
+**May 30, 2135:**
+
+**REMINDER:** We will have our Group Quiz on Thursday of next week, June 8, during lecture. This is a key element of our course, so make SURE you've read the rules in the blog post of May 23, 2240 (attendance is required, NO use of the Internet--this includes cell phones--etc.).
+
+**May 30, 1915:**
+
+Message from Lan:
+
+>   Hi, Norm,                                                                    
+>  Could you please make a blog post to announce the booking links of the       
+>  interactive grading sessions? Thank you very much.                           
+>  Lan,  [1]https://calendar.app.google/AcV3szMA8ov2xNeM9                       
+>  Dylan,  [2]https://calendar.app.google/JvX3VjWSAQ5gdPyY8                     
+>  Also, since I have to attend the graduate student yearly assessment on       
+>  Friday, my OH on Friday will be using the zoom link included in my           
+>  booking link.
+
+**May 30, 0935:**
+
+This is a reminder that in your Term Project report, you must be very careful to distinguish between population and sample quantities, e.g. between the mean value of X in the population and the average of X in the sample, (X<sub>1</sub>,...,X<sub>n</sub>)/n.
+
+**May 28, 2240:**
+
+The Central Limit Theorem says, roughly, that sums of random variables have approximately normal distributions.  The basic form says that if X<sub>1</sub>, X<sub>2</sub>, ..., X<sub>n</sub> are IID, then X<sub>1</sub>+X<sub>2</sub>+ ...+X<sub>n</sub> has an approximately normal distribution with &mu; = EX and &sigma;^2 = Var(X).  The larger n is, the more accurate the approximation.
+
+So for example if  X<sub>1</sub>, X<sub>2</sub>, ..., X<sub>100</sub> is a sample from a population in which X has mean 52 and variance 2.4, then W will have an approximately normal distribution with mean 5200 and variance 240.
+
+The formal theorem says that the cdf of (W - n &mu;) / (n<sup>0.5</sup> &sigma;) converges to that of a N(0,1) random variable as n goes to &infin;.                                                 
+
+**May 28, 2050:**
+
+For this coming week's Quizzes, make sure you understand the stat tutorial, through the lesson on confideence intervals, both in terms of interpretation and implementation. Concerning the latter, make sure you can access data in R, up through the lesson on data frames.
+
+**May 27, 1545:**
+
+A student asked me today that about the amount of writing in your Term
+Project report.  I had previously said you'd have a lot of writing to
+do, but from the Term Project specs it looks like there isn't much.  Here is
+the situation.
+
+Actually the project I gave you is somewhat scaled back from what I originally planned. There was going to be a second problem, with a considerable amount of writing.
+
+Nevertheless, your writing in the report must be done very carefully and
+thoughtfully.  You will explain specifically and in detail what you're
+trying to do and how you did it, and then explain the results. There
+still will be a non-trivial amount of serious writing.
+
+One thing that definitely has not changed is my statement in class that
+you have to make sure you don't say anything that is conceptually
+incorrect. For instance, failure to distinguish between a population
+quantity and its estimator is a serious, fundamental error. 
+
+Both in the Term Project and in our remaining Quizzes, keep at the
+forefront of your mind the interpretation of the concepts.  For example,
+on Thursday, we discussed the following:
+
+Say T is an unbiased estimate of some population value &theta;, meaning
+ET = &theta;. This means over all possible samples of size n from this population, T is sometimes less than &theta;, sometimes greater tan &theta;, but on average working out to exactly &theta;.
+
+Now, couple that with a situation in which Var(T) is small. The small variance means that T doesn't vary from one sample to another, and since the values of T are centered at &theta;, that means **in most samples T will be near &theta;.** In turn, that means that the probability of T being near &theta; is high.
+
+You won't find the above point in any book. The authors of the books do know this, of course, but they don't realize that the readers may not see what is going on. 
+
+And of course if the readers, for their part, are just memorizing the mechanics of statistical procedures, there is no hope that they'll understand. Our remaining Quizzes, and the writing standard for your Term Project, will focus on *understanding*.
+
+I mentioned in class that statistics is hard, actually harder to understand than Markov chains. This may surprise you; how hard can it be, given that this material is in a high school class? But the interpretation is crucial, and in turn *statistics* is crucial to our lives. It affects how much you are charged for insurance, what kinds of medical treatment you get, how the government manages the economy, and so on.
+
+The importance of this material greatly transcends the grade you get in this class.
+
+
+**May 26, 2140:**
+
+News items:
+
+* Next week, the week of May 29, we will have our discussion section
+  Quizzes as usual.  Coverage will mainly be on the statistics tutorial,
+but may also include variants of Quiz questions from this past week.
+
+* During the week of June 5, we will not have discussion section
+  Quizzes, and in fact the discussion sections will not meet that week.
+However, we will have our major Group Quiz during the lecture time slot
+on June 8.  Make sure you've read the blog post of May 23, 2240.
+
+**May 26, 1020:**
+
+I corrected the typos in Lesson BIAS in the stat tutorial, mentioned in class yesterday, and have added a bit of wording.
+
+**May 25, 1805:**
+
+I added the missing material on the data repo.
+
+**May 24, 0945:**
+
+We began the [tutorial on statistics](https://github.com/matloff/fastStat) yesterday, and will be using it in our remaining lectures. In Quizzes, including the Group Quiz, you will need to have both this document and our textbook on your machine.
+
+**May 23, 2240:**
+
+Keep in mind that our Group Quiz will be held in the last lecture, June 8.
+
+* You will have the entire 70 minutes.
+
+* You work with your Group, and submit just ONE quiz.
+
+* Note:  Attendance is required.
+
+* I suggest sitting on the floor, maybe bringing your own portable chairs,
+etc. to facilitate interaction.
+
+* It will use OMSI, as usual.  Write your e-mail address in the usual 
+ajones.bsmith.clee format, as in our homework.  Make SURE to get this right.  The usual rules apply: No use of the Internet but the Quiz is open-book, open-notes.
+
+* The Quiz problems will be similar to what we've had, but somewhat more  
+elaborate.  There probably will be 3 problems for the 70-minute Quiz.
+
+* It will be noisy, maybe even fun.  But it's a serious Quiz, and counts 
+just like any other.
+
+**May 23, 2140:**
+
+I've finished grading the Thursday Quiz 5.  Sorry for the delay.
+
+In general, I was very pleased at how well you did on that Quiz (both days).
+
+As we now near the end of the quarter, please keep in mind the "bonuses" that can boost your course grades:
+
+* Your lowest 3 Quizzes (in letter grades) will be dropped.
+
+* An excellent Term Project can bring a major boost to your course 
+grade.  (See the example in the course Procedural Information document.)
+
+An example of noncompliance is being a No-Show at a scheduled interactive grading session.  I'm told that there have been a number of such incidents, something that did NOT happen in the many earlier times I've taught this and other courses.  Of course, one might have a valid excuse for missing a scheduled grading session, but apparently the students in these cases are not even offering excuses.  They will not get credit for the assignment, and if a student is a multiple No-Show, he/she will fail the course.
+
+
+**May 22, 1930:**
+
+If you missed class last Thursday, note that I discussed the Central Limit Theorem and the"memoryless" property of the exponential distribution family. What I presented was material in Sections 7.10 and 8.2, though much briefer than what is in those sections.
+
+**May 22, 1920:**
+
+Lan will be away at a research conference this week. Dylan will sub for him in tomorrow's discussion section. Lan will hold his Wednesday office hour on Zoom, using the link he used before. His Friday hour will be canceled.
+
+**May 22, 1350:**
+
+I fixed an ambiguity in Problem 3. Each call *currently in service* terminates with probability p. Calls on hold do not terminate.
+
+**May 22, 1330:**
+
+A student asked a question re Problem 3. My answer was, 
+
+> If we are currently in state r+3, i.e. r calls in service, 3 waiting, then the
+> biggest drop would occur of all r calls terminate.  The 3 waiting would then be
+> in service, i.e. we are in state 3.
+
+**May 22, 1255:**
+
+For this week's quizzes, know the "d,p,q,r" functions backwards and forwards. Know not only their call forms but also how to use them to solve problems. Make up your own problems as practice!
+
+**May 21, 1720:**
+
+Thanks to an alert student, I just corrected a typo in Problem 3. Only one new call (or none) can arrive in any epoch.
+
+**May 21, 1410:**
+
+After we finish the current chapter, the rest of the course will cover my [tutorial on statistics](https://github.com/matloff/fastStat), something like the first 10-12 lessons. (They're short.) This material will appear on Quizzes, and will be vital to your Term Project.
+
+Concerning the latter, recall from the Project specs that proper interpretation will be vital, especially in your written report.  Issues of interpretation will be a major focus of the stat tutorial. It is not enough to merely understand the mechanics of the formulas etc.
+
+**May 21, 0935:**
+
+**REMINDER!**
+
+As noted multiple times in class and in the class [Procedural Information](https://github.com/matloff/nmGeneralCourseInfo/blob/master/RulesAndProcedures.md), **all of your ECS 132 course records** are indexed by your official UCD e-mail address. This is the address at which you have been receiving my blog announcements, for instance. If you submit Quizzes, Homwork and the Term Project under any other address, you risk having the work overlooked. This can **adversely impact your grade**, and possibly even **cause you to fail the course**.
+
+Soon I will be e-mailing you a list of all Quiz grades I have for you. Check it carefully!
+
+**May 19, 2250:**
+
+The Term Project is
+[ready](https://github.com/ucdavis/ecs132/blob/master/Hwk/TermProject.md)!
+
+As noted before in the [course Procedural
+Information](https://github.com/matloff/nmGeneralCourseInfo/blob/master/RulesAndProcedures.md),
+very good Term Project submissions result in each student in the team
+being given a bonus in the computation of the course grade.
+
+Start now!  The earlier you start work on the Project, the more likely
+it is that you do good enough work to obtain this bonus.
+
 **May 17, 1525:**
 
 I've gotten several requests for makeup sessions for missed interactive grading sessions.  I've approved them so far, but will stop doing so, except for seriously extenuating circumstances.
