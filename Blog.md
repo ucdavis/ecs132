@@ -3,6 +3,20 @@
 
 **Spring 2023**
 
+**May 30, 1915:**
+
+Message from Lan:
+
+>   Hi, Norm,                                                                    
+>  Could you please make a blog post to announce the booking links of the       
+>  interactive grading sessions? Thank you very much.                           
+>  Lan,  [1]https://calendar.app.google/AcV3szMA8ov2xNeM9                       
+>  Dylan,  [2]https://calendar.app.google/JvX3VjWSAQ5gdPyY8                     
+>  Also, since I have to attend the graduate student yearly assessment on       
+>  Friday, my OH on Friday will be using the zoom link included in my           
+>  booking link.                                                           kkk
+
+
 **May 30, 0935:**
 
 This is a reminder that in your Term Project report, you must be very careful to distinguish between population and sample quantities, e.g. between the mean value of X in the population and the average of X in the sample, (X<sub>1</sub>,...,X<sub>n</sub>)/n.
