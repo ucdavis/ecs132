@@ -3,6 +3,10 @@
 
 **Spring 2023**
 
+**May 30, 2135:**
+
+**REMINDER:** We will have our Group Quiz on Thursday of next week, June 8, during lecture. This is a key element of our course, so make SURE you've read the rules in the blog post of May 23, 2240 (attendance is required, NO use of the Internet--this includes cell phones--etc.).
+
 **May 30, 1915:**
 
 Message from Lan:
