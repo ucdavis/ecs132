@@ -3,6 +3,13 @@
 
 **Spring 2023**
 
+**June 1, 2150:**
+
+A bit of clarification re the blog post of May 31, 1035: 
+
+* The term *closed-form solution* means an explicit formula. The equation x<sup>2</sup> -3x + 2 = 0 has an explicit solution, while x - e<sup>-x</sup> = 0 does not. We must solve the latter iteratively.
+* You will be able to find cloed-form solutions for the MM estimators in the examples here, but in some cases you'll need to obtain the MLEs interatively; use R's **mle()** function for the latter (see the stat tutorial).
+
 **May 31, 1110:**
 
 As I have mentioned, members of teams who submit a very good Term Project will be given a substantial bonus in determining their course grade.
@@ -15,7 +22,7 @@ The main material covered will be continuous distribution families and statistic
 
 The Group Quiz will assess your ability to integrate material from various parts of the course, and thus is of very high importance.
 
-
+how the code used to compute it iteratively.
 **May 31, 1035:**
 
 Tomorrow in class, I will skip ahead and discuss MM and MLE methods, which you will use in the Term Project.
