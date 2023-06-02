@@ -1,0 +1,30 @@
+
+1.  density()
+
+2.
+
+x <- Nile
+n <- length(x)
+Abar <- mean(x)
+S2 <- sum((x - Abar)^2) / n  # 28351.57
+
+3.  
+
+mean(Nile <= 1129.2)  # 0.85
+
+4.
+
+betaSim <- function(alpha,beta,n,d,nreps) 
+{
+
+   countXbarD <- 0
+   for (i in 1:nreps) {
+      x <- rbeta(n,alpha,beta)
+      Abar <- mean(x)
+      if (Abar > d) countXbarD <- countXbarD + 1
+   }
+   countXbarD/nreps  
+}
+
+print(betaSim(2,1,5,0.72,1000))  # should be about 0.32
+

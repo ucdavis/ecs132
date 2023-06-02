@@ -1,0 +1,31 @@
+
+1.  (Text answer, 35 points)  The R hist() function produces a rather
+choppy graph.  What R function for the same purpose produces a smooth
+graph?
+
+2.  (R code answer, 25  points)  Find S^2 (not s^2) for the Nile data
+built-in to R.
+
+3.  (R code answer, 20 points)  In Nile data, estimate F_X(1129.2).
+
+
+print(                              )
+
+4.  (R code answer, 20 points)  Write a function with call form
+betaSim(alpha,beta,n,d,nreps) that uses simulation to find 
+P(Xbar > d), where Xbar is the sample mean in a sample of size n from a
+beta distribution with parameters alpha and beta.
+
+betaSim <- function(alpha,beta,n,d,nreps) 
+{
+
+   for (i in ) {
+      x <- 
+      
+   }
+
+   countXbarD/  
+}
+
+print(betaSim(2,1,5,0.72,1000))  # should be about 0.32
+
