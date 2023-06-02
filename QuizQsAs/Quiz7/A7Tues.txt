@@ -1,0 +1,17 @@
+
+1. a
+
+2. standard error
+
+3. a
+
+4. S^2 will approximately be the variance of this random variable.
+
+alpha <- 1 
+beta <- 2
+num <- alpha * beta
+tmp <- alpha + beta
+den <- (tmp^2) * (tmp+1)
+print(num/den)  # 0.05555556
+
+

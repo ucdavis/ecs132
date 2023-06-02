@@ -1,0 +1,41 @@
+
+1.  (Text answer, 35 points) Say the variable X has an exponential
+distribution in some population, with lambda = 10.  We take a sample of
+size 8.  Viewing this from the "notebook" perspective, we would have
+columns X1, X2,..., X8.  Say we were to do this 100 times.  If we were
+to draw a histogram of the numbers in the X2 column, which one of the
+following would it likely look like, roughly?
+
+a.  An exponential shape.
+
+b.  A bell shape.  
+
+c.  Flat.
+                                                                                d.  None of the above. 
+
+2.  (Text answer, 25 points)  Say we have some estimator T of some
+population value theta, based on sample data.  There is a quantity (a
+single number, not a pair of numbers or a vector) used as a measure of
+the accurcy of T.  What is the name of this quantity?
+
+3.  (Text answer, 20  points) Consider the museum demonstration of the
+Central Limit Theorem, presented in class.  Which one of these would be
+the most helpful in producing a more accurate bell shape? 
+
+a. more rows of pins
+
+b. more marbles 
+
+c. more pins per row
+
+d. taller collector bins
+
+e. having many colors of marbles
+
+f. none of the above
+
+4.  (R code answer, 20  points) Say the variable X has a beta distribution
+in some population, with alpha = 1 and beta = 2.  We compute S^2.  What
+value would this come out to be, approximately?
+
+print(                   )
