@@ -3,6 +3,16 @@
 
 **Spring 2023**
 
+**June 1, 2245:**
+
+If you answered 
+
+```,r
+pexp(150,1/100)
+```
+
+Quiz6/Tues, you should have gotten full credit. Let me know if you didn't.
+
 **June 1, 2150:**
 
 A bit of clarification re the blog post of May 31, 1035: 
