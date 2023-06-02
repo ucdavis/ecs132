@@ -3,6 +3,24 @@
 
 **Spring 2023**
 
+**June 2, 1645:**
+
+Some people have asked me about the answer to Question 1 of our Thursday
+Quiz 7.  Acceptable answers were **density()** and **plot(density())**,
+while **plot()** is not acceptable.
+
+As noted in our class discussion of *polymorphism* in R, functions such
+as **plot()** and **print()** are not "real" functions, in that they
+don't do any work; they are just go-betweens.  And more important, the
+real work of smoothing is done by **density()**.
+
+The polymorphism issue is important in its own right.  Please make sure
+to read this [writeup](https://github.com/ucdavis/ecs132/blob/master/RGenerics.md).
+
+BTW, one of the most important things you can do to prepare for our Group
+Quiz is to look carefully at the solutions to both of the Quiz 7s,
+Tuesday and Thursday.
+
 **June 2, 1020:**
 
 In my in-class demo of R's hist() and density() functions, I remarked on possible outliers, and maybe removing them. It appears now that some students think that dealing with outliers is part of the Project.  It is NOT part of the Project.
