@@ -20,7 +20,7 @@ The Group Quiz will assess your ability to integrate material from various parts
 
 Tomorrow in class, I will skip ahead and discuss MM and MLE methods, which you will use in the Term Project.
 
-In your Term Project report, you must show the equations used to compute the MM and MLE values for your data. (Of course, this means doing this once for each distribution family.) And, if an equation has a closed-form, show it; otherwise, show the code used to compute it iteratively.
+In your Term Project report, you must show the equations used to compute the MM and MLE values for your data. (Of course, this means doing this once for each distribution family.) And, if an equation has a closed-form solution, show it; otherwise, show the code used to compute it iteratively.
 
 **May 30, 2135:**
 
