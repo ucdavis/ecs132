@@ -3,6 +3,12 @@
 
 **Spring 2023**
 
+**June 2, 1020:**
+
+In my in-class demo of R's hist() and density() functions, I remarked on possible outliers, and maybe removing them. It appears now that some students think that dealing with outliers is part of the Project.  It is NOT part of the Project.
+
+Ordinarily, your analysis will NOT mention outliers.  If you have an example in which you wish to do so, you will need to give a firm justification for doing so, based on the inherent nature of the data source.
+
 **June 1, 2245:**
 
 If you answered 
