@@ -3,6 +3,12 @@
 
 **Spring 2023**
 
+**June 3, 1510:**
+
+The Quiz records I just sent out do not include Quiz 0
+
+If you have a question about your records, OF COURSE it would be helpful if you were to state which section you are in, Tuesday or Thursday.
+
 **June 2, 1645:**
 
 Some people have asked me about the answer to Question 1 of our Thursday
