@@ -59,9 +59,8 @@ plot.ecdf(z)
 which produces the same graph.
 
 Note carefully that **plot()** and **plot.ecdf()** are two entirely
-separate functions.  The convention is to name the function that **plot()**
-dispatches to **plot.x()**, where x is the name of the class.  There are
-many, many plot.x functions in both base R and the tens of thousands of
+separate functions.  The convention is to give the name **plot.x()** to the function that **plot()** dispatches to, where x is the name of the class.  There are
+many, many **plot.x** functions in both base R and the tens of thousands of
 contributed R packages in the CRAN repository.  
 
 In other words, **plot()** is merely a go-between.
