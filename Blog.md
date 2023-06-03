@@ -3,6 +3,10 @@
 
 **Spring 2023**
 
+**June 3, 1540:**
+
+The grades for Quiz 2, Thursday, were not sent out. I'll send it all again when I get to the computer that has those grades (lack of a git push). I'll include Quiz 0 too.
+
 **June 3, 1510:**
 
 The Quiz records I just sent out do not include Quiz 0
