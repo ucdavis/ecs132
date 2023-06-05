@@ -3,6 +3,10 @@
 
 **Spring 2023**
 
+**June 5, 1100:**
+
+Unless there is an easy closed-form expression for an MLE, **use the mle() function.**  And note that that function does the work for you: You do NOT compute derivatives yourself, and you do NOT solve the resulting equations yourself.
+
 **June 5, 0930**
 
 Every question on the Group Quiz will come from the statistics tutorial.  The previous material will be used for support, of course, but if you've been doing well on the Quizzes and Term Project, you will be fine. You'll need:  Properties of E(), Var(); parametic distribution families (binomial, geometric, Poisson, negative binomial, uniform, exponential, normal, gamma, beta).
