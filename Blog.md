@@ -3,6 +3,11 @@
 
 **Spring 2023**
 
+**June 5, 0930**
+
+Every question on the Group Quiz will come from the statistics tutorial.  The previous material will be used for support, of course, but if you've been doing well on the Quizzes and Term Project, you will be fine. You'll need:  Properties of E(), Var(); parametic distribution families (binomial, geometric, Poisson, negative binomial, uniform, exponential, normal, gamma, beta).
+
+
 **June 3, 1540:**
 
 The grades for Quiz 2, Thursday, were not sent out. I'll send it all again when I get to the computer that has those grades (lack of a git push). I'll include Quiz 0 too.
