@@ -11,7 +11,9 @@ Say we are estimating a population proportion q, based on the sample proportion 
 
 We would like to find an approximate 95% confidence interval for q, based on Q.  This is actually a special case of finding a CI for a mean mu.  Set X to be 1 or 0, depending on whether a voter likes this candidate or not.  Remember, the average of 1s and 0s is the proportion of 1s.  So mu is actually q, and Abar is actually Q.
 
-he tutorial notes that S<sup>2</sup> = Q(1-Q), so the standard error of Q is s.e.(Q) = sqrt(Q(1-Q)/n).  In other words, the CI for mu shown in the tutorial
+The tutorial notes that S<sup>2</sup> = Q(1-Q), so the standard error of Q is s.e.(Q) = sqrt(Q(1-Q)/n).  In other words, the CI for &mu; shown in the tutorial
+
+(&#x100 - 1.96 s.e.(&#x100),&#x100 + 1.96 s.e.(&#x100))
 
 
 **June 5, 1100:**
