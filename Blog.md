@@ -3,6 +3,17 @@
 
 **Spring 2023**
 
+**June 5, 1945:**
+
+Just to clarify the stat tutorial:
+
+Say we are estimating a population proportion q, based on the sample proportion Q.  For instance, think of the election example, where the candidate wishes to know what proportion q of the population will vote for him.  The pollster takes a sample, and finds that a proportion Q say they will vote for him.
+
+We would like to find an approximate 95% confidence interval for q, based on Q.  This is actually a special case of finding a CI for a mean mu.  Set X to be 1 or 0, depending on whether a voter likes this candidate or not.  Remember, the average of 1s and 0s is the proportion of 1s.  So mu is actually q, and Abar is actually Q.
+
+he tutorial notes that S<sup>2</sup> = Q(1-Q), so the standard error of Q is s.e.(Q) = sqrt(Q(1-Q)/n).  In other words, the CI for mu shown in the tutorial
+
+
 **June 5, 1100:**
 
 Unless there is an easy closed-form expression for an MLE, **use the mle() function.**  And note that that function does the work for you: You do NOT compute derivatives yourself, and you do NOT solve the resulting equations yourself.
