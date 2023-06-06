@@ -13,7 +13,7 @@ We would like to find an approximate 95% confidence interval for q, based on Q. 
 
 The tutorial notes that S<sup>2</sup> = Q(1-Q), so the standard error of Q is s.e.(Q) = sqrt(Q(1-Q)/n).  In other words, the CI for &mu; shown in the tutorial
 
-(&#x100 - 1.96 s.e.(&#x100),&#x100 + 1.96 s.e.(&#x100))
+(&#x100; - 1.96 s.e.(&#x100);,&#x100; + 1.96 s.e.(&#x100);)
 
 
 **June 5, 1100:**
