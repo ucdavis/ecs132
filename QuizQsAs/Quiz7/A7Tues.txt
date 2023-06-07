@@ -5,6 +5,18 @@
 
 3. a
 
+Each marble goes through r rows of pegs, making r left/right turns.
+It's final bin number will be determined by the number of left turns (say
+the bins are numbered 0,1,2,..., starting on the left).  
+
+The number of left turns is a binomially distributed random variable
+with r trials and success probability 0.5.  It is thus a sum of r random
+variables, each being 1 (left turn) or 0 (right turn).
+
+The CLT says that the distribution of a sum becomes more and more normal
+as the number of terms goes to infinity.  In this example, the number of
+terms is r, the number of rows.
+
 4. S^2 will approximately be the variance of this random variable.
 
 alpha <- 1 
