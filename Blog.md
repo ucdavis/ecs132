@@ -3,6 +3,11 @@
 
 **Spring 2023**
 
+**June 14, 1345:**
+
+Message from Lan:  "HW3 grades have been sent out. Can we have a blog post letting everyone                     send an email if they have questions about their homework grades? (No                              
+regrade requests will be accepted btw.)" 
+
 **June 6, 1645:**
 
 You may find the **curve** function useful.  E.g. try running
