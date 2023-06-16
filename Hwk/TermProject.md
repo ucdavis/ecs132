@@ -3,7 +3,7 @@
 
 ## General requirements
 
-* Due June 11, 11:59 pm.  
+* Due June 13, 11:59 pm.  
 
 * You will seek instances in real world data in which our families
   of continuous distribution families represent the data well.  Please
