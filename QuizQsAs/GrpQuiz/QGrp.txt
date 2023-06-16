@@ -1,0 +1,56 @@
+
+1.  (Text answer,  points)  In order to arrange for hist() to be a
+density estimator, we need to set a certain argument.  State which
+argument this is, and why this is necessary.
+
+2.  (R code answer,  points)  We saw in our stat tutorial that S^2 is
+slightly biased, with the amount of bias being -1/n sigma^2.  Later, we
+found the MM estimator of lambda in a gamma distribution to be Abar/S^2.
+It too is biased.  Use simulation to determine the amount of bias.  Fill
+in the blanks.  (We use "cpar" here instead of "c", in order to avoid
+confusion with the R function c().
+
+biasAmtGamma <- function(lambda,cpar,n,nreps)) 
+{
+
+   for (i in 1:nreps) {
+
+      x <- rgamma(   )
+      Abar <- 
+      S2 <- 
+
+   }
+
+}
+
+print(biasAmtGamma(2,3.5,10,1000))  # about 0.78, but much smaller for n=100
+
+3.  Say we have a sample from a population in which X is assumed to have
+a uniform distribution on (q,r), with q and r unknown.  (Note:  This is
+not the same q as in the above problem.)  Find the Method of Moments
+estimators of q and r.  Fill in the blanks.  You must show your work in
+comments.  You will probably make use of the fact that Abar is between q
+and r.
+
+mmUnif <- function(x) 
+{
+
+   return(list(qMM = , rMM = ))
+
+}
+
+x <- runif(100,2,6)
+print(mmUnif(x)) 
+
+4.  (R code answer,  points)  Say we wish to find an approximate
+confidence interval for F_X(t), with confidence level ciLevel.  (To get
+most of the credit, you may assume ciLevel = 0.95.) Return the interval
+as a 2-element vector.  Fill in the blanks.
+
+FXci <- function(x,t,ciLevel=0.95) 
+{
+
+}
+
+print(FXci(Nile,1202.4,0.95))
+print(FXci(Nile,1202.4,0.80))

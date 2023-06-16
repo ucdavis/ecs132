@@ -1,0 +1,55 @@
+
+1.  probability=TRUE
+
+2.
+
+biasAmtGamma <- function(lambda,cpar,n,nreps)
+{
+   sumL <- 0
+   for (i in 1:nreps) {
+      x <- rgamma(n,cpar,lambda)
+      Abar <- mean(x)
+      S2 <- var(x)
+      L <- Abar/S2 
+      sumL <- sumL + L
+   }
+   sumL / nreps - lambda
+}
+
+print(biasAmtGamma(2,3.5,10,1000))
+
+3. 
+
+# Abr = (r+s) / 2 so s = 2 Abar -r
+# S^2 = (s-r)^2 / 2 
+# 
+# plug 2 Abar - r in for s in the expression for S^2
+# 
+# get r = Abar - 3 s^2, s = 2
+
+mmUnif <- function(x)
+{
+   Abar <- mean(x)
+   S2 <- var(x); Ss3 <- sqrt(3*S2)
+   return(list(qMM = Abar-Ss3, rMM = Abar + Ss3))
+
+}
+
+
+x <- runif(100,2,6)
+print(mmUnif(x))
+
+4.
+
+FXci <- function(x,t,ciLevel)
+{
+   pointEst <- mean(x <= t)
+   se <- sqrt(pointEst * (1-pointEst) / length(x))
+   multiplier <- -qnorm((1-ciLevel)/2)
+   c(pointEst - multiplier*se,pointEst + multiplier*se)
+}
+
+print(FXci(Nile,1202.4,0.95))
+print(FXci(Nile,1202.4,0.80))
+
+
